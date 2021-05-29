@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-29 15:27:12</sys_created_on>
+        <sys_id>a937fd2f2f50b010bd8e93acf699b6af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_648911_starbucks_handcrafted_espresso.x_648911_starbucks.handcrafted_espresso_user</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_security_acl display_value="x_648911_starbucks_handcrafted_espresso">e937fd2f2f50b010bd8e93acf699b6ac</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a937fd2f2f50b010bd8e93acf699b6af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-29 15:27:12</sys_updated_on>
+        <sys_user_role display_value="x_648911_starbucks.handcrafted_espresso_user" name="x_648911_starbucks.handcrafted_espresso_user">5d37fd2f2f50b010bd8e93acf699b67b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>sys_security_acl_role_a937fd2f2f50b010bd8e93acf699b6af</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-29 15:27:12</sys_created_on><sys_id>a937fd2f2f50b010bd8e93acf699b6af</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_648911_starbucks_handcrafted_espresso.x_648911_starbucks.handcrafted_espresso_user</sys_name><sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package><sys_policy/><sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope><sys_security_acl display_value="x_648911_starbucks_handcrafted_espresso">e937fd2f2f50b010bd8e93acf699b6ac</sys_security_acl><sys_update_name>sys_security_acl_role_a937fd2f2f50b010bd8e93acf699b6af</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-29 15:27:12</sys_updated_on><sys_user_role display_value="x_648911_starbucks.handcrafted_espresso_user" name="x_648911_starbucks.handcrafted_espresso_user">5d37fd2f2f50b010bd8e93acf699b67b</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-962922861</payload_hash>
+        <record_name>x_648911_starbucks_handcrafted_espresso.x_648911_starbucks.handcrafted_espresso_user</record_name>
+        <reverted_from/>
+        <source>9ad231a32f50b010bd8e93acf699b653</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-29 15:27:12</sys_created_on>
+        <sys_id>2537fd2f2f50b010bd8e93acf699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179b8bc81c40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-29 15:27:12</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>6d37fd2f7250b010c07db1a5ec1ca5b1</update_guid>
+        <update_guid_history>6d37fd2f7250b010c07db1a5ec1ca5b1:-962922861</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_648911_starbucks_handcrafted_espresso.x_648911_starbucks.handcrafted_espresso_">21a875af2f50b010bd8e93acf699b653</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-29 15:33:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>a6fa66d8d8d54ae287293a5269290c64</sys_id>
+        <sys_metadata>a937fd2f2f50b010bd8e93acf699b6af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_648911_starbucks_handcrafted_espresso.x_648911_starbucks.handcrafted_espresso_user</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent display_value="">e937fd2f2f50b010bd8e93acf699b6ac</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_a937fd2f2f50b010bd8e93acf699b6af</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_a937fd2f2f50b010bd8e93acf699b6af">2537fd2f2f50b010bd8e93acf699b6b2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-29 15:33:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

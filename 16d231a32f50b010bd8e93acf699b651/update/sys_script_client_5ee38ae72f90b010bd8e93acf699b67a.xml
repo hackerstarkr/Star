@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>true</applies_extended>
+        <condition/>
+        <description/>
+        <field>type_of_drink</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>for type of drink</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	g_form.clearMessages();
+  var x=g_form.getValue('type_of_drink');
+			if(x=='caffinated')
+				{
+					g_form.addInfoMessage("Price will increase by 50");
+					//g_form.setValue('Price'+50);
+					//alert("helod");
+				}
+	else if(x=='decaffinated'){
+		g_form.addInfoMessage("No coffee will be added");
+	}
+		}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-29 16:24:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5ee38ae72f90b010bd8e93acf699b67a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>for type of drink</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sys_script_client_5ee38ae72f90b010bd8e93acf699b67a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-29 16:43:32</sys_updated_on>
+        <table>x_648911_starbucks_all_drinks</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

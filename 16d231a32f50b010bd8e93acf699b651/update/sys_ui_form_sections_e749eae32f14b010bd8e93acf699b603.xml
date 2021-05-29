@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="e749eae32f14b010bd8e93acf699b603" sys_domain="global" table="x_648911_starbucks_starbucks_orders" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 19:06:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f49eae32f14b010bd8e93acf699b637</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_648911_starbucks_starbucks_orders" name="x_648911_starbucks_starbucks_orders" sys_domain="global" view="Default view">e749eae32f14b010bd8e93acf699b603</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_starbucks_orders" sys_domain="global" view="Default view">0f7822e32f14b010bd8e93acf699b6df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 19:06:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 19:06:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b49eae32f14b010bd8e93acf699b638</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_648911_starbucks_starbucks_orders" name="x_648911_starbucks_starbucks_orders" sys_domain="global" view="Default view">e749eae32f14b010bd8e93acf699b603</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_648911_starbucks_starbucks_orders" sys_domain="global" view="Default view">a749eae32f14b010bd8e93acf699b602</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 19:06:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_648911_starbucks_starbucks_orders</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 19:06:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e749eae32f14b010bd8e93acf699b603</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_648911_starbucks_starbucks_orders</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+            <sys_update_name>sys_ui_form_sections_e749eae32f14b010bd8e93acf699b603</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-29 19:06:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="ALL DRINKS" max_length="40" name="x_648911_starbucks_all_drinks" type="collection">
+        <element label="Availability" max_length="40" name="availability" type="boolean"/>
+        <element label="Customizable" max_length="40" name="customizable" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Drink's name " max_length="40" name="drink_s_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Drink Type" mandatory="true" max_length="40" name="drt" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Frapuccino" sequence="0" value="fra1"/>
+                <element inactive_on_update="false" label="Handcrafted Espresso" sequence="1" value="hand2"/>
+                <element inactive_on_update="false" label="Teavana" sequence="2" value="tea3"/>
+            </choice>
+        </element>
+        <element label="Flavoured" max_length="40" name="flavoured" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Please specify the flavour" max_length="40" name="please_specify_the_flavour" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short description" max_length="40" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="small/tall" label="Size" mandatory="true" max_length="40" name="size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="small/tall" sequence="0" value="small/tall"/>
+                <element inactive_on_update="false" label="medium/grandie" sequence="1" value="medium/grandie"/>
+                <element inactive_on_update="false" label="Large/ventie" sequence="2" value="large/ventie"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of drink" mandatory="true" max_length="40" name="type_of_drink" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Caffinated" sequence="0" value="caffinated"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
+                <element inactive_on_update="false" label="Decaffinated" sequence="1" value="decaffinated"/>
+            </choice>
+        </element>
+        <element label="Price" mandatory="true" max_length="15" name="u_decimal_4" type="decimal"/>
+        <element label="New Integer" max_length="40" name="u_integer_3" type="integer"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

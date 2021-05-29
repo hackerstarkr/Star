@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>drt</field>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Handcraft New from</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   var g=g_form.getValue('drt');
+	if(g=='hand2'){
+		var url='https://dev66176.service-now.com/nav_to.do?uri=%2Fx_648911_starbucks_handcrafted_espresso.do%3Fsys_id%3D-1%26sys_is_list%3Dtrue%26sys_target%3Dx_648911_starbucks_handcrafted_espresso%26sysparm_checked_items%3D%26sysparm_fixed_query%3D%26sysparm_group_sort%3D%26sysparm_list_css%3D%26sysparm_query%3D%26sysparm_referring_url%3Dx_648911_starbucks_handcrafted_espresso_list.do%26sysparm_target%3D%26sysparm_view%3D';
+		g_navigation.openPopup(url);
+	var url2='https://dev66176.service-now.com/nav_to.do?uri=%2Fx_648911_starbucks_all_drinks_list.do%3Fsysparm_userpref_module%3Df654b9ab2f50b010bd8e93acf699b6c7%26sysparm_clear_stack%3Dtrue';
+	g_navigation.open(url2);}
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-29 18:20:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ded5aab2fd0b010bd8e93acf699b6cb</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Handcraft New from</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sys_script_client_1ded5aab2fd0b010bd8e93acf699b6cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-29 19:31:51</sys_updated_on>
+        <table>x_648911_starbucks_all_drinks</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
