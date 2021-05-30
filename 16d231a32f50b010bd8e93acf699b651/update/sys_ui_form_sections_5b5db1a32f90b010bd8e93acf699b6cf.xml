@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_648911_starbucks_teavana" name="x_648911_starbucks_teavana" sys_domain="global" view="Default view">5b5db1a32f90b010bd8e93acf699b6cf</sys_ui_form>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_648911_starbucks_teavana" sys_domain="global" view="Default view">db5db1a32f90b010bd8e93acf699b6d1</sys_ui_section>
+            <sys_ui_section caption="Brief About the Drink" display_value="Brief About the Drink" name="x_648911_starbucks_teavana" sys_domain="global" view="Default view">db5db1a32f90b010bd8e93acf699b6d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2021-05-29 15:54:05</sys_updated_on>
         </sys_ui_form_section>

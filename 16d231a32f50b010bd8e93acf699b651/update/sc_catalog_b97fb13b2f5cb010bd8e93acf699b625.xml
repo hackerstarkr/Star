@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color>#FFFFFF</background_color>
+        <description>Order your Favorite Starbucks Drink with just a Click.</description>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image/>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager/>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-30 10:44:07</sys_created_on>
+        <sys_id>b97fb13b2f5cb010bd8e93acf699b625</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Order Your Starbucks</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sc_catalog_b97fb13b2f5cb010bd8e93acf699b625</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-30 18:57:26</sys_updated_on>
+        <title>Order Your Starbucks</title>
+    </sc_catalog>
+    <sys_translated_text action="delete_multiple" query="documentkey=b97fb13b2f5cb010bd8e93acf699b625"/>
+</record_update>

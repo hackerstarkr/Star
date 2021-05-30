@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="caffeinated drink">7e96ba7f2fdcb010bd8e93acf699b671</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-30 14:42:40</sys_created_on>
+        <sys_id>c396b2bf2fdcb010bd8e93acf699b601</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.caffeinated drink</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_c396b2bf2fdcb010bd8e93acf699b601</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-30 14:42:40</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>sc_cat_item_catalog_c396b2bf2fdcb010bd8e93acf699b601</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="caffeinated drink">7e96ba7f2fdcb010bd8e93acf699b671</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-30 14:42:40</sys_created_on><sys_id>c396b2bf2fdcb010bd8e93acf699b601</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.caffeinated drink</sys_name><sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package><sys_policy/><sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope><sys_update_name>sc_cat_item_catalog_c396b2bf2fdcb010bd8e93acf699b601</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-30 14:42:40</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-947978054</payload_hash>
+        <record_name>Service Catalog.caffeinated drink</record_name>
+        <reverted_from/>
+        <source>2be04b632f54b010bd8e93acf699b6c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-30 14:42:40</sys_created_on>
+        <sys_id>8396b2bf2fdcb010bd8e93acf699b604</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179bdba17b60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-30 14:42:40</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>0b96b2bf4fdcb010fba55915996cf803</update_guid>
+        <update_guid_history>0b96b2bf4fdcb010fba55915996cf803:-947978054</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.caffeinated drink">f79d67772f90f010bd8e93acf699b6a6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-30 18:43:01</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>3ad20ad6fed14db6ab9582237dbc4c04</sys_id>
+        <sys_metadata>c396b2bf2fdcb010bd8e93acf699b601</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.caffeinated drink</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_c396b2bf2fdcb010bd8e93acf699b601</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_c396b2bf2fdcb010bd8e93acf699b601">8396b2bf2fdcb010bd8e93acf699b604</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-30 18:43:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
