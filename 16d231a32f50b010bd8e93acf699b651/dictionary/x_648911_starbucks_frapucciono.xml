@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_648911_starbucks_all_drinks" label="Frappuccino" max_length="40" name="x_648911_starbucks_frapucciono" sizeclass="5" type="collection"/>
+    <element extends="x_648911_starbucks_all_drinks" label="Frappuccino" max_length="40" name="x_648911_starbucks_frapucciono" sizeclass="10" type="collection"/>
 </database>

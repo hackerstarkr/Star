@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Hathikuli Tea">5f5f67772f90f010bd8e93acf699b6d1</cat_item>
+        <cat_item/>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -39,12 +39,12 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>ansh</name>
+        <name>do_you_want_to_add_coffe</name>
         <order/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Hi</question_text>
+        <question_text>Do you want to add coffe</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -66,19 +66,19 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-30 18:50:38</sys_created_on>
-        <sys_id>eb5f6bb72f90f010bd8e93acf699b6ed</sys_id>
+        <sys_created_on>2021-06-01 19:48:59</sys_created_on>
+        <sys_id>7d8f462c2fec3410bd8e93acf699b672</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Hi</sys_name>
+        <sys_name>Do you want to add coffe</sys_name>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
-        <sys_update_name>item_option_new_eb5f6bb72f90f010bd8e93acf699b6ed</sys_update_name>
+        <sys_update_name>item_option_new_7d8f462c2fec3410bd8e93acf699b672</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 18:50:38</sys_updated_on>
+        <sys_updated_on>2021-06-01 19:48:59</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>7</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -94,22 +94,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=eb5f6bb72f90f010bd8e93acf699b6ed"/>
-    <fx_price action="delete_multiple" query="id=eb5f6bb72f90f010bd8e93acf699b6ed"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=7d8f462c2fec3410bd8e93acf699b672"/>
+    <fx_price action="delete_multiple" query="id=7d8f462c2fec3410bd8e93acf699b672"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="GBP">GBP</currency>
         <field>price_if_checked</field>
-        <id>eb5f6bb72f90f010bd8e93acf699b6ed</id>
+        <id>7d8f462c2fec3410bd8e93acf699b672</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-30 18:50:39</sys_created_on>
-        <sys_id>275fabb72f90f010bd8e93acf699b600</sys_id>
+        <sys_created_on>2021-06-01 19:48:59</sys_created_on>
+        <sys_id>39efc22c2fec3410bd8e93acf699b689</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 18:50:39</sys_updated_on>
+        <sys_updated_on>2021-06-01 19:48:59</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -117,16 +117,16 @@
         <amount>0</amount>
         <currency display_value="GBP">GBP</currency>
         <field>rec_price_if_checked</field>
-        <id>eb5f6bb72f90f010bd8e93acf699b6ed</id>
+        <id>7d8f462c2fec3410bd8e93acf699b672</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-30 18:50:39</sys_created_on>
-        <sys_id>235f6bb72f90f010bd8e93acf699b6ff</sys_id>
+        <sys_created_on>2021-06-01 19:48:59</sys_created_on>
+        <sys_id>79efc22c2fec3410bd8e93acf699b688</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 18:50:39</sys_updated_on>
+        <sys_updated_on>2021-06-01 19:48:59</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

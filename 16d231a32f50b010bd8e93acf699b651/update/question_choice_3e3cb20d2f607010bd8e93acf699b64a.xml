@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>1</misc>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Type of drink">80a83ec92f607010bd8e93acf699b67e</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-03 12:19:38</sys_created_on>
+        <sys_id>3e3cb20d2f607010bd8e93acf699b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Caffinated</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>question_choice_3e3cb20d2f607010bd8e93acf699b64a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-03 12:19:38</sys_updated_on>
+        <text>Caffinated</text>
+        <value>caffinated</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=3e3cb20d2f607010bd8e93acf699b64a"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>1</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>3e3cb20d2f607010bd8e93acf699b64a</id>
+        <parent/>
+        <reference_amount>1</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-03 12:19:38</sys_created_on>
+        <sys_id>be3c32cd2f607010bd8e93acf699b628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-03 12:19:38</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>3e3cb20d2f607010bd8e93acf699b64a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-03 12:19:38</sys_created_on>
+        <sys_id>763cb20d2f607010bd8e93acf699b64b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-03 12:19:38</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

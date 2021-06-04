@@ -10,7 +10,7 @@
         <sys_name>Order Your Starbucks.catalog_order_your_starbucks</sys_name>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
-        <sys_portal_page display_value="Starbucks Menu">bc00c63b2f5cb010bd8e93acf699b6d6</sys_portal_page>
+        <sys_portal_page display_value="Starbucks at Your Service(SYS)">bc00c63b2f5cb010bd8e93acf699b6d6</sys_portal_page>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sc_catalog_view_mtom_b400c63b2f5cb010bd8e93acf699b6d8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

@@ -36,16 +36,25 @@
     sc.name = current.drink_s_name;
     sc.sc_catalogs = 'Order Your Starbucks';
     sc.setValue('category', cat.sys_id);
+	sc.setValue('item_option_new_set', cat.sys_id);
     //sc.sys_scope = 'Global';
     sc.short_description = current.short_description;
+	sc.item_option_new_set='startbucks_trial';
+	sc.sc_variable_set='startbucks_trial';
+	
     sc.insert();
-    var va = new GlideRecord('item_option_new');
-    va.initialize();
-    //va.sys_scope = 'Global';
-    va.setValue('cat_item', sc.sys_id);
-    va.question_text = 'Hi';
-    va.name = 'ansh';
-    va.insert();
+//     var va = new GlideRecord('item_option_new');
+//     va.initialize();
+//     //va.sys_scope = 'Global';
+//     va.setValue('cat_item', sc.sys_id);
+//    // va.question_text = 'Hi';
+//     //va.name = 'ansh';
+// 	va.addFunction('startbucks_trial');
+//     va.insert();
+	//var vs=new GlideRecord('item_option_new_set');
+	//var x=vs.getElement('startbucks_trial');
+	//va.setValue('cat_item',sc.sys_id);
+	
     //gs.addInfoMessage(gs.getCurrentScopeName());
 
 })(current, previous);]]></script>
@@ -55,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b7401db32fd8b010bd8e93acf699b644</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Automatically Create Catalog Item for F</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
@@ -63,7 +72,7 @@
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sys_script_b7401db32fd8b010bd8e93acf699b644</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 11:54:14</sys_updated_on>
+        <sys_updated_on>2021-06-01 21:02:16</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

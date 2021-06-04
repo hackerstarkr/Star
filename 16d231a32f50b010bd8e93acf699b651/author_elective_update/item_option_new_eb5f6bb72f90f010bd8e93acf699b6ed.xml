@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="DELETE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Hathikuli Tea">5f5f67772f90f010bd8e93acf699b6d1</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value>1</default_value>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field/>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <hidden>false</hidden>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <macroponent/>
+        <mandatory>true</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>drink_type</name>
+        <order/>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <published_ref/>
+        <question_text>What Type of Drink would you like to Order???</question_text>
+        <read_only>false</read_only>
+        <read_roles/>
+        <read_script/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <save_script/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-30 18:50:38</sys_created_on>
+        <sys_id>eb5f6bb72f90f010bd8e93acf699b6ed</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>What Type of Drink would you like to Order???</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>item_option_new_eb5f6bb72f90f010bd8e93acf699b6ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 07:19:06</sys_updated_on>
+        <table/>
+        <tooltip>Drink Type</tooltip>
+        <type>3</type>
+        <ui_page/>
+        <unique>false</unique>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width>75</variable_width>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </item_option_new>
+    <sys_translated_text action="DELETE" query="documentkey=eb5f6bb72f90f010bd8e93acf699b6ed"/>
+    <fx_price action="DELETE" query="id=eb5f6bb72f90f010bd8e93acf699b6ed"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>price_if_checked</field>
+        <id>eb5f6bb72f90f010bd8e93acf699b6ed</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-30 18:50:39</sys_created_on>
+        <sys_id>275fabb72f90f010bd8e93acf699b600</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-30 18:50:39</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="GBP">GBP</currency>
+        <field>rec_price_if_checked</field>
+        <id>eb5f6bb72f90f010bd8e93acf699b6ed</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-30 18:50:39</sys_created_on>
+        <sys_id>235f6bb72f90f010bd8e93acf699b6ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-30 18:50:39</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>item_option_new_eb5f6bb72f90f010bd8e93acf699b6ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Hathikuli Tea">5f5f67772f90f010bd8e93acf699b6d1</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value>1</default_value><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><enable_also_request_for>false</enable_also_request_for><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><hidden>false</hidden><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><macroponent/><mandatory>true</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>drink_type</name><order/><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><published_ref/><question_text>What Type of Drink would you like to Order???</question_text><read_only>false</read_only><read_roles/><read_script/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><rich_text/><roles_to_use_also_request_for/><save_script/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-30 18:50:38</sys_created_on><sys_id>eb5f6bb72f90f010bd8e93acf699b6ed</sys_id><sys_mod_count>2</sys_mod_count><sys_name>What Type of Drink would you like to Order???</sys_name><sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package><sys_policy/><sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope><sys_update_name>item_option_new_eb5f6bb72f90f010bd8e93acf699b6ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-01 07:19:06</sys_updated_on><table/><tooltip>Drink Type</tooltip><type>3</type><ui_page/><unique>false</unique><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width>75</variable_width><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=eb5f6bb72f90f010bd8e93acf699b6ed"/><fx_price action="delete_multiple" query="id=eb5f6bb72f90f010bd8e93acf699b6ed"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="GBP">GBP</currency><field>price_if_checked</field><id>eb5f6bb72f90f010bd8e93acf699b6ed</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-30 18:50:39</sys_created_on><sys_id>275fabb72f90f010bd8e93acf699b600</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-30 18:50:39</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="GBP">GBP</currency><field>rec_price_if_checked</field><id>eb5f6bb72f90f010bd8e93acf699b6ed</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-30 18:50:39</sys_created_on><sys_id>235f6bb72f90f010bd8e93acf699b6ff</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-30 18:50:39</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-494376591</payload_hash>
+        <record_name>What Type of Drink would you like to Order???</record_name>
+        <reverted_from/>
+        <source>2be04b632f54b010bd8e93acf699b6c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-01 07:19:07</sys_created_on>
+        <sys_id>8944e7502f283410bd8e93acf699b6eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179c670b9f90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 07:19:07</sys_updated_on>
+        <type>Variable</type>
+        <update_guid>8144e750b42834106994c3dc9cc569eb</update_guid>
+        <update_guid_history>8144e750b42834106994c3dc9cc569eb:-494376591,ab636f10622834104d9fbc7542e411fe:1953860678,af5fabb7e790f0102d7ef41f11259a04:664132756</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="What Type of Drink would you like to Order???">97f9eb542f283410bd8e93acf699b61a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-01 07:44:06</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new">item_option_new</sys_db_object>
+        <sys_id>35a9b4b3c01b40169266d77dbcf0b359</sys_id>
+        <sys_metadata>eb5f6bb72f90f010bd8e93acf699b6ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>What Type of Drink would you like to Order???</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent display_value="">5f5f67772f90f010bd8e93acf699b6d1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>item_option_new_eb5f6bb72f90f010bd8e93acf699b6ed</sys_update_name>
+        <sys_update_version display_value="item_option_new_eb5f6bb72f90f010bd8e93acf699b6ed">8944e7502f283410bd8e93acf699b6eb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 07:44:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

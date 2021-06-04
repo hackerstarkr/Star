@@ -4,13 +4,13 @@
             <element>drink_s_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 16:17:18</sys_created_on>
-            <sys_id>67a24ea72f90b010bd8e93acf699b6aa</sys_id>
+            <sys_created_on>2021-06-04 13:45:47</sys_created_on>
+            <sys_id>6a89986d2f20b010bd8e93acf699b617</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_teavana" sys_domain="global" view="Default view">1f5db1a32f90b010bd8e93acf699b6d4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 16:17:18</sys_updated_on>
+            <sys_updated_on>2021-06-04 13:45:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,125 +18,111 @@
             <element>size</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 16:17:18</sys_created_on>
-            <sys_id>e7a24ea72f90b010bd8e93acf699b6aa</sys_id>
+            <sys_created_on>2021-06-04 13:45:47</sys_created_on>
+            <sys_id>e289986d2f20b010bd8e93acf699b618</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_teavana" sys_domain="global" view="Default view">1f5db1a32f90b010bd8e93acf699b6d4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 16:17:18</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>type_of_drink</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 16:17:18</sys_created_on>
-            <sys_id>6ba24ea72f90b010bd8e93acf699b6aa</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_teavana" sys_domain="global" view="Default view">1f5db1a32f90b010bd8e93acf699b6d4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 16:17:18</sys_updated_on>
+            <sys_updated_on>2021-06-04 13:45:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>customizable</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 16:17:18</sys_created_on>
-            <sys_id>eba24ea72f90b010bd8e93acf699b6aa</sys_id>
+            <sys_created_on>2021-06-04 13:45:47</sys_created_on>
+            <sys_id>6a89986d2f20b010bd8e93acf699b618</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_teavana" sys_domain="global" view="Default view">1f5db1a32f90b010bd8e93acf699b6d4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 16:17:18</sys_updated_on>
+            <sys_updated_on>2021-06-04 13:45:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>flavoured</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 16:17:18</sys_created_on>
-            <sys_id>6fa24ea72f90b010bd8e93acf699b6aa</sys_id>
+            <sys_created_on>2021-06-04 13:45:47</sys_created_on>
+            <sys_id>ee89986d2f20b010bd8e93acf699b618</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_teavana" sys_domain="global" view="Default view">1f5db1a32f90b010bd8e93acf699b6d4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 16:17:18</sys_updated_on>
+            <sys_updated_on>2021-06-04 13:45:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>please_specify_the_flavour</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 16:17:18</sys_created_on>
-            <sys_id>efa24ea72f90b010bd8e93acf699b6aa</sys_id>
+            <sys_created_on>2021-06-04 13:45:47</sys_created_on>
+            <sys_id>6689986d2f20b010bd8e93acf699b619</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_teavana" sys_domain="global" view="Default view">1f5db1a32f90b010bd8e93acf699b6d4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 16:17:18</sys_updated_on>
+            <sys_updated_on>2021-06-04 13:45:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 16:17:18</sys_created_on>
-            <sys_id>63a24ea72f90b010bd8e93acf699b6ab</sys_id>
+            <sys_created_on>2021-06-04 13:45:47</sys_created_on>
+            <sys_id>ea89986d2f20b010bd8e93acf699b619</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_teavana" sys_domain="global" view="Default view">1f5db1a32f90b010bd8e93acf699b6d4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 16:17:18</sys_updated_on>
+            <sys_updated_on>2021-06-04 13:45:47</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>shots_of_teavana</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 16:17:18</sys_created_on>
-            <sys_id>e3a24ea72f90b010bd8e93acf699b6ab</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_teavana" sys_domain="global" view="Default view">1f5db1a32f90b010bd8e93acf699b6d4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 16:17:18</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>availability</element>
-            <position>8</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 16:17:18</sys_created_on>
-            <sys_id>67a24ea72f90b010bd8e93acf699b6ab</sys_id>
+            <sys_created_on>2021-06-04 13:45:47</sys_created_on>
+            <sys_id>6289986d2f20b010bd8e93acf699b61a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_teavana" sys_domain="global" view="Default view">1f5db1a32f90b010bd8e93acf699b6d4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 16:17:18</sys_updated_on>
+            <sys_updated_on>2021-06-04 13:45:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_integer_3</element>
-            <position>9</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 16:17:18</sys_created_on>
-            <sys_id>e7a24ea72f90b010bd8e93acf699b6ab</sys_id>
+            <sys_created_on>2021-06-04 13:45:47</sys_created_on>
+            <sys_id>e689986d2f20b010bd8e93acf699b61a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_teavana" sys_domain="global" view="Default view">1f5db1a32f90b010bd8e93acf699b6d4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 16:17:18</sys_updated_on>
+            <sys_updated_on>2021-06-04 13:45:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>image</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-04 13:45:47</sys_created_on>
+            <sys_id>6e89986d2f20b010bd8e93acf699b61a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_teavana" sys_domain="global" view="Default view">1f5db1a32f90b010bd8e93acf699b6d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-04 13:45:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

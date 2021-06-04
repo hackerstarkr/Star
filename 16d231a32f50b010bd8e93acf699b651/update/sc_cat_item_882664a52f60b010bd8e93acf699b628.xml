@@ -4,7 +4,7 @@
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <category display_value="Teavana">a131ce3b2f5cb010bd8e93acf699b6ef</category>
+        <category/>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -18,7 +18,7 @@
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
-        <ignore_price>true</ignore_price>
+        <ignore_price>false</ignore_price>
         <image/>
         <location/>
         <mandatory_attachment>false</mandatory_attachment>
@@ -27,7 +27,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Hathikuli Tea</name>
+        <name/>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -43,32 +43,32 @@
         <order>0</order>
         <ordered_item_link/>
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
-        <picture/>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=5f5f67772f90f010bd8e93acf699b6d1&amp;sysparm_preview=true", "summary");</preview>
+        <picture>4c2664a52f60b010bd8e93acf699b624</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=882664a52f60b010bd8e93acf699b628&amp;sysparm_preview=true", "summary");</preview>
         <published_ref/>
         <recurring_frequency/>
         <request_method/>
         <roles/>
-        <sc_catalogs>b97fb13b2f5cb010bd8e93acf699b625</sc_catalogs>
+        <sc_catalogs/>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <short_description>Hathikuli Organic Tea </short_description>
+        <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state/>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-30 18:50:38</sys_created_on>
-        <sys_id>5f5f67772f90f010bd8e93acf699b6d1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Hathikuli Tea</sys_name>
+        <sys_created_on>2021-06-04 14:40:46</sys_created_on>
+        <sys_id>882664a52f60b010bd8e93acf699b628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
-        <sys_update_name>sc_cat_item_5f5f67772f90f010bd8e93acf699b6d1</sys_update_name>
+        <sys_update_name>sc_cat_item_882664a52f60b010bd8e93acf699b628</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 18:50:39</sys_updated_on>
+        <sys_updated_on>2021-06-04 14:40:46</sys_updated_on>
         <template/>
         <template_manager_roles/>
         <type>item</type>
@@ -79,6 +79,6 @@
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item>
-    <sys_translated_text action="delete_multiple" query="documentkey=5f5f67772f90f010bd8e93acf699b6d1"/>
-    <fx_price action="delete_multiple" query="id=5f5f67772f90f010bd8e93acf699b6d1"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=882664a52f60b010bd8e93acf699b628"/>
+    <fx_price action="delete_multiple" query="id=882664a52f60b010bd8e93acf699b628"/>
 </record_update>

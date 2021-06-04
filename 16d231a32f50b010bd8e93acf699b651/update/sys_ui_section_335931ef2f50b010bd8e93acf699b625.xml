@@ -4,13 +4,13 @@
             <element>drink_s_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 17:53:48</sys_created_on>
-            <sys_id>c9c8dea72fd0b010bd8e93acf699b6dc</sys_id>
+            <sys_created_on>2021-06-03 13:40:49</sys_created_on>
+            <sys_id>c8decf0d2fa07010bd8e93acf699b63a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_handcrafted_espresso" sys_domain="global" view="Default view">335931ef2f50b010bd8e93acf699b625</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 17:53:48</sys_updated_on>
+            <sys_updated_on>2021-06-03 13:40:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>size</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 17:53:48</sys_created_on>
-            <sys_id>4dc8dea72fd0b010bd8e93acf699b6dc</sys_id>
+            <sys_created_on>2021-06-03 13:40:49</sys_created_on>
+            <sys_id>40decf0d2fa07010bd8e93acf699b63b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_handcrafted_espresso" sys_domain="global" view="Default view">335931ef2f50b010bd8e93acf699b625</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 17:53:48</sys_updated_on>
+            <sys_updated_on>2021-06-03 13:40:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>type_of_drink</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 17:53:48</sys_created_on>
-            <sys_id>cdc8dea72fd0b010bd8e93acf699b6dc</sys_id>
+            <sys_created_on>2021-06-03 13:40:49</sys_created_on>
+            <sys_id>c4decf0d2fa07010bd8e93acf699b63b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_handcrafted_espresso" sys_domain="global" view="Default view">335931ef2f50b010bd8e93acf699b625</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 17:53:48</sys_updated_on>
+            <sys_updated_on>2021-06-03 13:40:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>customizable</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 17:53:48</sys_created_on>
-            <sys_id>41c8dea72fd0b010bd8e93acf699b6dd</sys_id>
+            <sys_created_on>2021-06-03 13:40:49</sys_created_on>
+            <sys_id>4cdecf0d2fa07010bd8e93acf699b63b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_handcrafted_espresso" sys_domain="global" view="Default view">335931ef2f50b010bd8e93acf699b625</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 17:53:48</sys_updated_on>
+            <sys_updated_on>2021-06-03 13:40:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>flavoured</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 17:53:48</sys_created_on>
-            <sys_id>c1c8dea72fd0b010bd8e93acf699b6dd</sys_id>
+            <sys_created_on>2021-06-03 13:40:49</sys_created_on>
+            <sys_id>c0decf0d2fa07010bd8e93acf699b63c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_handcrafted_espresso" sys_domain="global" view="Default view">335931ef2f50b010bd8e93acf699b625</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 17:53:48</sys_updated_on>
+            <sys_updated_on>2021-06-03 13:40:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>please_specify_the_flavour</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 17:53:48</sys_created_on>
-            <sys_id>45c8dea72fd0b010bd8e93acf699b6dd</sys_id>
+            <sys_created_on>2021-06-03 13:40:49</sys_created_on>
+            <sys_id>48decf0d2fa07010bd8e93acf699b63c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_handcrafted_espresso" sys_domain="global" view="Default view">335931ef2f50b010bd8e93acf699b625</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 17:53:48</sys_updated_on>
+            <sys_updated_on>2021-06-03 13:40:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>.split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 17:53:48</sys_created_on>
-            <sys_id>c5c8dea72fd0b010bd8e93acf699b6dd</sys_id>
+            <sys_created_on>2021-06-03 13:40:49</sys_created_on>
+            <sys_id>ccdecf0d2fa07010bd8e93acf699b63c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_handcrafted_espresso" sys_domain="global" view="Default view">335931ef2f50b010bd8e93acf699b625</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 17:53:48</sys_updated_on>
+            <sys_updated_on>2021-06-03 13:40:49</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>availability</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 17:53:48</sys_created_on>
-            <sys_id>49c8dea72fd0b010bd8e93acf699b6dd</sys_id>
+            <sys_created_on>2021-06-03 13:40:49</sys_created_on>
+            <sys_id>44decf0d2fa07010bd8e93acf699b63d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_handcrafted_espresso" sys_domain="global" view="Default view">335931ef2f50b010bd8e93acf699b625</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 17:53:48</sys_updated_on>
+            <sys_updated_on>2021-06-03 13:40:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,27 @@
             <element>u_decimal_4</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 17:53:48</sys_created_on>
-            <sys_id>c9c8dea72fd0b010bd8e93acf699b6dd</sys_id>
+            <sys_created_on>2021-06-03 13:40:49</sys_created_on>
+            <sys_id>c8decf0d2fa07010bd8e93acf699b63d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_handcrafted_espresso" sys_domain="global" view="Default view">335931ef2f50b010bd8e93acf699b625</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 17:53:48</sys_updated_on>
+            <sys_updated_on>2021-06-03 13:40:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>image</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-03 13:40:49</sys_created_on>
+            <sys_id>40decf0d2fa07010bd8e93acf699b63e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_handcrafted_espresso" sys_domain="global" view="Default view">335931ef2f50b010bd8e93acf699b625</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-03 13:40:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

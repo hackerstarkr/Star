@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="finaaaaaaaal">d4e02a282f207410bd8e93acf699b691</sc_cat_item>
+        <sc_category display_value="Frappuccino">b141c67b2f5cb010bd8e93acf699b6a4</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-01 21:03:10</sys_created_on>
+        <sys_id>dce02a282f207410bd8e93acf699b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Frappuccino.finaaaaaaaal</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sc_cat_item_category_dce02a282f207410bd8e93acf699b696</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 21:03:10</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>sc_cat_item_category_dce02a282f207410bd8e93acf699b696</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="finaaaaaaaal">d4e02a282f207410bd8e93acf699b691</sc_cat_item><sc_category display_value="Frappuccino">b141c67b2f5cb010bd8e93acf699b6a4</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-01 21:03:10</sys_created_on><sys_id>dce02a282f207410bd8e93acf699b696</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Frappuccino.finaaaaaaaal</sys_name><sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package><sys_policy/><sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope><sys_update_name>sc_cat_item_category_dce02a282f207410bd8e93acf699b696</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-01 21:03:10</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-708837292</payload_hash>
+        <record_name>Frappuccino.finaaaaaaaal</record_name>
+        <reverted_from/>
+        <source>2be04b632f54b010bd8e93acf699b6c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-01 21:03:10</sys_created_on>
+        <sys_id>50e02a282f207410bd8e93acf699b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179c9632dcb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 21:03:10</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>98e02a283020741019929c714a1ae599</update_guid>
+        <update_guid_history>98e02a283020741019929c714a1ae599:-708837292</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Frappuccino.finaaaaaaaal">68aa58ad2f20b010bd8e93acf699b647</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-04 13:50:33</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>2307b9d61d5049c8b3ce47fee701da40</sys_id>
+        <sys_metadata>dce02a282f207410bd8e93acf699b696</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Frappuccino.finaaaaaaaal</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_dce02a282f207410bd8e93acf699b696</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_dce02a282f207410bd8e93acf699b696">50e02a282f207410bd8e93acf699b69a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-04 13:50:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

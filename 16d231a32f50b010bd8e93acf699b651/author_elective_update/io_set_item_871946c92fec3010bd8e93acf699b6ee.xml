@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="hellooooooooo">2b1e56242f207410bd8e93acf699b6da</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-03 08:36:17</sys_created_on>
+        <sys_id>871946c92fec3010bd8e93acf699b6ee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Systrail.hellooooooooo</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>io_set_item_871946c92fec3010bd8e93acf699b6ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-03 08:36:17</sys_updated_on>
+        <variable_set display_value="Systrail">8452c3342fe43010bd8e93acf699b6f3</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>io_set_item_871946c92fec3010bd8e93acf699b6ee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="hellooooooooo">2b1e56242f207410bd8e93acf699b6da</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-03 08:36:17</sys_created_on><sys_id>871946c92fec3010bd8e93acf699b6ee</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Systrail.hellooooooooo</sys_name><sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package><sys_policy/><sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope><sys_update_name>io_set_item_871946c92fec3010bd8e93acf699b6ee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-03 08:36:17</sys_updated_on><variable_set display_value="Systrail">8452c3342fe43010bd8e93acf699b6f3</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-334439320</payload_hash>
+        <record_name>Systrail.hellooooooooo</record_name>
+        <reverted_from/>
+        <source>2be04b632f54b010bd8e93acf699b6c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-03 08:36:17</sys_created_on>
+        <sys_id>1f1946c92fec3010bd8e93acf699b6f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179d1041a9f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-03 08:36:17</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>571946c99eec3010fab770db17e3a5f3</update_guid>
+        <update_guid_history>571946c99eec3010fab770db17e3a5f3:-334439320</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Systrail.hellooooooooo">1413ba092f607010bd8e93acf699b692</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-03 11:39:35</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>b5f10645a6db4c96967540c06902c701</sys_id>
+        <sys_metadata>871946c92fec3010bd8e93acf699b6ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Systrail.hellooooooooo</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>io_set_item_871946c92fec3010bd8e93acf699b6ee</sys_update_name>
+        <sys_update_version display_value="io_set_item_871946c92fec3010bd8e93acf699b6ee">1f1946c92fec3010bd8e93acf699b6f3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-03 11:39:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

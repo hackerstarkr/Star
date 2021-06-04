@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description/>
+        <event_name>x_648911_starbucks.sample</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>sample</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-31 16:38:07</sys_created_on>
+        <sys_id>627ad4182fecf010bd8e93acf699b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_648911_starbucks.sample</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sysevent_register_627ad4182fecf010bd8e93acf699b6bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-31 16:38:07</sys_updated_on>
+        <table>x_648911_starbucks_starbucks_orders</table>
+    </sysevent_register>
+</record_update>
