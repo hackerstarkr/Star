@@ -42,8 +42,13 @@
         sc.price = current.u_integer_3;
         sc.insert();
     } else {
+		var cat_2 = new GlideRecord('sc_category');
+        cat_2.get('title', 'Frappuccino');
         var cat_1 = new GlideRecord('sc_cat_item');
         cat_1.get('name', current.drink_s_name);
+		cat_1.name=current.drink_s_name;
+		cat_1.sc_catalogs = 'Order Your Starbucks';
+        cat_1.setValue('category', cat_2.sys_id);
         cat_1.short_description = current.short_description;
         cat_1.description = current.description;
         cat_1.picture = current.image;
@@ -71,7 +76,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b7401db32fd8b010bd8e93acf699b644</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Automatically Create Catalog Item for F</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
@@ -79,7 +84,7 @@
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sys_script_b7401db32fd8b010bd8e93acf699b644</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-05 10:36:01</sys_updated_on>
+        <sys_updated_on>2021-06-05 14:10:06</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

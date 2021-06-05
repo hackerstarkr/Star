@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Pour over">8739e93d2f603010bd8e93acf699b65c</sc_cat_item>
+        <sc_catalog display_value="Order Your Starbucks">b97fb13b2f5cb010bd8e93acf699b625</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-05 14:12:27</sys_created_on>
+        <sys_id>0339217d2f603010bd8e93acf699b685</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order Your Starbucks.Pour over</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_0339217d2f603010bd8e93acf699b685</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-05 14:12:27</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>sc_cat_item_catalog_0339217d2f603010bd8e93acf699b685</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Pour over">8739e93d2f603010bd8e93acf699b65c</sc_cat_item><sc_catalog display_value="Order Your Starbucks">b97fb13b2f5cb010bd8e93acf699b625</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-05 14:12:27</sys_created_on><sys_id>0339217d2f603010bd8e93acf699b685</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Order Your Starbucks.Pour over</sys_name><sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package><sys_policy/><sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope><sys_update_name>sc_cat_item_catalog_0339217d2f603010bd8e93acf699b685</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-05 14:12:27</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-183305290</payload_hash>
+        <record_name>Order Your Starbucks.Pour over</record_name>
+        <reverted_from/>
+        <source>2be04b632f54b010bd8e93acf699b6c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-05 14:12:27</sys_created_on>
+        <sys_id>0739217d2f603010bd8e93acf699b687</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179dc8497b00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-05 14:12:27</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>4f39217d8b6030105e8e622a97812386</update_guid>
+        <update_guid_history>4f39217d8b6030105e8e622a97812386:-183305290</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Order Your Starbucks.Pour over">ef224ebd2fa03010bd8e93acf699b631</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-05 16:01:26</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>6bb93e064790441eb77ea0683281ffc4</sys_id>
+        <sys_metadata>0339217d2f603010bd8e93acf699b685</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order Your Starbucks.Pour over</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent display_value="">8739e93d2f603010bd8e93acf699b65c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_0339217d2f603010bd8e93acf699b685</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_0339217d2f603010bd8e93acf699b685">0739217d2f603010bd8e93acf699b687</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-05 16:01:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

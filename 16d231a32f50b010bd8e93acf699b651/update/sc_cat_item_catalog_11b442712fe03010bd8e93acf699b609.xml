@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Coffee">91b442712fe03010bd8e93acf699b606</sc_cat_item>
+        <sc_catalog display_value="Order Your Starbucks">b97fb13b2f5cb010bd8e93acf699b625</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-05 16:12:29</sys_created_on>
+        <sys_id>11b442712fe03010bd8e93acf699b609</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order Your Starbucks.Coffee</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_11b442712fe03010bd8e93acf699b609</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-05 16:12:29</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>
