@@ -4,13 +4,13 @@
             <element>drink_s_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-02 13:53:00</sys_created_on>
-            <sys_id>78080e3c2f243010bd8e93acf699b61b</sys_id>
+            <sys_created_on>2021-06-04 18:30:54</sys_created_on>
+            <sys_id>03ca112d2fe0b010bd8e93acf699b66f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_frapucciono" sys_domain="global" view="Default view">508bf9232f90b010bd8e93acf699b6a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-02 13:53:00</sys_updated_on>
+            <sys_updated_on>2021-06-04 18:30:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>size</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-02 13:53:00</sys_created_on>
-            <sys_id>f8080e3c2f243010bd8e93acf699b61b</sys_id>
+            <sys_created_on>2021-06-04 18:30:54</sys_created_on>
+            <sys_id>8bca112d2fe0b010bd8e93acf699b66f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_frapucciono" sys_domain="global" view="Default view">508bf9232f90b010bd8e93acf699b6a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-02 13:53:00</sys_updated_on>
+            <sys_updated_on>2021-06-04 18:30:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>type_of_drink</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-02 13:53:00</sys_created_on>
-            <sys_id>7c080e3c2f243010bd8e93acf699b61b</sys_id>
+            <sys_created_on>2021-06-04 18:30:54</sys_created_on>
+            <sys_id>03ca112d2fe0b010bd8e93acf699b670</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_frapucciono" sys_domain="global" view="Default view">508bf9232f90b010bd8e93acf699b6a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-02 13:53:00</sys_updated_on>
+            <sys_updated_on>2021-06-04 18:30:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>customizable</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-02 13:53:00</sys_created_on>
-            <sys_id>fc080e3c2f243010bd8e93acf699b61b</sys_id>
+            <sys_created_on>2021-06-04 18:30:54</sys_created_on>
+            <sys_id>87ca112d2fe0b010bd8e93acf699b670</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_frapucciono" sys_domain="global" view="Default view">508bf9232f90b010bd8e93acf699b6a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-02 13:53:00</sys_updated_on>
+            <sys_updated_on>2021-06-04 18:30:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>flavoured</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-02 13:53:00</sys_created_on>
-            <sys_id>70080e3c2f243010bd8e93acf699b61c</sys_id>
+            <sys_created_on>2021-06-04 18:30:54</sys_created_on>
+            <sys_id>0fca112d2fe0b010bd8e93acf699b670</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_frapucciono" sys_domain="global" view="Default view">508bf9232f90b010bd8e93acf699b6a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-02 13:53:00</sys_updated_on>
+            <sys_updated_on>2021-06-04 18:30:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,69 +74,69 @@
             <element>please_specify_the_flavour</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-02 13:53:00</sys_created_on>
-            <sys_id>f0080e3c2f243010bd8e93acf699b61c</sys_id>
+            <sys_created_on>2021-06-04 18:30:54</sys_created_on>
+            <sys_id>83ca112d2fe0b010bd8e93acf699b671</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_frapucciono" sys_domain="global" view="Default view">508bf9232f90b010bd8e93acf699b6a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-02 13:53:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>image</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-02 13:53:00</sys_created_on>
-            <sys_id>74080e3c2f243010bd8e93acf699b61c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_frapucciono" sys_domain="global" view="Default view">508bf9232f90b010bd8e93acf699b6a6</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-02 13:53:00</sys_updated_on>
+            <sys_updated_on>2021-06-04 18:30:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-02 13:53:00</sys_created_on>
-            <sys_id>f4080e3c2f243010bd8e93acf699b61c</sys_id>
+            <sys_created_on>2021-06-04 18:30:54</sys_created_on>
+            <sys_id>0bca112d2fe0b010bd8e93acf699b671</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_frapucciono" sys_domain="global" view="Default view">508bf9232f90b010bd8e93acf699b6a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-02 13:53:00</sys_updated_on>
+            <sys_updated_on>2021-06-04 18:30:54</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>availability</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-02 13:53:00</sys_created_on>
-            <sys_id>78080e3c2f243010bd8e93acf699b61c</sys_id>
+            <sys_created_on>2021-06-04 18:30:54</sys_created_on>
+            <sys_id>8fca112d2fe0b010bd8e93acf699b671</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_frapucciono" sys_domain="global" view="Default view">508bf9232f90b010bd8e93acf699b6a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-02 13:53:00</sys_updated_on>
+            <sys_updated_on>2021-06-04 18:30:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_integer_3</element>
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-02 13:53:00</sys_created_on>
-            <sys_id>f8080e3c2f243010bd8e93acf699b61c</sys_id>
+            <sys_created_on>2021-06-04 18:30:54</sys_created_on>
+            <sys_id>87ca512d2fe0b010bd8e93acf699b6e7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_frapucciono" sys_domain="global" view="Default view">508bf9232f90b010bd8e93acf699b6a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-02 13:53:00</sys_updated_on>
+            <sys_updated_on>2021-06-04 18:30:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>image</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-04 18:30:54</sys_created_on>
+            <sys_id>0fca512d2fe0b010bd8e93acf699b6e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_frapucciono" sys_domain="global" view="Default view">508bf9232f90b010bd8e93acf699b6a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-04 18:30:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

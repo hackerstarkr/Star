@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_648911_starbucks_handcrafted_espresso</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Automatically Update Catalog Item HE</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	gs.addErrorMessage(current.image);
+	var cat_1=new GlideRecord('sc_cat_item');
+	cat_1.addQuery('name',current.drink_s_name);
+	cat_1.query();
+	cat_1.short_description=current.short_description;
+	cat_1.picture=current.image;
+	cat_1.update();
+    
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-04 14:07:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9f8d98212f60b010bd8e93acf699b644</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Automatically Update Catalog Item HE</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sys_script_9f8d98212f60b010bd8e93acf699b644</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-04 18:12:23</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=9f8d98212f60b010bd8e93acf699b644"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>sys_script_9f8d98212f60b010bd8e93acf699b644</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_648911_starbucks_handcrafted_espresso&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Automatically Update Catalog Item HE&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	gs.addErrorMessage(current.image);
+	var cat_1=new GlideRecord('sc_cat_item');
+	cat_1.addQuery('name',current.drink_s_name);
+	cat_1.query();
+	cat_1.short_description=current.short_description;
+	cat_1.picture=current.image;
+	cat_1.update();
+    
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-04 14:07:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9f8d98212f60b010bd8e93acf699b644&lt;/sys_id&gt;&lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;&lt;sys_name&gt;Automatically Update Catalog Item HE&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks"&gt;16d231a32f50b010bd8e93acf699b651&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Starbucks at Your Service(SYS)"&gt;16d231a32f50b010bd8e93acf699b651&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_9f8d98212f60b010bd8e93acf699b644&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-04 18:12:23&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9f8d98212f60b010bd8e93acf699b644"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-909670345</payload_hash>
+        <record_name>Automatically Update Catalog Item HE</record_name>
+        <reverted_from/>
+        <source>2be04b632f54b010bd8e93acf699b6c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-04 18:12:23</sys_created_on>
+        <sys_id>44969d292fe0b010bd8e93acf699b676</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179d839e69a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-04 18:12:23</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>0c969d2979e0b0103a9b6ca4f453e575</update_guid>
+        <update_guid_history>0c969d2979e0b0103a9b6ca4f453e575:-909670345,2636d5292de0b01025db9700b415d372:-806158274,ced55529abe0b0106e8e8c2afb85a318:912213423,b485dde5ffe0b0104e439694b542ee95:-200666758,a13559e5bde0b010c0432e0d1a8e065a:-610787696,c17491a5c0e0b0101a39057246f368b8:-2040634614,3ac211a50de0b01065520910859dda52:-1836851042,da2e49a1c8e0b0108a1e35ee871ea723:-587239963,7e9c896105e0b0103aec9ccbc753b3ed:-1148342810,91d23ced2e60b01024855beb97f24974:-587239963,e3823cedf660b0106a0e169e4ba0de4e:1668696903,aec1b8edac60b010b5e06b8d6752dc0e:-587239963,c897ace5c660b0108de3f1016c8698a6:1693515289,cbc66ca53960b010d2a4ee54062d6224:1679717453,ce13e0251e60b010b96986da489bd7e2:62080064,45322ce1cc60b010790d9f37db49c29b:1693515289,abd12ce1ca60b010cebffa5a0b48112f:-2034701576,898168a16760b01068caf1817a433280:2092601355,d3306c615b60b010dbf32c1b7e62c8ef:-1182902683,909e54616d60b0100e26a3c1c3af862e:-1505981065</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-04 18:15:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>316b4dd31fa548b09e5ab46eb60f6e40</sys_id>
+        <sys_metadata>9f8d98212f60b010bd8e93acf699b644</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Automatically Update Catalog Item HE</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent display_value="Handcrafted Espresso">eba8f1af2f50b010bd8e93acf699b68c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>sys_script_9f8d98212f60b010bd8e93acf699b644</sys_update_name>
+        <sys_update_version display_value="sys_script_9f8d98212f60b010bd8e93acf699b644">44969d292fe0b010bd8e93acf699b676</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-04 18:15:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -5,7 +5,7 @@
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
@@ -28,33 +28,40 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    if (current.isNewRecord()) {
+        var cat = new GlideRecord('sc_category');
+        cat.get('title', 'Frappuccino');
+        var sc = new GlideRecord('sc_cat_item');
+		sc.initialize();
+        sc.name = current.drink_s_name;
+        sc.sc_catalogs = 'Order Your Starbucks';
+        sc.setValue('category', cat.sys_id);
+        sc.setValue('item_option_new_set', cat.sys_id);
+        sc.short_description = current.short_description;
+        sc.description = current.description;
+        sc.price = current.u_integer_3;
+        sc.insert();
+    } else {
+        var cat_1 = new GlideRecord('sc_cat_item');
+        cat_1.get('name', current.drink_s_name);
+        cat_1.short_description = current.short_description;
+        cat_1.description = current.description;
+        cat_1.picture = current.image;
+        cat_1.price = current.u_integer_3;
+        cat_1.update();
+    }
+    //     var va = new GlideRecord('item_option_new');
+    //     va.initialize();
+    //     //va.sys_scope = 'Global';
+    //     va.setValue('cat_item', sc.sys_id);
+    //    // va.question_text = 'Hi';
+    //     //va.name = 'ansh';
+    // 	va.addFunction('startbucks_trial');
+    //     va.insert();
+    //var vs=new GlideRecord('item_option_new_set');
+    //var x=vs.getElement('startbucks_trial');
+    //va.setValue('cat_item',sc.sys_id);
 
-    var cat = new GlideRecord('sc_category');
-	cat.get('title','Frappuccino');
-    var sc = new GlideRecord('sc_cat_item');
-    sc.initialize();
-    sc.name = current.drink_s_name;
-    sc.sc_catalogs = 'Order Your Starbucks';
-    sc.setValue('category', cat.sys_id);
-	sc.setValue('item_option_new_set', cat.sys_id);
-    //sc.sys_scope = 'Global';
-    sc.short_description = current.short_description;
-	sc.item_option_new_set='startbucks_trial';
-	sc.sc_variable_set='startbucks_trial';
-	
-    sc.insert();
-//     var va = new GlideRecord('item_option_new');
-//     va.initialize();
-//     //va.sys_scope = 'Global';
-//     va.setValue('cat_item', sc.sys_id);
-//    // va.question_text = 'Hi';
-//     //va.name = 'ansh';
-// 	va.addFunction('startbucks_trial');
-//     va.insert();
-	//var vs=new GlideRecord('item_option_new_set');
-	//var x=vs.getElement('startbucks_trial');
-	//va.setValue('cat_item',sc.sys_id);
-	
     //gs.addInfoMessage(gs.getCurrentScopeName());
 
 })(current, previous);]]></script>
@@ -64,7 +71,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b7401db32fd8b010bd8e93acf699b644</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Automatically Create Catalog Item for F</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
@@ -72,9 +79,9 @@
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sys_script_b7401db32fd8b010bd8e93acf699b644</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-01 21:02:16</sys_updated_on>
+        <sys_updated_on>2021-06-05 10:36:01</sys_updated_on>
         <template/>
-        <when>after</when>
+        <when>before</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=b7401db32fd8b010bd8e93acf699b644"/>
 </record_update>
