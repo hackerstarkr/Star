@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">aa8f429a2f687010bd8e93acf699b667</sp_column>
+        <sp_widget display_value="Image Link">86776e0453331300a699ddeeff7b12be</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 06:17:10</sys_created_on>
+        <sys_id>1caf42da2f687010bd8e93acf699b640</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sp_instance_1caf42da2f687010bd8e93acf699b640</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 06:34:14</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"image": {
+		"value": "WallpaperDog-10884915.jpg",
+		"displayValue": "WallpaperDog-10884915.jpg"
+	},
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"description": {
+		"value": "",
+		"displayValue": ""
+	},
+	"link": {
+		"value": "WallpaperDog-10884915.jpg",
+		"displayValue": "WallpaperDog-10884915.jpg"
+	},
+	"link_title": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=1caf42da2f687010bd8e93acf699b640"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>sp_instance_1caf42da2f687010bd8e93acf699b640</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;aa8f429a2f687010bd8e93acf699b667&lt;/sp_column&gt;&lt;sp_widget display_value="Image Link"&gt;86776e0453331300a699ddeeff7b12be&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-07 06:17:10&lt;/sys_created_on&gt;&lt;sys_id&gt;1caf42da2f687010bd8e93acf699b640&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks"&gt;16d231a32f50b010bd8e93acf699b651&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Starbucks at Your Service(SYS)"&gt;16d231a32f50b010bd8e93acf699b651&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_1caf42da2f687010bd8e93acf699b640&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-07 06:34:14&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"image": {
+		"value": "WallpaperDog-10884915.jpg",
+		"displayValue": "WallpaperDog-10884915.jpg"
+	},
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"description": {
+		"value": "",
+		"displayValue": ""
+	},
+	"link": {
+		"value": "WallpaperDog-10884915.jpg",
+		"displayValue": "WallpaperDog-10884915.jpg"
+	},
+	"link_title": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1caf42da2f687010bd8e93acf699b640"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1388938899</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>2be04b632f54b010bd8e93acf699b6c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 06:34:14</sys_created_on>
+        <sys_id>2e83929e2f687010bd8e93acf699b689</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e52dcce50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 06:34:14</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>6683929ebd687010fa594e9afc677689</update_guid>
+        <update_guid_history>6683929ebd687010fa594e9afc677689:-1388938899,d382de5e2e6870106c9c6a467f62f42f:1636264301,ca42de5ece6870101ff3c56545def82a:-82618771,6d329e5a5568701048a068b7b45dff24:1219302445,d512925ea5687010ad6bfd47cd5e1562:429411181,6df1925e7d687010568d038eaad90691:-148234548,543196da59687010d36f0ee8ecf1d7ba:429411181,7821925e9e6870108926f4a6800c9956:31420409,3401169a3b687010027e428a2218d0b3:2052523859,5ae05e1e28687010fb1838f59952edfd:1283818605,11c05e1e026870104ebadb2c45a7fcf9:23744638,9da09e9a7e687010b092a9e5b1eee004:1283818605,512096da976870109c4c031cf02988b4:1593417935,10af42da61687010e9e606906a5d7843:937694168</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">2a45d29e2f687010bd8e93acf699b643</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 06:41:53</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>65137755c4bc404e8bc0ff3e4309d5b1</sys_id>
+        <sys_metadata>1caf42da2f687010bd8e93acf699b640</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>sp_instance_1caf42da2f687010bd8e93acf699b640</sys_update_name>
+        <sys_update_version display_value="sp_instance_1caf42da2f687010bd8e93acf699b640">2e83929e2f687010bd8e93acf699b689</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 06:41:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

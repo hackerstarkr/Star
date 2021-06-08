@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Starbucks at Your Service(SYS)">f65471a32f50b010bd8e93acf699b602</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>starrrrrrrrrrrrrrrrrs</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_648911_starbucks_starrrrrrrrrrrrrrrrr</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_648911_starbucks.starrrrrrrrrrrrrrrrr_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-08 20:40:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e9ce5eb22f60f010bd8e93acf699b642</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Starbucks Order Infos</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sys_app_module_e9ce5eb22f60f010bd8e93acf699b642</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-08 21:36:33</sys_updated_on>
+        <timeline_page/>
+        <title>Starbucks Order Infos</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

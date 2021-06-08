@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="DELETE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>TEMPLATE3</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 12:08:34</sys_created_on>
+        <sys_id>1df51ece2fac3010bd8e93acf699b6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE3</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sys_template_1df51ece2fac3010bd8e93acf699b6b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 12:08:34</sys_updated_on>
+        <table>x_648911_starbucks_starbucks_orders</table>
+        <template>ordered_for=^state=1^description=^EQ</template>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <view/>
+    </sys_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>sys_template_1df51ece2fac3010bd8e93acf699b6b5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template"><sys_template action="INSERT_OR_UPDATE"><active>true</active><global>false</global><group/><groups/><link_element/><name>TEMPLATE3</name><next/><next_child/><roles/><short_description/><show_on_template_bar>true</show_on_template_bar><stand_alone>false</stand_alone><sys_class_name>sys_template</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-06 12:08:34</sys_created_on><sys_id>1df51ece2fac3010bd8e93acf699b6b5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TEMPLATE3</sys_name><sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package><sys_policy/><sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope><sys_update_name>sys_template_1df51ece2fac3010bd8e93acf699b6b5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-06 12:08:34</sys_updated_on><table>x_648911_starbucks_starbucks_orders</table><template>ordered_for=^state=1^description=^EQ</template><user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user><view/></sys_template></record_update>]]></payload>
+        <payload_hash>1084603539</payload_hash>
+        <record_name>TEMPLATE3</record_name>
+        <reverted_from/>
+        <source>2be04b632f54b010bd8e93acf699b6c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 12:08:34</sys_created_on>
+        <sys_id>4e765a422fec3010bd8e93acf699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e13988700000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 12:08:34</sys_updated_on>
+        <type>Template</type>
+        <update_guid>86765a42c9ec3010862762b1781b25fc</update_guid>
+        <update_guid_history>86765a42c9ec3010862762b1781b25fc:1084603539</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 08:38:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_template">sys_template</sys_db_object>
+        <sys_id>1519fe074df9477d86f951fdad9f31b9</sys_id>
+        <sys_metadata>1df51ece2fac3010bd8e93acf699b6b5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE3</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>sys_template_1df51ece2fac3010bd8e93acf699b6b5</sys_update_name>
+        <sys_update_version display_value="sys_template_1df51ece2fac3010bd8e93acf699b6b5">4e765a422fec3010bd8e93acf699b6fc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 08:38:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

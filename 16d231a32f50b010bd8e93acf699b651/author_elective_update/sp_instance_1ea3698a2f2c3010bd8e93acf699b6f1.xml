@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>empty</glyph>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">56a3698a2f2c3010bd8e93acf699b6ed</sp_column>
+        <sp_widget display_value="Approvals">f37aa302cb70020000f8d856634c9cfc</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 08:26:35</sys_created_on>
+        <sys_id>1ea3698a2f2c3010bd8e93acf699b6f1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>My Orders</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sp_instance_1ea3698a2f2c3010bd8e93acf699b6f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 06:13:54</sys_updated_on>
+        <title>My Orders</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"portal": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=1ea3698a2f2c3010bd8e93acf699b6f1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>sp_instance_1ea3698a2f2c3010bd8e93acf699b6f1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;empty&lt;/glyph&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;56a3698a2f2c3010bd8e93acf699b6ed&lt;/sp_column&gt;&lt;sp_widget display_value="Approvals"&gt;f37aa302cb70020000f8d856634c9cfc&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-06 08:26:35&lt;/sys_created_on&gt;&lt;sys_id&gt;1ea3698a2f2c3010bd8e93acf699b6f1&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Orders&lt;/sys_name&gt;&lt;sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks"&gt;16d231a32f50b010bd8e93acf699b651&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Starbucks at Your Service(SYS)"&gt;16d231a32f50b010bd8e93acf699b651&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_1ea3698a2f2c3010bd8e93acf699b6f1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-07 06:13:54&lt;/sys_updated_on&gt;&lt;title&gt;My Orders&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"portal": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1ea3698a2f2c3010bd8e93acf699b6f1"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>573592054</payload_hash>
+        <record_name>My Orders</record_name>
+        <reverted_from/>
+        <source>2be04b632f54b010bd8e93acf699b6c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 06:13:54</sys_created_on>
+        <sys_id>24ee0a9a2f687010bd8e93acf699b627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e51b2d980000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 06:13:54</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>6cee0a9a37687010132da487501e7d26</update_guid>
+        <update_guid_history>6cee0a9a37687010132da487501e7d26:573592054,a8208ace1a6c3010882e5b253f8603f5:1988106999,67db354e776c30106d185ecb5f715dfc:2111680082,56a3698a8f2c30107bb876a88238d4f3:-412980719</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Orders">f0ee829a2f687010bd8e93acf699b6d7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 06:13:55</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>05542f4773f64684bf69dfc47b124db1</sys_id>
+        <sys_metadata>1ea3698a2f2c3010bd8e93acf699b6f1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Orders</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>sp_instance_1ea3698a2f2c3010bd8e93acf699b6f1</sys_update_name>
+        <sys_update_version display_value="sp_instance_1ea3698a2f2c3010bd8e93acf699b6f1">24ee0a9a2f687010bd8e93acf699b627</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 06:13:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_648911_starbucks.AJAXOtherExpense</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>AJAXOtherExpense</name>
+        <script><![CDATA[var AJAXOtherExpense = Class.create();
+AJAXOtherExpense.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    //type: 'AJAXOtherExpense'
+	setCatItemCost: function() {
+
+  //Get Users Cart
+
+  var UserSysID = this.getParameter('sysparm_usersysid');
+
+//  var CartID = '0';
+
+  var gr = new GlideRecord('sc_cart');
+
+  gr.addQuery('user', UserSysID);
+
+  gr.query();
+
+  while (gr.next()) {
+
+  CartID = gr.getValue('sys_id');
+
+  }
+
+  //Add Total Cost to available Costs and return the sysID of the new row
+
+  var TotalCost = this.getParameter('sysparm_totalcost');
+
+   gr = new GlideRecord('sc_cat_item');
+
+  gr.initialize();
+
+  gr.u_price = TotalCost;
+
+//  gp.u_cart = CartID;
+
+  return gr.insert();
+
+    }
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 13:45:58</sys_created_on>
+        <sys_id>5ff4f35a2fac7010bd8e93acf699b6bc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>AJAXOtherExpense</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sys_script_include_5ff4f35a2fac7010bd8e93acf699b6bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 14:05:31</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>sys_script_include_5ff4f35a2fac7010bd8e93acf699b6bc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_648911_starbucks.AJAXOtherExpense&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;AJAXOtherExpense&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var AJAXOtherExpense = Class.create();
+AJAXOtherExpense.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    //type: 'AJAXOtherExpense'
+	setCatItemCost: function() {
+
+  //Get Users Cart
+
+  var UserSysID = this.getParameter('sysparm_usersysid');
+
+//  var CartID = '0';
+
+  var gr = new GlideRecord('sc_cart');
+
+  gr.addQuery('user', UserSysID);
+
+  gr.query();
+
+  while (gr.next()) {
+
+  CartID = gr.getValue('sys_id');
+
+  }
+
+  //Add Total Cost to available Costs and return the sysID of the new row
+
+  var TotalCost = this.getParameter('sysparm_totalcost');
+
+   gr = new GlideRecord('sc_cat_item');
+
+  gr.initialize();
+
+  gr.u_price = TotalCost;
+
+//  gp.u_cart = CartID;
+
+  return gr.insert();
+
+    }
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-07 13:45:58&lt;/sys_created_on&gt;&lt;sys_id&gt;5ff4f35a2fac7010bd8e93acf699b6bc&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;AJAXOtherExpense&lt;/sys_name&gt;&lt;sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks"&gt;16d231a32f50b010bd8e93acf699b651&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Starbucks at Your Service(SYS)"&gt;16d231a32f50b010bd8e93acf699b651&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_5ff4f35a2fac7010bd8e93acf699b6bc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-07 14:05:31&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>398176362</payload_hash>
+        <record_name>AJAXOtherExpense</record_name>
+        <reverted_from/>
+        <source>2be04b632f54b010bd8e93acf699b6c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 14:05:31</sys_created_on>
+        <sys_id>c5da775e2fac7010bd8e93acf699b6df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e6caf6d40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 14:05:31</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>01da775ea3ac70103c5fb9fa2a7f7adf</update_guid>
+        <update_guid_history>01da775ea3ac70103c5fb9fa2a7f7adf:398176362,4d697f1e84ac70103b9a05a5630ba517:237118251,06863b9a76ac70102e371661968d4e1f:-706876567,ee56339af3ac7010bde49e899be68c85:730451433</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 14:23:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>1153f2b8ecf245babaa9e2f1cb6f3211</sys_id>
+        <sys_metadata>5ff4f35a2fac7010bd8e93acf699b6bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AJAXOtherExpense</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>sys_script_include_5ff4f35a2fac7010bd8e93acf699b6bc</sys_update_name>
+        <sys_update_version display_value="sys_script_include_5ff4f35a2fac7010bd8e93acf699b6bc">c5da775e2fac7010bd8e93acf699b6df</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 14:23:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Starbucks Order Info" max_length="40" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" type="collection">
+        <element attributes="encode_utf8=false" label="CAT ITEM" max_length="32" name="item" reference="sc_cat_item" type="reference"/>
+        <element attributes="encode_utf8=false" label="Order by User" max_length="32" name="u_o" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Catalog" max_length="32" name="u_reference_1" reference="sc_catalog" type="reference"/>
+        <index name="index">
+            <element name="item"/>
+        </index>
+        <index name="index2">
+            <element name="u_o"/>
+        </index>
+        <index name="index3">
+            <element name="u_reference_1"/>
+        </index>
+    </element>
+</database>

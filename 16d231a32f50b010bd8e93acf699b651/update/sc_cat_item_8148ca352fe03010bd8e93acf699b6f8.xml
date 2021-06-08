@@ -8,13 +8,13 @@
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<p style="text-align: center;"><span style="font-family: &#39;comic sans ms&#39;, sans-serif; font-size: 14pt; color: #993366;"><strong>Fruit juice and whole blackberries balanced with the delightful zing of lemonade, caffeine from green coffee extract and served over ice</strong></span></p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow/>
+        <flow_designer_flow display_value="record creation in the order table through catalog">eb394e862fac3010bd8e93acf699b6b8</flow_designer_flow>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
@@ -45,7 +45,7 @@
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture>3848ca352fe03010bd8e93acf699b6f5</picture>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=8148ca352fe03010bd8e93acf699b6f8&amp;sysparm_preview=true", "summary");</preview>
-        <price>3.0135</price>
+        <price>3.0188</price>
         <published_ref/>
         <recurring_frequency/>
         <request_method/>
@@ -62,14 +62,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-05 16:28:01</sys_created_on>
         <sys_id>8148ca352fe03010bd8e93acf699b6f8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Hibiscus</sys_name>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sc_cat_item_8148ca352fe03010bd8e93acf699b6f8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-05 20:52:47</sys_updated_on>
+        <sys_updated_on>2021-06-07 02:46:52</sys_updated_on>
         <template/>
         <template_manager_roles/>
         <type>item</type>

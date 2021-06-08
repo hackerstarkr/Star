@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Traial order">3180acf62fe8b010bd8e93acf699b6f6</application>
+        <filter/>
+        <name>Traial orders</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_648911_starbucks.traial_order_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-08 11:28:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3d80acf62fe8b010bd8e93acf699b6f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Traial orders</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sys_ui_module_3d80acf62fe8b010bd8e93acf699b6f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-08 11:28:42</sys_updated_on>
+        <table>x_648911_starbucks_traial_order</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>sys_ui_module_3d80acf62fe8b010bd8e93acf699b6f8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Traial order">3180acf62fe8b010bd8e93acf699b6f6</application><filter/><name>Traial orders</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_648911_starbucks.traial_order_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-08 11:28:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3d80acf62fe8b010bd8e93acf699b6f8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Traial orders</sys_name><sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package><sys_policy/><sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope><sys_update_name>sys_ui_module_3d80acf62fe8b010bd8e93acf699b6f8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-08 11:28:42</sys_updated_on><table>x_648911_starbucks_traial_order</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>540422261</payload_hash>
+        <record_name>Traial orders</record_name>
+        <reverted_from/>
+        <source>2be04b632f54b010bd8e93acf699b6c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-08 11:28:42</sys_created_on>
+        <sys_id>7580acf62fe8b010bd8e93acf699b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179eb61c1c10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-08 11:28:42</sys_updated_on>
+        <type>Module</type>
+        <update_guid>bd80acf6ece8b010c977cbab7e1e11fa</update_guid>
+        <update_guid_history>bd80acf6ece8b010c977cbab7e1e11fa:540422261</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-08 13:28:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>2c07195a27d34dcfaa21b6d66c5d9e79</sys_id>
+        <sys_metadata>3d80acf62fe8b010bd8e93acf699b6f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Traial orders</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>sys_ui_module_3d80acf62fe8b010bd8e93acf699b6f8</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_3d80acf62fe8b010bd8e93acf699b6f8">7580acf62fe8b010bd8e93acf699b6fb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-08 13:28:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

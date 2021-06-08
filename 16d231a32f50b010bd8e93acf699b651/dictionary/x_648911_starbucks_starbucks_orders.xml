@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Starbucks Orders" max_length="40" name="x_648911_starbucks_starbucks_orders" sizeclass="41" type="collection">
+    <element extends="task" label="Starbucks Orders" max_length="40" name="x_648911_starbucks_starbucks_orders" sizeclass="52" type="collection">
+        <element label="Catalog" max_length="32" name="cat" reference="sc_catalog" type="reference"/>
+        <element label="Item" max_length="32" name="cat_item" reference="sc_cat_item" type="reference"/>
         <element label="ordered by" mandatory="true" max_length="32" name="ordered_for" reference="x_648911_starbucks_users" type="reference"/>
+        <element label="User of order" max_length="32" name="user_order" reference="sys_user" type="reference"/>
     </element>
 </database>

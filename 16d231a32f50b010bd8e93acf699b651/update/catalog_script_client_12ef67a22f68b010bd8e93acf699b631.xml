@@ -6,43 +6,49 @@
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
-        <applies_to>set</applies_to>
-        <cat_item/>
-        <cat_variable>IO:389498692f20b010bd8e93acf699b67e</cat_variable>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Tea latte">8ef8c2752fe03010bd8e93acf699b6a8</cat_item>
+        <cat_variable/>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>gggggggggggggg</name>
+        <name>please</name>
         <order/>
-        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-   
-	g_form.setValue('price','00000');
+        <script><![CDATA[function onLoad() {
+//Type appropriate comment here and begin script below
+var ga = new GlideAjax('Ajaxx'); // Hoping your script include name is 'Ajaxx'
+ga.addParam('sysparm_name', 'hello');
+ga.addParam('sysparm_item',g_form.getParameter("sysparm_id")); // you need to pass catalog item sys_id here
+ga.getXML(HelloWorldParse);
 
-   //Type appropriate comment here, and begin script below
-   
-}]]></script>
+function HelloWorldParse(response) {
+var answer = response.responseXML.documentElement.getAttribute("answer");
+//	g_form.setValue('price',answer+10);
+alert(answer);
+
+}}]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-05 16:10:45</sys_created_on>
+        <sys_created_on>2021-06-08 07:57:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>56f3c2312fe03010bd8e93acf699b6b6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>gggggggggggggg</sys_name>
+        <sys_id>12ef67a22f68b010bd8e93acf699b631</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>please</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
-        <sys_update_name>catalog_script_client_56f3c2312fe03010bd8e93acf699b6b6</sys_update_name>
+        <sys_update_name>catalog_script_client_12ef67a22f68b010bd8e93acf699b631</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-05 16:18:58</sys_updated_on>
+        <sys_updated_on>2021-06-08 08:01:34</sys_updated_on>
         <table/>
-        <type>onChange</type>
-        <ui_type>0</ui_type>
-        <variable_set display_value="Frappuccino">a85580ed2fec7010bd8e93acf699b6ad</variable_set>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
         <view/>
     </catalog_script_client>
 </record_update>

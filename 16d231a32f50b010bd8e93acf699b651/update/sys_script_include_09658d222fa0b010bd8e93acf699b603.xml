@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_648911_starbucks.Ajaxxhhh</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Ajaxxhhh</name>
+        <script><![CDATA[var Ajaxxhhh = Class.create();
+Ajaxxhhh.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+hello: function() {
+var answer ='';
+var id = this.getParameter('sysparm_id');
+	
+var gr=new GlideRecord('sc_cat_item');
+	alert(gr.get(id));
+	gr.addQuery('sys_id',id);
+	gr.query();
+	while(gr.hasNext())
+		{
+			answer=gr.price;
+		}
+	return answer;
+}
+   // type: 'Ajaxxhhh'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 19:37:30</sys_created_on>
+        <sys_id>09658d222fa0b010bd8e93acf699b603</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Ajaxxhhh</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sys_script_include_09658d222fa0b010bd8e93acf699b603</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-08 18:53:32</sys_updated_on>
+    </sys_script_include>
+</record_update>
