@@ -14,7 +14,7 @@
         <description><![CDATA[<p style="text-align: center;"><span style="font-size: 14pt; color: #ff99cc;"><em><strong><span style="font-family: &#39;comic sans ms&#39;, sans-serif;">Freshly steamed milk with vanilla-flavored syrup marked with espresso and topped with a caramel drizzle for an oh-so-sweet finish.</span></strong></em></span></p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="record creation in the order table through catalog">eb394e862fac3010bd8e93acf699b6b8</flow_designer_flow>
+        <flow_designer_flow/>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>

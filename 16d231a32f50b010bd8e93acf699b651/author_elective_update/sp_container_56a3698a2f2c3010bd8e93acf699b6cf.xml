@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>padding-top-lg</class_name>
+        <container_class_name/>
+        <name>Starbucks Portal - Container 4</name>
+        <order>4</order>
+        <sp_page display_value="starhome">8ea3e58a2f2c3010bd8e93acf699b607</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 08:26:34</sys_created_on>
+        <sys_id>56a3698a2f2c3010bd8e93acf699b6cf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Starbucks Portal - Container 4</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sp_container_56a3698a2f2c3010bd8e93acf699b6cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 06:16:37</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>sp_container_56a3698a2f2c3010bd8e93acf699b6cf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name>padding-top-lg</class_name><container_class_name/><name>Starbucks Portal - Container 4</name><order>4</order><sp_page display_value="starhome">8ea3e58a2f2c3010bd8e93acf699b607</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-06 08:26:34</sys_created_on><sys_id>56a3698a2f2c3010bd8e93acf699b6cf</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Starbucks Portal - Container 4</sys_name><sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package><sys_policy/><sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope><sys_update_name>sp_container_56a3698a2f2c3010bd8e93acf699b6cf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-07 06:16:37</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1792305068</payload_hash>
+        <record_name>Starbucks Portal - Container 4</record_name>
+        <reverted_from/>
+        <source>2be04b632f54b010bd8e93acf699b6c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 06:16:37</sys_created_on>
+        <sys_id>dc8fce9a2f687010bd8e93acf699b6df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e51dabca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 06:16:37</sys_updated_on>
+        <type>Container</type>
+        <update_guid>188fce9ac3687010510fa569b60fdbdf</update_guid>
+        <update_guid_history>188fce9ac3687010510fa569b60fdbdf:-1792305068,e27fce9a6b6870106b890325aa417181:862859989,9004ad8aa12c301071de15a369c003d6:-1396910487,9aa3698a2a2c3010b47b6f42d05b51d0:364412105</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Starbucks Portal - Container 4">f5f6ac032fe4f010bd8e93acf699b661</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 06:35:19</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>054817d5655d44a6a2b96fb6be9f8584</sys_id>
+        <sys_metadata>56a3698a2f2c3010bd8e93acf699b6cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starbucks Portal - Container 4</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>sp_container_56a3698a2f2c3010bd8e93acf699b6cf</sys_update_name>
+        <sys_update_version display_value="sp_container_56a3698a2f2c3010bd8e93acf699b6cf">dc8fce9a2f687010bd8e93acf699b6df</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 06:35:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -14,7 +14,7 @@
         <description><![CDATA[<p style="text-align: center;"><span style="font-family: &#39;comic sans ms&#39;, sans-serif; font-size: 14pt; color: #008000;"><em><strong>Black tea infused with cinnamon, clove and other warming spices is combined with steamed milk and topped with foam for the perfect balance of sweet and spicy.</strong></em></span></p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="record creation in the order table through catalog">eb394e862fac3010bd8e93acf699b6b8</flow_designer_flow>
+        <flow_designer_flow/>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>

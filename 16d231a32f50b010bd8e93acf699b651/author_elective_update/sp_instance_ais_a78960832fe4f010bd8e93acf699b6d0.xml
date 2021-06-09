@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application display_value="Service Portal Default Search Application">00731b9d5b231010d9a5ce1a8581c7dd</search_application>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">89a7a0832fe4f010bd8e93acf699b618</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 06:46:38</sys_created_on>
+        <sys_id>a78960832fe4f010bd8e93acf699b6d0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sp_instance_ais_a78960832fe4f010bd8e93acf699b6d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 06:50:47</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "{title: 'Search For Your Favorite Drinks..'}",
+		"displayValue": "{title: 'Search For Your Favorite Drinks..'}"
+	}
+}]]></widget_parameters>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=a78960832fe4f010bd8e93acf699b6d0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>sp_instance_ais_a78960832fe4f010bd8e93acf699b6d0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_ais"&gt;&lt;sp_instance_ais action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;ai_search_source_filter/&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;disable_all_suggestions&gt;false&lt;/disable_all_suggestions&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;placeholder/&gt;&lt;roles/&gt;&lt;search_application display_value="Service Portal Default Search Application"&gt;00731b9d5b231010d9a5ce1a8581c7dd&lt;/search_application&gt;&lt;search_results_configuration/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;89a7a0832fe4f010bd8e93acf699b618&lt;/sp_column&gt;&lt;sp_widget display_value="Homepage Search"&gt;200fbd96cb20020000f8d856634c9ca1&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_ais&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-09 06:46:38&lt;/sys_created_on&gt;&lt;sys_id&gt;a78960832fe4f010bd8e93acf699b6d0&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks"&gt;16d231a32f50b010bd8e93acf699b651&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Starbucks at Your Service(SYS)"&gt;16d231a32f50b010bd8e93acf699b651&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_ais_a78960832fe4f010bd8e93acf699b6d0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-09 06:50:47&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"typeahead_search": {
+		"value": "{title: 'Search For Your Favorite Drinks..'}",
+		"displayValue": "{title: 'Search For Your Favorite Drinks..'}"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_ais&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a78960832fe4f010bd8e93acf699b6d0"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1696658240</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>2be04b632f54b010bd8e93acf699b6c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 06:50:47</sys_created_on>
+        <sys_id>1c8ae8c32fe4f010bd8e93acf699b6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179ef89aa680000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 06:50:47</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>548ae8c3dbe4f0105ee6c2a399a271f5</update_guid>
+        <update_guid_history>548ae8c3dbe4f0105ee6c2a399a271f5:-1696658240,935ae08323e4f0108ec4c7d3ebefa31a:-847387145,7a2aa8c3b3e4f010fabf87961954f2af:-64608397,37e9e4c3f0e4f010a26403b66e9d7a4b:-2066139747,638960833ee4f01017a8ab664b1646d2:-949493312</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c7afa8072fe4f010bd8e93acf699b63f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 07:13:22</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>1a658e9acd5c478b9c7bfee2cdd0c401</sys_id>
+        <sys_metadata>a78960832fe4f010bd8e93acf699b6d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_a78960832fe4f010bd8e93acf699b6d0</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_a78960832fe4f010bd8e93acf699b6d0">1c8ae8c32fe4f010bd8e93acf699b6f5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 07:13:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

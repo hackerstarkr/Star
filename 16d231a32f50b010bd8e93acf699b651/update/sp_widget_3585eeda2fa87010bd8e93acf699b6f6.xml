@@ -24,14 +24,14 @@ padding-left:0px;</css>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-07 07:52:50</sys_created_on>
         <sys_id>3585eeda2fa87010bd8e93acf699b6f6</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Image</sys_name>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sp_widget_3585eeda2fa87010bd8e93acf699b6f6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-08 14:23:41</sys_updated_on>
-        <template><![CDATA[<img src="starimage.png" width='100%' height='500px' margin-left='0px' padding-left='0px'/>]]></template>
+        <sys_updated_on>2021-06-09 06:42:56</sys_updated_on>
+        <template><![CDATA[<img src="https://images.livemint.com/img/2020/07/13/1600x900/8a1b0da518214bde8f58b5fbc080c10a-8a1b0da518214bde8f58b5fbc080c10a-0_1594659105653_1594659124045.jpg" width='100%' height='500px' margin-left='0px' padding-left='0px'/>]]></template>
     </sp_widget>
 </record_update>

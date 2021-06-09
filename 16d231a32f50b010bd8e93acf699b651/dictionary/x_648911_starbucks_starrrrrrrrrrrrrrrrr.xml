@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Starbucks Order Info" max_length="40" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" type="collection">
-        <element attributes="encode_utf8=false" label="CAT ITEM" max_length="32" name="item" reference="sc_cat_item" type="reference"/>
-        <element attributes="encode_utf8=false" label="Order by User" max_length="32" name="u_o" reference="sys_user" type="reference"/>
-        <element attributes="encode_utf8=false" label="Catalog" max_length="32" name="u_reference_1" reference="sc_catalog" type="reference"/>
+        <element attributes="encode_utf8=false" label="Catalog Item" max_length="32" name="item" read_only="true" reference="sc_cat_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Stage" max_length="40" name="stage" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Order Placed" sequence="0" value="order_placed"/>
+                <element inactive_on_update="false" label="Out for delivery" sequence="1" value="out_for_delivery"/>
+                <element inactive_on_update="false" label="Order Complete" sequence="2" value="order_complete"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Order by User" max_length="32" name="u_o" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Catalog" max_length="32" name="u_reference_1" read_only="true" reference="sc_catalog" type="reference"/>
+        <element attributes="encode_utf8=false" label="Category" max_length="32" name="u_reference_2" read_only="true" reference="sc_category" type="reference"/>
         <index name="index">
             <element name="item"/>
         </index>
         <index name="index2">
-            <element name="u_o"/>
+            <element name="u_reference_2"/>
         </index>
         <index name="index3">
+            <element name="u_o"/>
+        </index>
+        <index name="index4">
             <element name="u_reference_1"/>
         </index>
     </element>

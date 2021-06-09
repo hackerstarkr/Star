@@ -14,7 +14,7 @@
         <description><![CDATA[<p style="text-align: center;"><span style="font-family: &#39;comic sans ms&#39;, sans-serif; font-size: 14pt; color: #00ff00;"><em><strong>Smooth and creamy match sweetened just right and served with steamed milk. This favorite will transport your senses to pure green delight</strong></em></span></p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="record creation in the order table through catalog">eb394e862fac3010bd8e93acf699b6b8</flow_designer_flow>
+        <flow_designer_flow/>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
