@@ -7,8 +7,7 @@
         <affected_field_on_event/>
         <category display_value="Customer Service" name="Customer Service">a69d02137f232200ee2e108c3ffa9130</category>
         <collection>x_648911_starbucks_starbucks_orders</collection>
-        <condition table="x_648911_starbucks_starbucks_orders">state=1^EQ<item display_value="Order Confirmed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_648911_starbucks_starbucks_orders">state=1^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
         <default_interval/>

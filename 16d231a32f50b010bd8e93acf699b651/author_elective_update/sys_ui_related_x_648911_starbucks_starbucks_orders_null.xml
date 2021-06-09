@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_648911_starbucks_starbucks_orders" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Starbucks Orders - Default view" name="x_648911_starbucks_starbucks_orders" related_list="NULL" sys_domain="global" view="Default view">92b63c4f2fe4f010bd8e93acf699b6fb</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-09 07:44:10</sys_created_on>
+            <sys_id>5ab6708f2fe4f010bd8e93acf699b668</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-09 07:44:10</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Starbucks Orders - Default view</calculated_name>
+            <filter/>
+            <name>x_648911_starbucks_starbucks_orders</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-09 07:44:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>92b63c4f2fe4f010bd8e93acf699b6fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Starbucks Orders - Default view</sys_name>
+            <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+            <sys_update_name>sys_ui_related_x_648911_starbucks_starbucks_orders_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-09 07:44:10</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>sys_ui_related_x_648911_starbucks_starbucks_orders_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="x_648911_starbucks_starbucks_orders" version="2" view=""><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Starbucks Orders - Default view" name="x_648911_starbucks_starbucks_orders" related_list="NULL" sys_domain="global" view="Default view">92b63c4f2fe4f010bd8e93acf699b6fb</list_id><order_by/><position>0</position><related_list/><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-09 07:44:10</sys_created_on><sys_id>5ab6708f2fe4f010bd8e93acf699b668</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-09 07:44:10</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Starbucks Orders - Default view</calculated_name><filter/><name>x_648911_starbucks_starbucks_orders</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-09 07:44:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>92b63c4f2fe4f010bd8e93acf699b6fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Starbucks Orders - Default view</sys_name><sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package><sys_policy/><sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope><sys_update_name>sys_ui_related_x_648911_starbucks_starbucks_orders_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-09 07:44:10</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>4698621</payload_hash>
+        <record_name>Starbucks Orders</record_name>
+        <reverted_from/>
+        <source>2be04b632f54b010bd8e93acf699b6c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 07:44:10</sys_created_on>
+        <sys_id>aab6708f2fe4f010bd8e93acf699b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179efba8ca80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 07:44:10</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>26b6708fa0e4f0107aec5f5cab65c96a</update_guid>
+        <update_guid_history>26b6708fa0e4f0107aec5f5cab65c96a:4698621,7d8dc2448968f010b95e3ac2c1db5286:1638687299</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 19:48:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>cd64df3c40e5432e9adad1754ecac5e1</sys_id>
+        <sys_metadata>92b63c4f2fe4f010bd8e93acf699b6fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starbucks Orders - Default view</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent display_value="">a1c7a6a32f14b010bd8e93acf699b6d0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_648911_starbucks_starbucks_orders_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_648911_starbucks_starbucks_orders_null">aab6708f2fe4f010bd8e93acf699b66a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 19:48:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

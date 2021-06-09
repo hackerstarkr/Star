@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-29 19:00:42</sys_created_on>
+        <sys_id>8918aaa32f14b010bd8e93acf699b66e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_648911_starbucks_starbucks_orders.x_648911_starbucks.starbucks_orders_user</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_security_acl display_value="x_648911_starbucks_starbucks_orders">4918aaa32f14b010bd8e93acf699b66b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8918aaa32f14b010bd8e93acf699b66e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-29 19:00:42</sys_updated_on>
+        <sys_user_role display_value="x_648911_starbucks.starbucks_orders_user" name="x_648911_starbucks.starbucks_orders_user">cd18a6a32f14b010bd8e93acf699b6c7</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>sys_security_acl_role_8918aaa32f14b010bd8e93acf699b66e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-29 19:00:42</sys_created_on><sys_id>8918aaa32f14b010bd8e93acf699b66e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_648911_starbucks_starbucks_orders.x_648911_starbucks.starbucks_orders_user</sys_name><sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package><sys_policy/><sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope><sys_security_acl display_value="x_648911_starbucks_starbucks_orders">4918aaa32f14b010bd8e93acf699b66b</sys_security_acl><sys_update_name>sys_security_acl_role_8918aaa32f14b010bd8e93acf699b66e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-29 19:00:42</sys_updated_on><sys_user_role display_value="x_648911_starbucks.starbucks_orders_user" name="x_648911_starbucks.starbucks_orders_user">cd18a6a32f14b010bd8e93acf699b6c7</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1123100179</payload_hash>
+        <record_name>x_648911_starbucks_starbucks_orders.x_648911_starbucks.starbucks_orders_user</record_name>
+        <reverted_from/>
+        <source>9ad231a32f50b010bd8e93acf699b653</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-29 19:00:42</sys_created_on>
+        <sys_id>8518aaa32f14b010bd8e93acf699b671</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179b97ff8280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-29 19:00:42</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>cd18aaa39814b01083839632a5da9170</update_guid>
+        <update_guid_history>cd18aaa39814b01083839632a5da9170:1123100179</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_648911_starbucks_starbucks_orders.x_648911_starbucks.starbucks_orders_user">1a8c9b872fecf010bd8e93acf699b6fe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 19:48:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>58a63f3d5bd94897be1d1b63b0705d39</sys_id>
+        <sys_metadata>8918aaa32f14b010bd8e93acf699b66e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_648911_starbucks_starbucks_orders.x_648911_starbucks.starbucks_orders_user</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent display_value="">4918aaa32f14b010bd8e93acf699b66b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_8918aaa32f14b010bd8e93acf699b66e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_8918aaa32f14b010bd8e93acf699b66e">8518aaa32f14b010bd8e93acf699b671</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 19:48:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

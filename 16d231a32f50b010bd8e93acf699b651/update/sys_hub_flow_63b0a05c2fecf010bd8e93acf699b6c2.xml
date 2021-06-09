@@ -45,8 +45,7 @@
     <sys_variable_value action="delete_multiple" query="document_key=63b0a05c2fecf010bd8e93acf699b6c2"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_648911_starbucks_starbucks_orders">state=3<item display_value="Order Closed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
-        </condition>
+        <condition table="x_648911_starbucks_starbucks_orders">state=3</condition>
         <name/>
         <on_delete>false</on_delete>
         <on_insert>true</on_insert>
