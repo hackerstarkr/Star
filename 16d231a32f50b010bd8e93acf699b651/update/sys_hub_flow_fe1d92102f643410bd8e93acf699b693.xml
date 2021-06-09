@@ -11,13 +11,13 @@
         <copied_from_name/>
         <description/>
         <internal_name>test</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.ordered_for.mobile_phone","label":"Trigger➛Starbucks Orders Record➛ordered by➛Mobile phone","reference":"","reference_display":"Mobile phone","type":"ph_number","base_type":"ph_number","parent_table_name":"x_648911_starbucks_users","column_name":"mobile_phone"},{"name":"Created or Updated_1.current.ordered_for.name","label":"Trigger➛Starbucks Orders Record➛ordered by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_users","column_name":"name"},{"name":"1206a97a-3264-4242-ab4b-6d5154cbb81d.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Starbucks Orders Record","reference":"x_648911_starbucks_starbucks_orders","reference_display":"Starbucks Orders","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.table_name","label":"Trigger➛Starbucks Orders Table","reference":"x_648911_starbucks_starbucks_orders","reference_display":"Starbucks Orders","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created or Updated_1.current.ordered_for","label":"Trigger➛Starbucks Orders Record➛ordered by","reference":"x_648911_starbucks_users","reference_display":"Users","type":"reference","base_type":"reference","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"ordered_for"},{"name":"Created or Updated_1.current.description","label":"Trigger➛Starbucks Orders Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"description"},{"name":"02d5b4d5-7e0d-4b7a-8532-0354daa4d088.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.number","label":"Trigger➛Starbucks Orders Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"number"},{"name":"Created or Updated_1.current.ordered_for.home_phone","label":"Trigger➛Starbucks Orders Record➛ordered for➛Home phone","reference":"","reference_display":"Home phone","type":"ph_number","base_type":"ph_number","parent_table_name":"x_648911_starbucks_users","column_name":"home_phone"},{"name":"Created or Updated_1.current.ordered_for.employee_number","label":"Trigger➛Starbucks Orders Record➛ordered for➛Employee number","reference":"","reference_display":"Employee number","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_users","column_name":"employee_number"},{"name":"e51f03b9-950c-419b-83d2-5b258e178e62.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.cmdb_ci.name","label":"Trigger➛Starbucks Orders Record➛Configuration item➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"name"},{"name":"Created or Updated_1.current.order","label":"Trigger➛Starbucks Orders Record➛Order","reference":"","reference_display":"Order","type":"integer","base_type":"integer","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"order"},{"name":"Created or Updated_1.current.short_description","label":"Trigger➛Starbucks Orders Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"short_description"},{"name":"3217d62e-486d-4cea-a3cb-b8fb569975e8.answer","label":"2➛Starbucks Orders Record","reference":"x_648911_starbucks_starbucks_orders","reference_display":"Starbucks Orders","type":"reference","base_type":"reference","attributes":{}},{"name":"3217d62e-486d-4cea-a3cb-b8fb569975e8.table_name","label":"2➛Starbucks Orders Table","reference":"x_648911_starbucks_starbucks_orders","reference_display":"Starbucks Orders","type":"table_name","base_type":"table_name","attributes":{}},{"name":"Created or Updated_1.current.state","label":"Trigger➛Starbucks Orders Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"state"},{"name":"18ee2560-7770-4420-b5af-7f7d915a52b9.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"18ee2560-7770-4420-b5af-7f7d915a52b9.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"18ee2560-7770-4420-b5af-7f7d915a52b9.status","label":"3➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"18ee2560-7770-4420-b5af-7f7d915a52b9.error_message","label":"3➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"762f7960-f387-4609-9008-a368fa2cdc2b.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"762f7960-f387-4609-9008-a368fa2cdc2b.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"762f7960-f387-4609-9008-a368fa2cdc2b.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"762f7960-f387-4609-9008-a368fa2cdc2b.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"114f0b47-6948-4605-8bdf-e7d1144c4cea.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ffadd98b-de15-49a5-b919-120b5619c1ae.email","label":"4➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}}]</label_cache>
-        <latest_snapshot>ca6ca00d2fe83010bd8e93acf699b640</latest_snapshot>
+        <label_cache>[{"name":"Created or Updated_1.current.item.price","label":"Trigger➛Starbucks Order Info Record➛Catalog Item➛Price","reference":"","reference_display":"Price","type":"price","base_type":"price","parent_table_name":"sc_cat_item","column_name":"price"},{"name":"Created or Updated_1.current.u_reference_2.title","label":"Trigger➛Starbucks Order Info Record➛Category➛Title","reference":"","reference_display":"Title","type":"translated_text","base_type":"translated_text","parent_table_name":"sc_category","column_name":"title"},{"name":"Created or Updated_1.current.u_reference_2.sys_updated_on","label":"Trigger➛Starbucks Order Info Record➛Category➛Updated","reference":"","reference_display":"Updated","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_category","column_name":"sys_updated_on"},{"name":"Created or Updated_1.current.item.name","label":"Trigger➛Starbucks Order Info Record➛Catalog Item➛Name","reference":"","reference_display":"Name","type":"translated_text","base_type":"translated_text","parent_table_name":"sc_cat_item","column_name":"name"},{"name":"4ab43e20-6343-47f0-920b-7e5452f509d3.email","label":"4➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_o.name","label":"Trigger➛Starbucks Order Info Record➛Order by User➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created or Updated_1.current.u_reference_2","label":"Trigger➛Starbucks Order Info Record➛Category","reference":"sc_category","reference_display":"Category","type":"reference","base_type":"reference","parent_table_name":"x_648911_starbucks_starrrrrrrrrrrrrrrrr","column_name":"u_reference_2"},{"name":"Created or Updated_1.current.item","label":"Trigger➛Starbucks Order Info Record➛Catalog Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","parent_table_name":"x_648911_starbucks_starrrrrrrrrrrrrrrrr","column_name":"item"},{"name":"Created or Updated_1.current.u_o","label":"Trigger➛Starbucks Order Info Record➛Order by User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_648911_starbucks_starrrrrrrrrrrrrrrrr","column_name":"u_o"},{"name":"c78aac55-ff7f-4c61-8940-97ea69c4a1ea.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.stage","label":"Trigger➛Starbucks Order Info Record➛Stage","reference":"","reference_display":"Stage","type":"choice","base_type":"choice","parent_table_name":"x_648911_starbucks_starrrrrrrrrrrrrrrrr","column_name":"stage"},{"name":"Created or Updated_1.current.ordered_for.mobile_phone","label":"Trigger➛Starbucks Orders Record➛ordered by➛Mobile phone","reference":"","reference_display":"Mobile phone","type":"ph_number","base_type":"ph_number","parent_table_name":"x_648911_starbucks_users","column_name":"mobile_phone"},{"name":"Created or Updated_1.current.ordered_for.name","label":"Trigger➛Starbucks Orders Record➛ordered by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_users","column_name":"name"},{"name":"1206a97a-3264-4242-ab4b-6d5154cbb81d.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Starbucks Order Info Record","reference":"x_648911_starbucks_starrrrrrrrrrrrrrrrr","reference_display":"Starbucks Order Info","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.table_name","label":"Trigger➛Starbucks Orders Table","reference":"x_648911_starbucks_starbucks_orders","reference_display":"Starbucks Orders","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created or Updated_1.current.ordered_for","label":"Trigger➛Starbucks Orders Record➛ordered by","reference":"x_648911_starbucks_users","reference_display":"Delivery Boys","type":"reference","base_type":"reference","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"ordered_for"},{"name":"Created or Updated_1.current.description","label":"Trigger➛Starbucks Orders Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"description"},{"name":"02d5b4d5-7e0d-4b7a-8532-0354daa4d088.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.number","label":"Trigger➛Starbucks Orders Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"number"},{"name":"Created or Updated_1.current.ordered_for.home_phone","label":"Trigger➛Starbucks Orders Record➛ordered for➛Home phone","reference":"","reference_display":"Home phone","type":"ph_number","base_type":"ph_number","parent_table_name":"x_648911_starbucks_users","column_name":"home_phone"},{"name":"Created or Updated_1.current.ordered_for.employee_number","label":"Trigger➛Starbucks Orders Record➛ordered for➛Employee number","reference":"","reference_display":"Employee number","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_users","column_name":"employee_number"},{"name":"e51f03b9-950c-419b-83d2-5b258e178e62.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.cmdb_ci.name","label":"Trigger➛Starbucks Orders Record➛Configuration item➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"name"},{"name":"Created or Updated_1.current.order","label":"Trigger➛Starbucks Orders Record➛Order","reference":"","reference_display":"Order","type":"integer","base_type":"integer","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"order"},{"name":"Created or Updated_1.current.short_description","label":"Trigger➛Starbucks Orders Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"short_description"},{"name":"3217d62e-486d-4cea-a3cb-b8fb569975e8.answer","label":"2➛Starbucks Orders Record","reference":"x_648911_starbucks_starbucks_orders","reference_display":"Starbucks Orders","type":"reference","base_type":"reference","attributes":{}},{"name":"3217d62e-486d-4cea-a3cb-b8fb569975e8.table_name","label":"2➛Starbucks Orders Table","reference":"x_648911_starbucks_starbucks_orders","reference_display":"Starbucks Orders","type":"table_name","base_type":"table_name","attributes":{}},{"name":"Created or Updated_1.current.state","label":"Trigger➛Starbucks Orders Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"state"},{"name":"18ee2560-7770-4420-b5af-7f7d915a52b9.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"18ee2560-7770-4420-b5af-7f7d915a52b9.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"18ee2560-7770-4420-b5af-7f7d915a52b9.status","label":"3➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"18ee2560-7770-4420-b5af-7f7d915a52b9.error_message","label":"3➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"762f7960-f387-4609-9008-a368fa2cdc2b.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"762f7960-f387-4609-9008-a368fa2cdc2b.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"762f7960-f387-4609-9008-a368fa2cdc2b.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"762f7960-f387-4609-9008-a368fa2cdc2b.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"114f0b47-6948-4605-8bdf-e7d1144c4cea.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ffadd98b-de15-49a5-b919-120b5619c1ae.email","label":"4➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}}]</label_cache>
+        <latest_snapshot>94421b8f2facf010bd8e93acf699b6bd</latest_snapshot>
         <master_snapshot>f48f16902f643410bd8e93acf699b686</master_snapshot>
         <name>email notification</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>9a1c6cc92fe83010bd8e93acf699b669</remote_trigger_id>
+        <remote_trigger_id>578fea472f6cf010bd8e93acf699b645</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fe1d92102f643410bd8e93acf699b693</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_name>email notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
@@ -38,15 +38,16 @@
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sys_hub_flow_fe1d92102f643410bd8e93acf699b693</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:56</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:32:05</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=fe1d92102f643410bd8e93acf699b693"/>
     <sys_variable_value action="delete_multiple" query="document_key=fe1d92102f643410bd8e93acf699b693"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_648911_starbucks_starbucks_orders">state=1^ORstate=3<item display_value="Order Confirmed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
-            <item display_value="Order Closed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="3"/>
+        <condition table="x_648911_starbucks_starrrrrrrrrrrrrrrrr">stage=order_placed^ORstage=out_for_delivery^ORstage=order_complete<item display_value="Order Placed" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="order_placed"/>
+            <item display_value="Out for delivery" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="true" value="out_for_delivery"/>
+            <item display_value="Order Complete" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="true" value="order_complete"/>
         </condition>
         <name/>
         <on_delete>false</on_delete>
@@ -59,42 +60,42 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:49:54</sys_created_on>
+        <sys_created_on>2021-06-09 16:32:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>9a1c6cc92fe83010bd8e93acf699b669</sys_id>
+        <sys_id>578fea472f6cf010bd8e93acf699b645</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:54</sys_updated_on>
-        <table>x_648911_starbucks_starbucks_orders</table>
+        <sys_updated_on>2021-06-09 16:32:04</sys_updated_on>
+        <table>x_648911_starbucks_starrrrrrrrrrrrrrrrr</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"161c6cc92fe83010bd8e93acf699b66a","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"db8fea472f6cf010bd8e93acf699b645","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>fe1d92102f643410bd8e93acf699b693</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:49:54</sys_created_on>
-        <sys_id>161c6cc92fe83010bd8e93acf699b66a</sys_id>
+        <sys_created_on>2021-06-09 16:32:04</sys_created_on>
+        <sys_id>db8fea472f6cf010bd8e93acf699b645</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:54</sys_updated_on>
-        <trigger display_value="">9a1c6cc92fe83010bd8e93acf699b669</trigger>
+        <sys_updated_on>2021-06-09 16:32:04</sys_updated_on>
+        <trigger display_value="">578fea472f6cf010bd8e93acf699b645</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>161c6cc92fe83010bd8e93acf699b66a</document_id>
+        <document_id>db8fea472f6cf010bd8e93acf699b645</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:49:54</sys_created_on>
-        <sys_id>9a1c6cc92fe83010bd8e93acf699b66a</sys_id>
+        <sys_created_on>2021-06-09 16:32:04</sys_created_on>
+        <sys_id>5f8fea472f6cf010bd8e93acf699b645</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=fe1d92102f643410bd8e93acf699b693^sys_idNOT IN161c6cc92fe83010bd8e93acf699b66a"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=fe1d92102f643410bd8e93acf699b693^sys_idNOT INdb8fea472f6cf010bd8e93acf699b645"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=fe1d92102f643410bd8e93acf699b693^sys_idNOT IN181f1e502f643410bd8e93acf699b6a1"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -105,10 +106,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-01 02:16:46</sys_created_on>
         <sys_id>181f1e502f643410bd8e93acf699b6a1</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>49</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:55</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:32:05</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -123,10 +124,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-01 02:16:46</sys_created_on>
         <sys_id>a01f1e502f643410bd8e93acf699b6a3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-01 02:16:46</sys_updated_on>
-        <value>x_648911_starbucks_starbucks_orders</value>
+        <sys_updated_on>2021-06-09 16:08:41</sys_updated_on>
+        <value>x_648911_starbucks_starrrrrrrrrrrrrrrrr</value>
         <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -151,10 +152,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-01 02:16:46</sys_created_on>
         <sys_id>ec1f1e502f643410bd8e93acf699b6a2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:35</sys_updated_on>
-        <value>state=1^ORstate=3</value>
+        <sys_updated_on>2021-06-09 16:08:41</sys_updated_on>
+        <value>stage=order_placed^ORstage=out_for_delivery^ORstage=order_complete</value>
         <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=fe1d92102f643410bd8e93acf699b693^sys_idNOT IN761d92102f643410bd8e93acf699b697"/>
@@ -232,14 +233,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-01 02:16:46</sys_created_on>
         <sys_id>141f1e502f643410bd8e93acf699b69a</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:55</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:32:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -255,7 +256,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD291c2cc901e83010cc3d2465c79a0bd3,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD9e8faa47226cf0107cd7bd5a570aff78,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -313,14 +314,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-01 02:16:46</sys_created_on>
         <sys_id>581f1e502f643410bd8e93acf699b694</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:55</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:32:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -394,14 +395,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-01 02:16:46</sys_created_on>
         <sys_id>5c1f1e502f643410bd8e93acf699b68b</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:55</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:32:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -413,7 +414,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=fe1d92102f643410bd8e93acf699b693^sys_idNOT IN2ac364452fe83010bd8e93acf699b649,a6c364452fe83010bd8e93acf699b63d"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=fe1d92102f643410bd8e93acf699b693^sys_idNOT IN4a4c6e432f6cf010bd8e93acf699b691,743a2ecf2f2cf010bd8e93acf699b670"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -424,84 +425,84 @@
         <display_text/>
         <flow display_value="email notification">fe1d92102f643410bd8e93acf699b693</flow>
         <order>4</order>
-        <parent_ui_id>0eabc303-bea7-409f-997d-679024928372</parent_ui_id>
+        <parent_ui_id>bcf3feea-6813-4133-81a0-57fd1b563172</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:36</sys_created_on>
-        <sys_id>2ac364452fe83010bd8e93acf699b649</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_created_on>2021-06-09 16:17:47</sys_created_on>
+        <sys_id>4a4c6e432f6cf010bd8e93acf699b691</sys_id>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:51:15</sys_updated_on>
-        <ui_id>ffadd98b-de15-49a5-b919-120b5619c1ae</ui_id>
+        <sys_updated_on>2021-06-09 19:03:42</sys_updated_on>
+        <ui_id>4ab43e20-6343-47f0-920b-7e5452f509d3</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=2ac364452fe83010bd8e93acf699b649"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4a4c6e432f6cf010bd8e93acf699b691"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>2ac364452fe83010bd8e93acf699b649</document_key>
+        <document_key>4a4c6e432f6cf010bd8e93acf699b691</document_key>
         <order>6</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:36</sys_created_on>
-        <sys_id>aec364452fe83010bd8e93acf699b64b</sys_id>
+        <sys_created_on>2021-06-09 16:18:28</sys_created_on>
+        <sys_id>407c22832f6cf010bd8e93acf699b6a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:36</sys_updated_on>
-        <value>Thanks for Ordering </value>
+        <sys_updated_on>2021-06-09 16:18:28</sys_updated_on>
+        <value>Order out for delivery email</value>
         <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>2ac364452fe83010bd8e93acf699b649</document_key>
+        <document_key>4a4c6e432f6cf010bd8e93acf699b691</document_key>
         <order>7</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:36</sys_created_on>
-        <sys_id>eac364452fe83010bd8e93acf699b64b</sys_id>
+        <sys_created_on>2021-06-09 16:17:48</sys_created_on>
+        <sys_id>4e4c6e432f6cf010bd8e93acf699b693</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:36</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:17:48</sys_updated_on>
         <value/>
         <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=2ac364452fe83010bd8e93acf699b649"/>
+    <sys_element_mapping action="delete_multiple" query="id=4a4c6e432f6cf010bd8e93acf699b691"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_body</field>
-        <id>2ac364452fe83010bd8e93acf699b649</id>
+        <id>4a4c6e432f6cf010bd8e93acf699b691</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:36</sys_created_on>
-        <sys_id>a6c364452fe83010bd8e93acf699b64b</sys_id>
+        <sys_created_on>2021-06-09 16:17:48</sys_created_on>
+        <sys_id>ca4c6e432f6cf010bd8e93acf699b693</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:36</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:17:48</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Thank you for ordering the drink through Starbucks!&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;name:&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:47de2e5f-ed11-4a37-b0db-43f0c4da3389}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:47de2e5f-ed11-4a37-b0db-43f0c4da3389}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Orders Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;ordered by&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name&lt;button id="transform_function_facade_47de2e5f-ed11-4a37-b0db-43f0c4da3389" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Order number:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:3cc67b84-bd75-4c5b-824f-e23102ace97c}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:3cc67b84-bd75-4c5b-824f-e23102ace97c}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Orders Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Number&lt;button id="transform_function_facade_3cc67b84-bd75-4c5b-824f-e23102ace97c" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+        <value>&lt;p data-tinymcerootblock=""&gt;Your order is out for delivery!&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Ordered by:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:37acffd4-7a11-43c6-ad64-7fa4c078df79}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:37acffd4-7a11-43c6-ad64-7fa4c078df79}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Order Info Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Order by User&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name&lt;button id="transform_function_facade_37acffd4-7a11-43c6-ad64-7fa4c078df79" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_subject</field>
-        <id>2ac364452fe83010bd8e93acf699b649</id>
+        <id>4a4c6e432f6cf010bd8e93acf699b691</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:36</sys_created_on>
-        <sys_id>6ac364452fe83010bd8e93acf699b64b</sys_id>
+        <sys_created_on>2021-06-09 16:18:28</sys_created_on>
+        <sys_id>cc7c22832f6cf010bd8e93acf699b6a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:36</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:18:28</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_to</field>
-        <id>2ac364452fe83010bd8e93acf699b649</id>
+        <id>4a4c6e432f6cf010bd8e93acf699b691</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:36</sys_created_on>
-        <sys_id>e2c364452fe83010bd8e93acf699b64b</sys_id>
+        <sys_created_on>2021-06-09 16:17:48</sys_created_on>
+        <sys_id>0a4c6e432f6cf010bd8e93acf699b693</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:36</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:17:48</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>{{Created or Updated_1.current.ordered_for}} </value>
+        <value>{{Created or Updated_1.current.u_o}} </value>
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -513,90 +514,92 @@
         <display_text/>
         <flow display_value="email notification">fe1d92102f643410bd8e93acf699b693</flow>
         <order>2</order>
-        <parent_ui_id>054b018e-9544-4a79-b354-b31d96e3e65e</parent_ui_id>
+        <parent_ui_id>de2db49e-9734-4e04-ae6e-e76797b645cf</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:36</sys_created_on>
-        <sys_id>a6c364452fe83010bd8e93acf699b63d</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_created_on>2021-06-09 16:08:41</sys_created_on>
+        <sys_id>743a2ecf2f2cf010bd8e93acf699b670</sys_id>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:51:15</sys_updated_on>
-        <ui_id>114f0b47-6948-4605-8bdf-e7d1144c4cea</ui_id>
+        <sys_updated_on>2021-06-09 19:03:42</sys_updated_on>
+        <ui_id>c78aac55-ff7f-4c61-8940-97ea69c4a1ea</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=a6c364452fe83010bd8e93acf699b63d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=743a2ecf2f2cf010bd8e93acf699b670"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>a6c364452fe83010bd8e93acf699b63d</document_key>
+        <document_key>743a2ecf2f2cf010bd8e93acf699b670</document_key>
         <order>7</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:36</sys_created_on>
-        <sys_id>2ec364452fe83010bd8e93acf699b640</sys_id>
+        <sys_created_on>2021-06-09 16:08:41</sys_created_on>
+        <sys_id>383a2ecf2f2cf010bd8e93acf699b673</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:36</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:08:41</sys_updated_on>
         <value/>
         <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>a6c364452fe83010bd8e93acf699b63d</document_key>
+        <document_key>743a2ecf2f2cf010bd8e93acf699b670</document_key>
         <order>6</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:36</sys_created_on>
-        <sys_id>eec364452fe83010bd8e93acf699b640</sys_id>
+        <sys_created_on>2021-06-09 16:08:41</sys_created_on>
+        <sys_id>f83a2ecf2f2cf010bd8e93acf699b673</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:36</sys_updated_on>
-        <value>Order Confirmation and summary email</value>
+        <sys_updated_on>2021-06-09 16:08:41</sys_updated_on>
+        <value>order confirmation and summary</value>
         <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=a6c364452fe83010bd8e93acf699b63d"/>
+    <sys_element_mapping action="delete_multiple" query="id=743a2ecf2f2cf010bd8e93acf699b670"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_body</field>
-        <id>a6c364452fe83010bd8e93acf699b63d</id>
+        <id>743a2ecf2f2cf010bd8e93acf699b670</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:36</sys_created_on>
-        <sys_id>e6c364452fe83010bd8e93acf699b640</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2021-06-09 16:08:41</sys_created_on>
+        <sys_id>f03a2ecf2f2cf010bd8e93acf699b673</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:34:08</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:31:45</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Your order is confirmed!&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Ordered by:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:22967efc-ffa7-491e-89e1-25c85d19e762}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:22967efc-ffa7-491e-89e1-25c85d19e762}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Orders Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;ordered by&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name&lt;button id="transform_function_facade_22967efc-ffa7-491e-89e1-25c85d19e762" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Order number:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:543e72fd-7c9a-4c4e-b982-992096172ad7}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:543e72fd-7c9a-4c4e-b982-992096172ad7}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Orders Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Number&lt;button id="transform_function_facade_543e72fd-7c9a-4c4e-b982-992096172ad7" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Phone number:&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:12e7835c-c3ca-4b5c-89d2-00cda89ed0a6}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:12e7835c-c3ca-4b5c-89d2-00cda89ed0a6}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Orders Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;ordered by&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Mobile phone&lt;button id="transform_function_facade_12e7835c-c3ca-4b5c-89d2-00cda89ed0a6" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;State of your order:&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:68a03253-8222-445e-a242-aef81fe5229d}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:68a03253-8222-445e-a242-aef81fe5229d}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Orders Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;State&lt;button id="transform_function_facade_68a03253-8222-445e-a242-aef81fe5229d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+        <value>&lt;p data-tinymcerootblock=""&gt;Your order has been placed successfully!&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Ordered by:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:17d79f84-7788-473a-811b-d5ebaaef3b1f}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:17d79f84-7788-473a-811b-d5ebaaef3b1f}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Order Info Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Order by User&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name&lt;button id="transform_function_facade_17d79f84-7788-473a-811b-d5ebaaef3b1f" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Drink name:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:1336d0b9-2e24-4554-a115-55d19f5d49b5}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:1336d0b9-2e24-4554-a115-55d19f5d49b5}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Order Info Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Catalog Item&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name&lt;button id="transform_function_facade_1336d0b9-2e24-4554-a115-55d19f5d49b5" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Category of Drink:&amp;nbsp;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:86ba7b5a-fb73-4128-a96b-de2e6934ff39}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:86ba7b5a-fb73-4128-a96b-de2e6934ff39}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Order Info Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Category&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Title&lt;button id="transform_function_facade_86ba7b5a-fb73-4128-a96b-de2e6934ff39" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;price:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:879813e8-0186-45bb-9bec-07ff666eb0f3}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:879813e8-0186-45bb-9bec-07ff666eb0f3}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Order Info Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Catalog Item&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Price&lt;button id="transform_function_facade_879813e8-0186-45bb-9bec-07ff666eb0f3" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_subject</field>
-        <id>a6c364452fe83010bd8e93acf699b63d</id>
+        <id>743a2ecf2f2cf010bd8e93acf699b670</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:36</sys_created_on>
-        <sys_id>aac364452fe83010bd8e93acf699b640</sys_id>
+        <sys_created_on>2021-06-09 16:08:41</sys_created_on>
+        <sys_id>b43a2ecf2f2cf010bd8e93acf699b673</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:36</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:08:41</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_to</field>
-        <id>a6c364452fe83010bd8e93acf699b63d</id>
+        <id>743a2ecf2f2cf010bd8e93acf699b670</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:36</sys_created_on>
-        <sys_id>26c364452fe83010bd8e93acf699b640</sys_id>
+        <sys_created_on>2021-06-09 16:08:41</sys_created_on>
+        <sys_id>303a2ecf2f2cf010bd8e93acf699b673</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:36</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:08:41</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>{{Created or Updated_1.current.ordered_for}} </value>
+        <value>{{Created or Updated_1.current.u_o}} </value>
     </sys_element_mapping>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=fe1d92102f643410bd8e93acf699b693^sys_idNOT INd2c364452fe83010bd8e93acf699b632,eac364452fe83010bd8e93acf699b641"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=fe1d92102f643410bd8e93acf699b693^sys_idNOT IN303a2ecf2f2cf010bd8e93acf699b666,464c6e432f6cf010bd8e93acf699b67b"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">5ec364452fe83010bd8e93acf699b624</block>
+        <block display_value="">303a2ecf2f2cf010bd8e93acf699b665</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -615,60 +618,60 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:35</sys_created_on>
-        <sys_id>d2c364452fe83010bd8e93acf699b632</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_on>2021-06-09 16:08:41</sys_created_on>
+        <sys_id>303a2ecf2f2cf010bd8e93acf699b666</sys_id>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:55</sys_updated_on>
-        <ui_id>054b018e-9544-4a79-b354-b31d96e3e65e</ui_id>
+        <sys_updated_on>2021-06-09 16:32:05</sys_updated_on>
+        <ui_id>de2db49e-9734-4e04-ae6e-e76797b645cf</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=d2c364452fe83010bd8e93acf699b632"/>
+    <sys_variable_value action="delete_multiple" query="document_key=303a2ecf2f2cf010bd8e93acf699b666"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
-        <document_key>d2c364452fe83010bd8e93acf699b632</document_key>
+        <document_key>303a2ecf2f2cf010bd8e93acf699b666</document_key>
         <order>10</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:35</sys_created_on>
-        <sys_id>52c364452fe83010bd8e93acf699b637</sys_id>
+        <sys_created_on>2021-06-09 16:08:41</sys_created_on>
+        <sys_id>303a2ecf2f2cf010bd8e93acf699b66a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:35</sys_updated_on>
-        <value>if the state is order confirmed</value>
+        <sys_updated_on>2021-06-09 16:08:41</sys_updated_on>
+        <value>order places</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=d2c364452fe83010bd8e93acf699b632"/>
+    <sys_element_mapping action="delete_multiple" query="id=303a2ecf2f2cf010bd8e93acf699b666"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition</field>
-        <id>d2c364452fe83010bd8e93acf699b632</id>
+        <id>303a2ecf2f2cf010bd8e93acf699b666</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:35</sys_created_on>
-        <sys_id>dec364452fe83010bd8e93acf699b636</sys_id>
+        <sys_created_on>2021-06-09 16:08:41</sys_created_on>
+        <sys_id>bc3a2ecf2f2cf010bd8e93acf699b669</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:35</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:08:41</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created or Updated_1.current.state}}=1</value>
+        <value>{{Created or Updated_1.current.stage}}=order_placed</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
-        <id>d2c364452fe83010bd8e93acf699b632</id>
+        <id>303a2ecf2f2cf010bd8e93acf699b666</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:35</sys_created_on>
-        <sys_id>96c364452fe83010bd8e93acf699b636</sys_id>
+        <sys_created_on>2021-06-09 16:08:41</sys_created_on>
+        <sys_id>f43a2ecf2f2cf010bd8e93acf699b669</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:35</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:08:41</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">66c364452fe83010bd8e93acf699b641</block>
-        <comment>if the state is Order completed</comment>
-        <connected_to>054b018e-9544-4a79-b354-b31d96e3e65e</connected_to>
+        <block display_value="">8a4c6e432f6cf010bd8e93acf699b67a</block>
+        <comment/>
+        <connected_to>de2db49e-9734-4e04-ae6e-e76797b645cf</connected_to>
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
@@ -677,25 +680,82 @@
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
         <order>3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:36</sys_created_on>
-        <sys_id>eac364452fe83010bd8e93acf699b641</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_on>2021-06-09 16:17:47</sys_created_on>
+        <sys_id>464c6e432f6cf010bd8e93acf699b67b</sys_id>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:55</sys_updated_on>
-        <ui_id>0eabc303-bea7-409f-997d-679024928372</ui_id>
+        <sys_updated_on>2021-06-09 16:32:05</sys_updated_on>
+        <ui_id>bcf3feea-6813-4133-81a0-57fd1b563172</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=eac364452fe83010bd8e93acf699b641"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fe1d92102f643410bd8e93acf699b693^sys_idNOT IN16a66cc52fe83010bd8e93acf699b63f,1aa0b0a82fe83410bd8e93acf699b6cd,1ff1f0e82fe83410bd8e93acf699b6e7,22c364452fe83010bd8e93acf699b656,26c364452fe83010bd8e93acf699b655,281f1e502f643410bd8e93acf699b6b1,2c1f1e502f643410bd8e93acf699b6b0,52a0b0a82fe83410bd8e93acf699b6cd,5bf1f0e82fe83410bd8e93acf699b6e7,641f1e502f643410bd8e93acf699b6b1,6ec364452fe83010bd8e93acf699b655,9715e0ec2fa83410bd8e93acf699b6ab,97f1f0e82fe83410bd8e93acf699b6e7,9d5624202fe83410bd8e93acf699b627,a01f1e502f643410bd8e93acf699b6b1,aac364452fe83010bd8e93acf699b655,d707ac202fe83410bd8e93acf699b6db,daa0b0a82fe83410bd8e93acf699b6cd,daa66cc52fe83010bd8e93acf699b63f,e01f1e502f643410bd8e93acf699b6b0,e6c364452fe83010bd8e93acf699b655,e81f1e502f643410bd8e93acf699b6b1,eac364452fe83010bd8e93acf699b654,ec1f1e502f643410bd8e93acf699b6b0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=464c6e432f6cf010bd8e93acf699b67b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>464c6e432f6cf010bd8e93acf699b67b</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:17:47</sys_created_on>
+        <sys_id>ce4c6e432f6cf010bd8e93acf699b67e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:17:47</sys_updated_on>
+        <value>order out for delivery</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=464c6e432f6cf010bd8e93acf699b67b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>464c6e432f6cf010bd8e93acf699b67b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:17:47</sys_created_on>
+        <sys_id>4e4c6e432f6cf010bd8e93acf699b67e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:17:47</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{Created or Updated_1.current.stage}}=out_for_delivery</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>464c6e432f6cf010bd8e93acf699b67b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:17:47</sys_created_on>
+        <sys_id>864c6e432f6cf010bd8e93acf699b67e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:17:47</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fe1d92102f643410bd8e93acf699b693^sys_idNOT IN127e2a072f6cf010bd8e93acf699b6fb,16a66cc52fe83010bd8e93acf699b63f,1a4c6e432f6cf010bd8e93acf699b697,1aa0b0a82fe83410bd8e93acf699b6cd,1ff1f0e82fe83410bd8e93acf699b6e7,20bb26432f6cf010bd8e93acf699b616,22c364452fe83010bd8e93acf699b656,26c364452fe83010bd8e93acf699b655,281f1e502f643410bd8e93acf699b6b1,28ddeac32f6cf010bd8e93acf699b68d,2c1f1e502f643410bd8e93acf699b6b0,303a2ecf2f2cf010bd8e93acf699b68c,343a2ecf2f2cf010bd8e93acf699b68b,52a0b0a82fe83410bd8e93acf699b6cd,564c6e432f6cf010bd8e93acf699b697,5bf1f0e82fe83410bd8e93acf699b6e7,60ddeac32f6cf010bd8e93acf699b68d,641f1e502f643410bd8e93acf699b6b1,6ec364452fe83010bd8e93acf699b655,713dae832f6cf010bd8e93acf699b6b8,7c3a2ecf2f2cf010bd8e93acf699b68b,9715e0ec2fa83410bd8e93acf699b6ab,97f1f0e82fe83410bd8e93acf699b6e7,9d5624202fe83410bd8e93acf699b627,a01f1e502f643410bd8e93acf699b6b1,aac364452fe83010bd8e93acf699b655,b93dae832f6cf010bd8e93acf699b6b7,d707ac202fe83410bd8e93acf699b6db,daa0b0a82fe83410bd8e93acf699b6cd,daa66cc52fe83010bd8e93acf699b63f,e01f1e502f643410bd8e93acf699b6b0,e6c364452fe83010bd8e93acf699b655,e81f1e502f643410bd8e93acf699b6b1,eac364452fe83010bd8e93acf699b654,ec1f1e502f643410bd8e93acf699b6b0"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.item.price}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:27:22</sys_created_on>
+        <sys_id>127e2a072f6cf010bd8e93acf699b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:27:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>879813e8-0186-45bb-9bec-07ff666eb0f3</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
         <extra_info/>
@@ -712,6 +772,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>543e72fd-7c9a-4c4e-b982-992096172ad7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.u_o.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:17:48</sys_created_on>
+        <sys_id>1a4c6e432f6cf010bd8e93acf699b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:17:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>37acffd4-7a11-43c6-ad64-7fa4c078df79</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
@@ -746,6 +823,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>2668e28e-91a7-4be5-9c24-120542e0a626</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.u_o.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:15:13</sys_created_on>
+        <sys_id>20bb26432f6cf010bd8e93acf699b616</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:15:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0e4a0f6c-486f-46d3-9408-601c165f9ca5</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
@@ -802,6 +896,23 @@
         <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
         <extra_info/>
         <order>0</order>
+        <prescription>{{Created or Updated_1.current.u_reference_2.title}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:24:30</sys_created_on>
+        <sys_id>28ddeac32f6cf010bd8e93acf699b68d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:24:30</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>86ba7b5a-fb73-4128-a96b-de2e6934ff39</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
+        <extra_info/>
+        <order>0</order>
         <prescription>{{Created or Updated_1.current.description}}</prescription>
         <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
@@ -814,6 +925,40 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>22941f48-4cfb-4f80-acb2-5216ceb249e2</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.u_reference_2}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:08:42</sys_created_on>
+        <sys_id>303a2ecf2f2cf010bd8e93acf699b68c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:08:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>853ca2f8-dc3b-4d33-a096-76068aa14d4b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:08:42</sys_created_on>
+        <sys_id>343a2ecf2f2cf010bd8e93acf699b68b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:08:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>dbea6c59-cfea-4f9c-8282-2bdc1aa70c49</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
@@ -836,6 +981,23 @@
         <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
         <extra_info/>
         <order>0</order>
+        <prescription>{{Created or Updated_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:17:48</sys_created_on>
+        <sys_id>564c6e432f6cf010bd8e93acf699b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:17:48</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fe30185c-fdb9-4824-aed0-007d089af1df</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
+        <extra_info/>
+        <order>0</order>
         <prescription>{{Created or Updated_1.current.order}}</prescription>
         <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
@@ -848,6 +1010,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>a6c41fe7-9e14-4039-9724-75a650aea328</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.u_reference_2.sys_updated_on}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:24:30</sys_created_on>
+        <sys_id>60ddeac32f6cf010bd8e93acf699b68d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:24:30</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>64a79242-c658-4af3-9c23-e5273fe2e054</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
@@ -882,6 +1061,40 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>308a2240-6e00-488d-8df7-8a5477e6e52f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.item.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:21:52</sys_created_on>
+        <sys_id>713dae832f6cf010bd8e93acf699b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:21:52</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1336d0b9-2e24-4554-a115-55d19f5d49b5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.u_o}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:08:42</sys_created_on>
+        <sys_id>7c3a2ecf2f2cf010bd8e93acf699b68b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:08:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fde5588e-fdb1-4372-9274-2dd5db859046</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
@@ -967,6 +1180,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>47de2e5f-ed11-4a37-b0db-43f0c4da3389</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.u_o.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:21:52</sys_created_on>
+        <sys_id>b93dae832f6cf010bd8e93acf699b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:21:52</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>17d79f84-7788-473a-811b-d5ebaaef3b1f</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>fe1d92102f643410bd8e93acf699b693</attached_to>
@@ -1179,18 +1409,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"dd8f16902f643410bd8e93acf699b6f1","name":"plan"}}</plan>
         <plan_id>fe1d92102f643410bd8e93acf699b693</plan_id>
-        <snapshot>ca6ca00d2fe83010bd8e93acf699b640</snapshot>
+        <snapshot>94421b8f2facf010bd8e93acf699b6bd</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-01 02:18:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dd8f16902f643410bd8e93acf699b6f1</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:54</sys_updated_on>
-        <trigger display_value="">9a1c6cc92fe83010bd8e93acf699b669</trigger>
+        <sys_updated_on>2021-06-09 16:32:04</sys_updated_on>
+        <trigger display_value="">578fea472f6cf010bd8e93acf699b645</trigger>
     </sys_flow_trigger_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1203,7 +1433,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>test</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.ordered_for.mobile_phone","label":"Trigger➛Starbucks Orders Record➛ordered by➛Mobile phone","reference":"","reference_display":"Mobile phone","type":"ph_number","base_type":"ph_number","parent_table_name":"x_648911_starbucks_users","column_name":"mobile_phone"},{"name":"Created or Updated_1.current.ordered_for.name","label":"Trigger➛Starbucks Orders Record➛ordered by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_users","column_name":"name"},{"name":"1206a97a-3264-4242-ab4b-6d5154cbb81d.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Starbucks Orders Record","reference":"x_648911_starbucks_starbucks_orders","reference_display":"Starbucks Orders","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.table_name","label":"Trigger➛Starbucks Orders Table","reference":"x_648911_starbucks_starbucks_orders","reference_display":"Starbucks Orders","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created or Updated_1.current.ordered_for","label":"Trigger➛Starbucks Orders Record➛ordered by","reference":"x_648911_starbucks_users","reference_display":"Users","type":"reference","base_type":"reference","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"ordered_for"},{"name":"Created or Updated_1.current.description","label":"Trigger➛Starbucks Orders Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"description"},{"name":"02d5b4d5-7e0d-4b7a-8532-0354daa4d088.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.number","label":"Trigger➛Starbucks Orders Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"number"},{"name":"Created or Updated_1.current.ordered_for.home_phone","label":"Trigger➛Starbucks Orders Record➛ordered for➛Home phone","reference":"","reference_display":"Home phone","type":"ph_number","base_type":"ph_number","parent_table_name":"x_648911_starbucks_users","column_name":"home_phone"},{"name":"Created or Updated_1.current.ordered_for.employee_number","label":"Trigger➛Starbucks Orders Record➛ordered for➛Employee number","reference":"","reference_display":"Employee number","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_users","column_name":"employee_number"},{"name":"e51f03b9-950c-419b-83d2-5b258e178e62.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.cmdb_ci.name","label":"Trigger➛Starbucks Orders Record➛Configuration item➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"name"},{"name":"Created or Updated_1.current.order","label":"Trigger➛Starbucks Orders Record➛Order","reference":"","reference_display":"Order","type":"integer","base_type":"integer","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"order"},{"name":"Created or Updated_1.current.short_description","label":"Trigger➛Starbucks Orders Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"short_description"},{"name":"3217d62e-486d-4cea-a3cb-b8fb569975e8.answer","label":"2➛Starbucks Orders Record","reference":"x_648911_starbucks_starbucks_orders","reference_display":"Starbucks Orders","type":"reference","base_type":"reference","attributes":{}},{"name":"3217d62e-486d-4cea-a3cb-b8fb569975e8.table_name","label":"2➛Starbucks Orders Table","reference":"x_648911_starbucks_starbucks_orders","reference_display":"Starbucks Orders","type":"table_name","base_type":"table_name","attributes":{}},{"name":"Created or Updated_1.current.state","label":"Trigger➛Starbucks Orders Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"state"},{"name":"18ee2560-7770-4420-b5af-7f7d915a52b9.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"18ee2560-7770-4420-b5af-7f7d915a52b9.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"18ee2560-7770-4420-b5af-7f7d915a52b9.status","label":"3➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"18ee2560-7770-4420-b5af-7f7d915a52b9.error_message","label":"3➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"762f7960-f387-4609-9008-a368fa2cdc2b.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"762f7960-f387-4609-9008-a368fa2cdc2b.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"762f7960-f387-4609-9008-a368fa2cdc2b.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"762f7960-f387-4609-9008-a368fa2cdc2b.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"114f0b47-6948-4605-8bdf-e7d1144c4cea.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ffadd98b-de15-49a5-b919-120b5619c1ae.email","label":"4➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.item.price","label":"Trigger➛Starbucks Order Info Record➛Catalog Item➛Price","reference":"","reference_display":"Price","type":"price","base_type":"price","parent_table_name":"sc_cat_item","column_name":"price"},{"name":"Created or Updated_1.current.u_reference_2.title","label":"Trigger➛Starbucks Order Info Record➛Category➛Title","reference":"","reference_display":"Title","type":"translated_text","base_type":"translated_text","parent_table_name":"sc_category","column_name":"title"},{"name":"Created or Updated_1.current.u_reference_2.sys_updated_on","label":"Trigger➛Starbucks Order Info Record➛Category➛Updated","reference":"","reference_display":"Updated","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_category","column_name":"sys_updated_on"},{"name":"Created or Updated_1.current.item.name","label":"Trigger➛Starbucks Order Info Record➛Catalog Item➛Name","reference":"","reference_display":"Name","type":"translated_text","base_type":"translated_text","parent_table_name":"sc_cat_item","column_name":"name"},{"name":"4ab43e20-6343-47f0-920b-7e5452f509d3.email","label":"4➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_o.name","label":"Trigger➛Starbucks Order Info Record➛Order by User➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created or Updated_1.current.u_reference_2","label":"Trigger➛Starbucks Order Info Record➛Category","reference":"sc_category","reference_display":"Category","type":"reference","base_type":"reference","parent_table_name":"x_648911_starbucks_starrrrrrrrrrrrrrrrr","column_name":"u_reference_2"},{"name":"Created or Updated_1.current.item","label":"Trigger➛Starbucks Order Info Record➛Catalog Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","parent_table_name":"x_648911_starbucks_starrrrrrrrrrrrrrrrr","column_name":"item"},{"name":"Created or Updated_1.current.u_o","label":"Trigger➛Starbucks Order Info Record➛Order by User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_648911_starbucks_starrrrrrrrrrrrrrrrr","column_name":"u_o"},{"name":"c78aac55-ff7f-4c61-8940-97ea69c4a1ea.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.stage","label":"Trigger➛Starbucks Order Info Record➛Stage","reference":"","reference_display":"Stage","type":"choice","base_type":"choice","parent_table_name":"x_648911_starbucks_starrrrrrrrrrrrrrrrr","column_name":"stage"},{"name":"Created or Updated_1.current.ordered_for.mobile_phone","label":"Trigger➛Starbucks Orders Record➛ordered by➛Mobile phone","reference":"","reference_display":"Mobile phone","type":"ph_number","base_type":"ph_number","parent_table_name":"x_648911_starbucks_users","column_name":"mobile_phone"},{"name":"Created or Updated_1.current.ordered_for.name","label":"Trigger➛Starbucks Orders Record➛ordered by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_users","column_name":"name"},{"name":"1206a97a-3264-4242-ab4b-6d5154cbb81d.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Starbucks Order Info Record","reference":"x_648911_starbucks_starrrrrrrrrrrrrrrrr","reference_display":"Starbucks Order Info","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.table_name","label":"Trigger➛Starbucks Orders Table","reference":"x_648911_starbucks_starbucks_orders","reference_display":"Starbucks Orders","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created or Updated_1.current.ordered_for","label":"Trigger➛Starbucks Orders Record➛ordered by","reference":"x_648911_starbucks_users","reference_display":"Delivery Boys","type":"reference","base_type":"reference","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"ordered_for"},{"name":"Created or Updated_1.current.description","label":"Trigger➛Starbucks Orders Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"description"},{"name":"02d5b4d5-7e0d-4b7a-8532-0354daa4d088.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.number","label":"Trigger➛Starbucks Orders Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"number"},{"name":"Created or Updated_1.current.ordered_for.home_phone","label":"Trigger➛Starbucks Orders Record➛ordered for➛Home phone","reference":"","reference_display":"Home phone","type":"ph_number","base_type":"ph_number","parent_table_name":"x_648911_starbucks_users","column_name":"home_phone"},{"name":"Created or Updated_1.current.ordered_for.employee_number","label":"Trigger➛Starbucks Orders Record➛ordered for➛Employee number","reference":"","reference_display":"Employee number","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_users","column_name":"employee_number"},{"name":"e51f03b9-950c-419b-83d2-5b258e178e62.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.cmdb_ci.name","label":"Trigger➛Starbucks Orders Record➛Configuration item➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"name"},{"name":"Created or Updated_1.current.order","label":"Trigger➛Starbucks Orders Record➛Order","reference":"","reference_display":"Order","type":"integer","base_type":"integer","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"order"},{"name":"Created or Updated_1.current.short_description","label":"Trigger➛Starbucks Orders Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"short_description"},{"name":"3217d62e-486d-4cea-a3cb-b8fb569975e8.answer","label":"2➛Starbucks Orders Record","reference":"x_648911_starbucks_starbucks_orders","reference_display":"Starbucks Orders","type":"reference","base_type":"reference","attributes":{}},{"name":"3217d62e-486d-4cea-a3cb-b8fb569975e8.table_name","label":"2➛Starbucks Orders Table","reference":"x_648911_starbucks_starbucks_orders","reference_display":"Starbucks Orders","type":"table_name","base_type":"table_name","attributes":{}},{"name":"Created or Updated_1.current.state","label":"Trigger➛Starbucks Orders Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_648911_starbucks_starbucks_orders","column_name":"state"},{"name":"18ee2560-7770-4420-b5af-7f7d915a52b9.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"18ee2560-7770-4420-b5af-7f7d915a52b9.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"18ee2560-7770-4420-b5af-7f7d915a52b9.status","label":"3➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"18ee2560-7770-4420-b5af-7f7d915a52b9.error_message","label":"3➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"762f7960-f387-4609-9008-a368fa2cdc2b.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"762f7960-f387-4609-9008-a368fa2cdc2b.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"762f7960-f387-4609-9008-a368fa2cdc2b.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"762f7960-f387-4609-9008-a368fa2cdc2b.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"114f0b47-6948-4605-8bdf-e7d1144c4cea.email","label":"2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ffadd98b-de15-49a5-b919-120b5619c1ae.email","label":"4➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}}]</label_cache>
         <master>true</master>
         <name>email notification</name>
         <natlang/>
@@ -1220,7 +1450,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f48f16902f643410bd8e93acf699b686</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1228,7 +1458,7 @@
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:52</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:32:02</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=f48f16902f643410bd8e93acf699b686"/>
@@ -1243,10 +1473,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-01 02:18:44</sys_created_on>
         <sys_id>858f16902f643410bd8e93acf699b6c6</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:54</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:32:04</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1261,10 +1491,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-01 02:18:44</sys_created_on>
         <sys_id>418f16902f643410bd8e93acf699b6c8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-01 02:18:44</sys_updated_on>
-        <value>x_648911_starbucks_starbucks_orders</value>
+        <sys_updated_on>2021-06-09 16:12:27</sys_updated_on>
+        <value>x_648911_starbucks_starrrrrrrrrrrrrrrrr</value>
         <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1275,10 +1505,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-01 02:18:44</sys_created_on>
         <sys_id>8d8f16902f643410bd8e93acf699b6c7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:50</sys_updated_on>
-        <value>state=1^ORstate=3</value>
+        <sys_updated_on>2021-06-09 16:12:27</sys_updated_on>
+        <value>stage=order_placed^ORstage=out_for_delivery^ORstage=order_complete</value>
         <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1370,14 +1600,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-01 02:18:43</sys_created_on>
         <sys_id>018f16902f643410bd8e93acf699b6af</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:51</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:32:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1393,7 +1623,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD291c2cc901e83010cc3d2465c79a0bd3,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD9e8faa47226cf0107cd7bd5a570aff78,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1451,14 +1681,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-01 02:18:43</sys_created_on>
         <sys_id>4d8f16902f643410bd8e93acf699b6a4</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:52</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:32:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1532,14 +1762,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-01 02:18:43</sys_created_on>
         <sys_id>708f16902f643410bd8e93acf699b68a</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:51</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:32:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1551,98 +1781,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=f48f16902f643410bd8e93acf699b686^sys_idNOT INbdd3e4452fe83010bd8e93acf699b62c,c2d3e4452fe83010bd8e93acf699b635"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
-        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
-        <comment/>
-        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
-        <display_text/>
-        <flow display_value="email notification">f48f16902f643410bd8e93acf699b686</flow>
-        <order>2</order>
-        <parent_ui_id>054b018e-9544-4a79-b354-b31d96e3e65e</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:50</sys_created_on>
-        <sys_id>bdd3e4452fe83010bd8e93acf699b62c</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:52</sys_updated_on>
-        <ui_id>114f0b47-6948-4605-8bdf-e7d1144c4cea</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=bdd3e4452fe83010bd8e93acf699b62c"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>bdd3e4452fe83010bd8e93acf699b62c</document_key>
-        <order>6</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:50</sys_created_on>
-        <sys_id>35d3e4452fe83010bd8e93acf699b62f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:50</sys_updated_on>
-        <value>Order Confirmation and summary email</value>
-        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>bdd3e4452fe83010bd8e93acf699b62c</document_key>
-        <order>7</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:50</sys_created_on>
-        <sys_id>71d3e4452fe83010bd8e93acf699b62f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:50</sys_updated_on>
-        <value/>
-        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=bdd3e4452fe83010bd8e93acf699b62c"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_body</field>
-        <id>bdd3e4452fe83010bd8e93acf699b62c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:50</sys_created_on>
-        <sys_id>3dd3e4452fe83010bd8e93acf699b62e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:51</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Your order is confirmed!&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Ordered by:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:22967efc-ffa7-491e-89e1-25c85d19e762}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:22967efc-ffa7-491e-89e1-25c85d19e762}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Orders Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;ordered by&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name&lt;button id="transform_function_facade_22967efc-ffa7-491e-89e1-25c85d19e762" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Order number:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:543e72fd-7c9a-4c4e-b982-992096172ad7}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:543e72fd-7c9a-4c4e-b982-992096172ad7}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Orders Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Number&lt;button id="transform_function_facade_543e72fd-7c9a-4c4e-b982-992096172ad7" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Phone number:&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:12e7835c-c3ca-4b5c-89d2-00cda89ed0a6}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:12e7835c-c3ca-4b5c-89d2-00cda89ed0a6}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Orders Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;ordered by&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Mobile phone&lt;button id="transform_function_facade_12e7835c-c3ca-4b5c-89d2-00cda89ed0a6" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;State of your order:&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:68a03253-8222-445e-a242-aef81fe5229d}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:68a03253-8222-445e-a242-aef81fe5229d}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Orders Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;State&lt;button id="transform_function_facade_68a03253-8222-445e-a242-aef81fe5229d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_subject</field>
-        <id>bdd3e4452fe83010bd8e93acf699b62c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:50</sys_created_on>
-        <sys_id>fdd3e4452fe83010bd8e93acf699b62e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:50</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>ah_to</field>
-        <id>bdd3e4452fe83010bd8e93acf699b62c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:50</sys_created_on>
-        <sys_id>79d3e4452fe83010bd8e93acf699b62e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:50</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>{{Created or Updated_1.current.ordered_for}} </value>
-    </sys_element_mapping>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f48f16902f643410bd8e93acf699b686^sys_idNOT IN327ca2832f6cf010bd8e93acf699b6b8,b70baa032f6cf010bd8e93acf699b616"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1653,88 +1792,251 @@
         <display_text/>
         <flow display_value="email notification">f48f16902f643410bd8e93acf699b686</flow>
         <order>4</order>
-        <parent_ui_id>0eabc303-bea7-409f-997d-679024928372</parent_ui_id>
+        <parent_ui_id>bcf3feea-6813-4133-81a0-57fd1b563172</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:50</sys_created_on>
-        <sys_id>c2d3e4452fe83010bd8e93acf699b635</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_created_on>2021-06-09 16:18:40</sys_created_on>
+        <sys_id>327ca2832f6cf010bd8e93acf699b6b8</sys_id>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:52</sys_updated_on>
-        <ui_id>ffadd98b-de15-49a5-b919-120b5619c1ae</ui_id>
+        <sys_updated_on>2021-06-09 16:32:02</sys_updated_on>
+        <ui_id>4ab43e20-6343-47f0-920b-7e5452f509d3</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=c2d3e4452fe83010bd8e93acf699b635"/>
+    <sys_variable_value action="delete_multiple" query="document_key=327ca2832f6cf010bd8e93acf699b6b8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>c2d3e4452fe83010bd8e93acf699b635</document_key>
+        <document_key>327ca2832f6cf010bd8e93acf699b6b8</document_key>
         <order>6</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:50</sys_created_on>
-        <sys_id>4ad3e4452fe83010bd8e93acf699b637</sys_id>
+        <sys_created_on>2021-06-09 16:18:40</sys_created_on>
+        <sys_id>b67ca2832f6cf010bd8e93acf699b6ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:50</sys_updated_on>
-        <value>Thanks for Ordering </value>
+        <sys_updated_on>2021-06-09 16:18:40</sys_updated_on>
+        <value>Order out for delivery email</value>
         <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>c2d3e4452fe83010bd8e93acf699b635</document_key>
+        <document_key>327ca2832f6cf010bd8e93acf699b6b8</document_key>
         <order>7</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:50</sys_created_on>
-        <sys_id>86d3e4452fe83010bd8e93acf699b637</sys_id>
+        <sys_created_on>2021-06-09 16:18:40</sys_created_on>
+        <sys_id>f27ca2832f6cf010bd8e93acf699b6ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:50</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:18:40</sys_updated_on>
         <value/>
         <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=c2d3e4452fe83010bd8e93acf699b635"/>
+    <sys_element_mapping action="delete_multiple" query="id=327ca2832f6cf010bd8e93acf699b6b8"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_body</field>
-        <id>c2d3e4452fe83010bd8e93acf699b635</id>
+        <id>327ca2832f6cf010bd8e93acf699b6b8</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:50</sys_created_on>
-        <sys_id>42d3e4452fe83010bd8e93acf699b637</sys_id>
+        <sys_created_on>2021-06-09 16:18:40</sys_created_on>
+        <sys_id>be7ca2832f6cf010bd8e93acf699b6b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:50</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:18:40</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p data-tinymcerootblock=""&gt;Thank you for ordering the drink through Starbucks!&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;name:&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:47de2e5f-ed11-4a37-b0db-43f0c4da3389}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:47de2e5f-ed11-4a37-b0db-43f0c4da3389}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Orders Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;ordered by&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name&lt;button id="transform_function_facade_47de2e5f-ed11-4a37-b0db-43f0c4da3389" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Order number:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:3cc67b84-bd75-4c5b-824f-e23102ace97c}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:3cc67b84-bd75-4c5b-824f-e23102ace97c}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Orders Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Number&lt;button id="transform_function_facade_3cc67b84-bd75-4c5b-824f-e23102ace97c" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+        <value>&lt;p data-tinymcerootblock=""&gt;Your order is out for delivery!&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Ordered by:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:37acffd4-7a11-43c6-ad64-7fa4c078df79}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:37acffd4-7a11-43c6-ad64-7fa4c078df79}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Order Info Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Order by User&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name&lt;button id="transform_function_facade_37acffd4-7a11-43c6-ad64-7fa4c078df79" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_subject</field>
-        <id>c2d3e4452fe83010bd8e93acf699b635</id>
+        <id>327ca2832f6cf010bd8e93acf699b6b8</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:50</sys_created_on>
-        <sys_id>06d3e4452fe83010bd8e93acf699b637</sys_id>
+        <sys_created_on>2021-06-09 16:18:40</sys_created_on>
+        <sys_id>727ca2832f6cf010bd8e93acf699b6ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:50</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:18:40</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_to</field>
-        <id>c2d3e4452fe83010bd8e93acf699b635</id>
+        <id>327ca2832f6cf010bd8e93acf699b6b8</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:50</sys_created_on>
-        <sys_id>8ed3e4452fe83010bd8e93acf699b636</sys_id>
+        <sys_created_on>2021-06-09 16:18:40</sys_created_on>
+        <sys_id>fa7ca2832f6cf010bd8e93acf699b6b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:50</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:18:40</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>{{Created or Updated_1.current.ordered_for}} </value>
+        <value>{{Created or Updated_1.current.u_o}} </value>
     </sys_element_mapping>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=f48f16902f643410bd8e93acf699b686^sys_idNOT IN06d3e4452fe83010bd8e93acf699b638,4ad3e4452fe83010bd8e93acf699b63c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="email notification">f48f16902f643410bd8e93acf699b686</flow>
+        <order>2</order>
+        <parent_ui_id>de2db49e-9734-4e04-ae6e-e76797b645cf</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:12:27</sys_created_on>
+        <sys_id>b70baa032f6cf010bd8e93acf699b616</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:32:01</sys_updated_on>
+        <ui_id>c78aac55-ff7f-4c61-8940-97ea69c4a1ea</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b70baa032f6cf010bd8e93acf699b616"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b70baa032f6cf010bd8e93acf699b616</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:12:27</sys_created_on>
+        <sys_id>3f0baa032f6cf010bd8e93acf699b619</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:12:27</sys_updated_on>
+        <value>order confirmation and summary</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b70baa032f6cf010bd8e93acf699b616</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:12:27</sys_created_on>
+        <sys_id>770baa032f6cf010bd8e93acf699b619</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:12:27</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b70baa032f6cf010bd8e93acf699b616"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>b70baa032f6cf010bd8e93acf699b616</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:12:27</sys_created_on>
+        <sys_id>330baa032f6cf010bd8e93acf699b619</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:31:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Your order has been placed successfully!&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Ordered by:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:17d79f84-7788-473a-811b-d5ebaaef3b1f}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:17d79f84-7788-473a-811b-d5ebaaef3b1f}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Order Info Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Order by User&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name&lt;button id="transform_function_facade_17d79f84-7788-473a-811b-d5ebaaef3b1f" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Drink name:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:1336d0b9-2e24-4554-a115-55d19f5d49b5}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:1336d0b9-2e24-4554-a115-55d19f5d49b5}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Order Info Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Catalog Item&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name&lt;button id="transform_function_facade_1336d0b9-2e24-4554-a115-55d19f5d49b5" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Category of Drink:&amp;nbsp;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:86ba7b5a-fb73-4128-a96b-de2e6934ff39}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:86ba7b5a-fb73-4128-a96b-de2e6934ff39}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Order Info Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Category&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Title&lt;button id="transform_function_facade_86ba7b5a-fb73-4128-a96b-de2e6934ff39" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;price:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:879813e8-0186-45bb-9bec-07ff666eb0f3}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:879813e8-0186-45bb-9bec-07ff666eb0f3}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Starbucks Order Info Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Catalog Item&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Price&lt;button id="transform_function_facade_879813e8-0186-45bb-9bec-07ff666eb0f3" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>b70baa032f6cf010bd8e93acf699b616</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:12:27</sys_created_on>
+        <sys_id>f30baa032f6cf010bd8e93acf699b619</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:12:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>b70baa032f6cf010bd8e93acf699b616</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:12:27</sys_created_on>
+        <sys_id>7b0baa032f6cf010bd8e93acf699b618</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:12:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current.u_o}} </value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=f48f16902f643410bd8e93acf699b686^sys_idNOT IN8b7ca2832f6cf010bd8e93acf699b6c1,bb0baa032f6cf010bd8e93acf699b61a"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">5ec364452fe83010bd8e93acf699b624</block>
+        <block display_value="">8a4c6e432f6cf010bd8e93acf699b67a</block>
+        <comment/>
+        <connected_to>de2db49e-9734-4e04-ae6e-e76797b645cf</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="email notification">f48f16902f643410bd8e93acf699b686</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:18:40</sys_created_on>
+        <sys_id>8b7ca2832f6cf010bd8e93acf699b6c1</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:32:02</sys_updated_on>
+        <ui_id>bcf3feea-6813-4133-81a0-57fd1b563172</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8b7ca2832f6cf010bd8e93acf699b6c1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>8b7ca2832f6cf010bd8e93acf699b6c1</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:18:40</sys_created_on>
+        <sys_id>4f7ca2832f6cf010bd8e93acf699b6c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:18:40</sys_updated_on>
+        <value>order out for delivery</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8b7ca2832f6cf010bd8e93acf699b6c1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>8b7ca2832f6cf010bd8e93acf699b6c1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:18:40</sys_created_on>
+        <sys_id>cb7ca2832f6cf010bd8e93acf699b6c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:18:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{Created or Updated_1.current.stage}}=out_for_delivery</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>8b7ca2832f6cf010bd8e93acf699b6c1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:18:40</sys_created_on>
+        <sys_id>0b7ca2832f6cf010bd8e93acf699b6c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:18:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">303a2ecf2f2cf010bd8e93acf699b665</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1753,87 +2055,74 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:50</sys_created_on>
-        <sys_id>06d3e4452fe83010bd8e93acf699b638</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_created_on>2021-06-09 16:12:27</sys_created_on>
+        <sys_id>bb0baa032f6cf010bd8e93acf699b61a</sys_id>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:52</sys_updated_on>
-        <ui_id>054b018e-9544-4a79-b354-b31d96e3e65e</ui_id>
+        <sys_updated_on>2021-06-09 16:32:01</sys_updated_on>
+        <ui_id>de2db49e-9734-4e04-ae6e-e76797b645cf</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=06d3e4452fe83010bd8e93acf699b638"/>
+    <sys_variable_value action="delete_multiple" query="document_key=bb0baa032f6cf010bd8e93acf699b61a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
-        <document_key>06d3e4452fe83010bd8e93acf699b638</document_key>
+        <document_key>bb0baa032f6cf010bd8e93acf699b61a</document_key>
         <order>10</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:50</sys_created_on>
-        <sys_id>8ed3e4452fe83010bd8e93acf699b63b</sys_id>
+        <sys_created_on>2021-06-09 16:12:27</sys_created_on>
+        <sys_id>f70baa032f6cf010bd8e93acf699b61e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:50</sys_updated_on>
-        <value>if the state is order confirmed</value>
+        <sys_updated_on>2021-06-09 16:12:27</sys_updated_on>
+        <value>order places</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=06d3e4452fe83010bd8e93acf699b638"/>
+    <sys_element_mapping action="delete_multiple" query="id=bb0baa032f6cf010bd8e93acf699b61a"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition</field>
-        <id>06d3e4452fe83010bd8e93acf699b638</id>
+        <id>bb0baa032f6cf010bd8e93acf699b61a</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:50</sys_created_on>
-        <sys_id>0ed3e4452fe83010bd8e93acf699b63b</sys_id>
+        <sys_created_on>2021-06-09 16:12:27</sys_created_on>
+        <sys_id>770baa032f6cf010bd8e93acf699b61e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:50</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:12:27</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created or Updated_1.current.state}}=1</value>
+        <value>{{Created or Updated_1.current.stage}}=order_placed</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
-        <id>06d3e4452fe83010bd8e93acf699b638</id>
+        <id>bb0baa032f6cf010bd8e93acf699b61a</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:50</sys_created_on>
-        <sys_id>4ad3e4452fe83010bd8e93acf699b63b</sys_id>
+        <sys_created_on>2021-06-09 16:12:27</sys_created_on>
+        <sys_id>b30baa032f6cf010bd8e93acf699b61e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:13:50</sys_updated_on>
+        <sys_updated_on>2021-06-09 16:12:27</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">66c364452fe83010bd8e93acf699b641</block>
-        <comment>if the state is Order completed</comment>
-        <connected_to>054b018e-9544-4a79-b354-b31d96e3e65e</connected_to>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="email notification">f48f16902f643410bd8e93acf699b686</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>3</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f48f16902f643410bd8e93acf699b686^sys_idNOT IN00edaec32f6cf010bd8e93acf699b66a,018f16902f643410bd8e93acf699b6c9,058f16902f643410bd8e93acf699b6c8,081baa032f6cf010bd8e93acf699b65c,098f16902f643410bd8e93acf699b6c8,0d8f16902f643410bd8e93acf699b6c8,120274e82fe83410bd8e93acf699b659,12d3e4452fe83010bd8e93acf699b69d,137ca2832f6cf010bd8e93acf699b6fd,154d62c32f6cf010bd8e93acf699b687,160274e82fe83410bd8e93acf699b658,16d3e4452fe83010bd8e93acf699b69d,3d1c6cc92fe83010bd8e93acf699b620,56d3e4452fe83010bd8e93acf699b69c,5ad3e4452fe83010bd8e93acf699b69c,5d4d62c32f6cf010bd8e93acf699b687,5ed3e4452fe83010bd8e93acf699b69d,711c6cc92fe83010bd8e93acf699b620,841baa032f6cf010bd8e93acf699b65d,858f16902f643410bd8e93acf699b6c8,88edaec32f6cf010bd8e93acf699b669,898f16902f643410bd8e93acf699b6c8,8d8f16902f643410bd8e93acf699b6c8,a68eea072f6cf010bd8e93acf699b6d0,b0fb2c642fe83410bd8e93acf699b674,bcfb2c642fe83410bd8e93acf699b673,c01baa032f6cf010bd8e93acf699b65d,c3bb66432f6cf010bd8e93acf699b69a,d20274e82fe83410bd8e93acf699b659,d37ca2832f6cf010bd8e93acf699b6fc,d60274e82fe83410bd8e93acf699b658,d6d3e4452fe83010bd8e93acf699b69d,da0274e82fe83410bd8e93acf699b658,de0274e82fe83410bd8e93acf699b657,f4fb2c642fe83410bd8e93acf699b673"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.u_reference_2.sys_updated_on}}</prescription>
+        <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-03 01:13:50</sys_created_on>
-        <sys_id>4ad3e4452fe83010bd8e93acf699b63c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_created_on>2021-06-09 16:24:45</sys_created_on>
+        <sys_id>00edaec32f6cf010bd8e93acf699b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 01:49:52</sys_updated_on>
-        <ui_id>0eabc303-bea7-409f-997d-679024928372</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=4ad3e4452fe83010bd8e93acf699b63c"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f48f16902f643410bd8e93acf699b686^sys_idNOT IN018f16902f643410bd8e93acf699b6c9,058f16902f643410bd8e93acf699b6c8,098f16902f643410bd8e93acf699b6c8,0d8f16902f643410bd8e93acf699b6c8,120274e82fe83410bd8e93acf699b659,12d3e4452fe83010bd8e93acf699b69d,160274e82fe83410bd8e93acf699b658,16d3e4452fe83010bd8e93acf699b69d,3d1c6cc92fe83010bd8e93acf699b620,56d3e4452fe83010bd8e93acf699b69c,5ad3e4452fe83010bd8e93acf699b69c,5ed3e4452fe83010bd8e93acf699b69d,711c6cc92fe83010bd8e93acf699b620,858f16902f643410bd8e93acf699b6c8,898f16902f643410bd8e93acf699b6c8,8d8f16902f643410bd8e93acf699b6c8,b0fb2c642fe83410bd8e93acf699b674,bcfb2c642fe83410bd8e93acf699b673,d20274e82fe83410bd8e93acf699b659,d60274e82fe83410bd8e93acf699b658,d6d3e4452fe83010bd8e93acf699b69d,da0274e82fe83410bd8e93acf699b658,de0274e82fe83410bd8e93acf699b657,f4fb2c642fe83410bd8e93acf699b673"/>
+        <sys_updated_on>2021-06-09 16:24:45</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>64a79242-c658-4af3-9c23-e5273fe2e054</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
         <extra_info/>
@@ -1867,6 +2156,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>292c124a-b3af-481a-908b-74b8aa91ad75</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:12:28</sys_created_on>
+        <sys_id>081baa032f6cf010bd8e93acf699b65c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:12:28</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>dbea6c59-cfea-4f9c-8282-2bdc1aa70c49</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
@@ -1935,6 +2241,40 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>47de2e5f-ed11-4a37-b0db-43f0c4da3389</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.u_o.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:18:41</sys_created_on>
+        <sys_id>137ca2832f6cf010bd8e93acf699b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:18:41</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>37acffd4-7a11-43c6-ad64-7fa4c078df79</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.u_o.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:22:06</sys_created_on>
+        <sys_id>154d62c32f6cf010bd8e93acf699b687</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:22:06</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>17d79f84-7788-473a-811b-d5ebaaef3b1f</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
@@ -2025,6 +2365,23 @@
         <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
         <extra_info/>
         <order>0</order>
+        <prescription>{{Created or Updated_1.current.item.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:22:06</sys_created_on>
+        <sys_id>5d4d62c32f6cf010bd8e93acf699b687</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:22:06</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1336d0b9-2e24-4554-a115-55d19f5d49b5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
+        <extra_info/>
+        <order>0</order>
         <prescription>{{Created or Updated_1.current.ordered_for.mobile_phone}}</prescription>
         <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
@@ -2059,6 +2416,23 @@
         <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
         <extra_info/>
         <order>0</order>
+        <prescription>{{Created or Updated_1.current.u_o}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:12:28</sys_created_on>
+        <sys_id>841baa032f6cf010bd8e93acf699b65d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:12:28</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fde5588e-fdb1-4372-9274-2dd5db859046</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
+        <extra_info/>
+        <order>0</order>
         <prescription>{{Created or Updated_1.current.ordered_for.employee_number}}</prescription>
         <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
@@ -2071,6 +2445,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>98f10096-f3bb-412f-bbca-d4bb8e63ebb2</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.u_reference_2.title}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:24:45</sys_created_on>
+        <sys_id>88edaec32f6cf010bd8e93acf699b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:24:45</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>86ba7b5a-fb73-4128-a96b-de2e6934ff39</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
@@ -2110,6 +2501,23 @@
         <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
         <extra_info/>
         <order>0</order>
+        <prescription>{{Created or Updated_1.current.item.price}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:27:39</sys_created_on>
+        <sys_id>a68eea072f6cf010bd8e93acf699b6d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:27:39</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>879813e8-0186-45bb-9bec-07ff666eb0f3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
+        <extra_info/>
+        <order>0</order>
         <prescription>{{Created or Updated_1.current.ordered_for.name}}</prescription>
         <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
@@ -2144,6 +2552,40 @@
         <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
         <extra_info/>
         <order>0</order>
+        <prescription>{{Created or Updated_1.current.u_reference_2}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:12:28</sys_created_on>
+        <sys_id>c01baa032f6cf010bd8e93acf699b65d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:12:28</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>853ca2f8-dc3b-4d33-a096-76068aa14d4b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.u_o.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:15:24</sys_created_on>
+        <sys_id>c3bb66432f6cf010bd8e93acf699b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:15:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0e4a0f6c-486f-46d3-9408-601c165f9ca5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
+        <extra_info/>
+        <order>0</order>
         <prescription>{{Created or Updated_1.current.order}}</prescription>
         <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
@@ -2156,6 +2598,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>a6c41fe7-9e14-4039-9724-75a650aea328</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 16:18:41</sys_created_on>
+        <sys_id>d37ca2832f6cf010bd8e93acf699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 16:18:41</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fe30185c-fdb9-4824-aed0-007d089af1df</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>f48f16902f643410bd8e93acf699b686</attached_to>

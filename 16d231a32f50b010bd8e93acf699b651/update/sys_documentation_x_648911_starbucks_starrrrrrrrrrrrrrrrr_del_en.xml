@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="del" label="Delivery Boy" language="en" table="x_648911_starbucks_starrrrrrrrrrrrrrrrr">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>del</element>
+            <help/>
+            <hint/>
+            <label>Delivery Boy</label>
+            <language>en</language>
+            <name>x_648911_starbucks_starrrrrrrrrrrrrrrrr</name>
+            <plural>Delivery Boys</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-09 18:53:43</sys_created_on>
+            <sys_id>16ff0f0f2facf010bd8e93acf699b6b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Delivery Boy</sys_name>
+            <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+            <sys_update_name>sys_documentation_x_648911_starbucks_starrrrrrrrrrrrrrrrr_del_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-09 18:53:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

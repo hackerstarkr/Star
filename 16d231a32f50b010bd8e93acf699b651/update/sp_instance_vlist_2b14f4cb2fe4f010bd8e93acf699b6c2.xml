@@ -4,34 +4,35 @@
         <class_name/>
         <color>default</color>
         <css/>
-        <display_field>cat_item</display_field>
+        <display_field>item</display_field>
         <field_list/>
-        <filter/>
-        <glyph>th-list</glyph>
+        <filter table="x_648911_starbucks_starrrrrrrrrrrrrrrrr">u_oDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="u_o" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        </filter>
+        <glyph>list</glyph>
         <id/>
-        <maximum_entries>10</maximum_entries>
+        <maximum_entries>8</maximum_entries>
         <order>1</order>
         <order_by/>
         <order_direction>asc</order_direction>
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="3">4eb6a4432fe4f010bd8e93acf699b62f</sp_column>
-        <sp_page display_value="ticket">84af292247132100ba13a5554ee4909e</sp_page>
+        <sp_column display_value="2">ccd3decf2fe8f010bd8e93acf699b65c</sp_column>
+        <sp_page display_value="me_sc_cat_item">78ba038987032300e0ef0cf888cb0b6b</sp_page>
         <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
         <sys_class_name>sp_instance_vlist</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-09 07:32:47</sys_created_on>
         <sys_id>2b14f4cb2fe4f010bd8e93acf699b6c2</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sp_instance_vlist_2b14f4cb2fe4f010bd8e93acf699b6c2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-09 08:14:40</sys_updated_on>
-        <table>x_648911_starbucks_starbucks_orders</table>
+        <sys_updated_on>2021-06-09 17:14:24</sys_updated_on>
+        <table>x_648911_starbucks_starrrrrrrrrrrrrrrrr</table>
         <title/>
         <url/>
         <widget_parameters><![CDATA[{
@@ -48,8 +49,8 @@
 		"displayValue": ""
 	},
 	"secondary_fields": {
-		"value": "number,sys_updated_on",
-		"displayValue": "number,sys_updated_on"
+		"value": "u_reference_2,sys_updated_on",
+		"displayValue": "u_reference_2,sys_updated_on"
 	},
 	"rounded_images": {
 		"value": "",
@@ -64,8 +65,8 @@
 		"displayValue": ""
 	},
 	"view": {
-		"value": "30174876cb811200aa871831794c9cc4",
-		"displayValue": "Default"
+		"value": "6cac70436d2220100acb70b3534330cb",
+		"displayValue": "Self Service"
 	},
 	"disable_record_watcher": {
 		"value": "",

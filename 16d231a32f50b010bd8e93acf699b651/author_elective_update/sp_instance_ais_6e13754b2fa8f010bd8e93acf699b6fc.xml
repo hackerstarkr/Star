@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">11e2390b2fa8f010bd8e93acf699b6ce</sp_column>
+        <sp_widget display_value="Copy of Homepage Search">7a5fe4c72fe4f010bd8e93acf699b6e1</sp_widget>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 12:07:58</sys_created_on>
+        <sys_id>6e13754b2fa8f010bd8e93acf699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sp_instance_ais_6e13754b2fa8f010bd8e93acf699b6fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 12:07:58</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=6e13754b2fa8f010bd8e93acf699b6fc"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>sp_instance_ais_6e13754b2fa8f010bd8e93acf699b6fc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais"><sp_instance_ais action="INSERT_OR_UPDATE"><active>true</active><ai_search_source_filter/><class_name/><color>default</color><css/><disable_all_suggestions>false</disable_all_suggestions><glyph/><id/><order>1</order><placeholder/><roles/><search_application/><search_results_configuration/><short_description/><size>md</size><sp_column display_value="1">11e2390b2fa8f010bd8e93acf699b6ce</sp_column><sp_widget display_value="Copy of Homepage Search">7a5fe4c72fe4f010bd8e93acf699b6e1</sp_widget><sys_class_name>sp_instance_ais</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-09 12:07:58</sys_created_on><sys_id>6e13754b2fa8f010bd8e93acf699b6fc</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package><sys_policy/><sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope><sys_update_name>sp_instance_ais_6e13754b2fa8f010bd8e93acf699b6fc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-09 12:07:58</sys_updated_on><title/><url/><widget_parameters/></sp_instance_ais><sys_translated_text action="delete_multiple" query="documentkey=6e13754b2fa8f010bd8e93acf699b6fc"/></record_update>]]></payload>
+        <payload_hash>1569444033</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>2be04b632f54b010bd8e93acf699b6c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 12:07:58</sys_created_on>
+        <sys_id>ee13754b2fa8f010bd8e93acf699b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179f0ac0e9b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 12:07:58</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>2a13754b73a8f0109ce80e8f0ade0cfe</update_guid>
+        <update_guid_history>2a13754b73a8f0109ce80e8f0ade0cfe:1569444033</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">85c39ecf2fe8f010bd8e93acf699b625</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 14:30:41</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>c2f524a555204afb975a50f6814426d1</sys_id>
+        <sys_metadata>6e13754b2fa8f010bd8e93acf699b6fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_6e13754b2fa8f010bd8e93acf699b6fc</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_6e13754b2fa8f010bd8e93acf699b6fc">ee13754b2fa8f010bd8e93acf699b6fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 14:30:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

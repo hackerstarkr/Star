@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_user" label="Users" max_length="40" name="x_648911_starbucks_users" sizeclass="6" type="collection"/>
+    <element extends="sys_user" label="Delivery Boys" max_length="40" name="x_648911_starbucks_users" sizeclass="6" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Occupied" max_length="40" name="occupied" type="string">
+            <choice>
+                <element inactive_on_update="false" label="NO" value="n"/>
+                <element inactive_on_update="false" label="YES" value="y"/>
+            </choice>
+        </element>
+    </element>
 </database>

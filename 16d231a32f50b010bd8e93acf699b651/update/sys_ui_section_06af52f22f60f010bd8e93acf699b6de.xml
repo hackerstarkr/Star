@@ -4,13 +4,13 @@
             <element>u_reference_1</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-09 07:23:16</sys_created_on>
-            <sys_id>50f1b84b2fe4f010bd8e93acf699b650</sys_id>
+            <sys_created_on>2021-06-09 19:16:15</sys_created_on>
+            <sys_id>94259f032fecf010bd8e93acf699b625</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" sys_domain="global" view="Default view">06af52f22f60f010bd8e93acf699b6de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-09 07:23:16</sys_updated_on>
+            <sys_updated_on>2021-06-09 19:16:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>item</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-09 07:23:16</sys_created_on>
-            <sys_id>d4f1b84b2fe4f010bd8e93acf699b650</sys_id>
+            <sys_created_on>2021-06-09 19:16:15</sys_created_on>
+            <sys_id>10259f032fecf010bd8e93acf699b626</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" sys_domain="global" view="Default view">06af52f22f60f010bd8e93acf699b6de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-09 07:23:16</sys_updated_on>
+            <sys_updated_on>2021-06-09 19:16:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>u_reference_2</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-09 07:23:16</sys_created_on>
-            <sys_id>5cf1b84b2fe4f010bd8e93acf699b650</sys_id>
+            <sys_created_on>2021-06-09 19:16:15</sys_created_on>
+            <sys_id>94259f032fecf010bd8e93acf699b626</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" sys_domain="global" view="Default view">06af52f22f60f010bd8e93acf699b6de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-09 07:23:16</sys_updated_on>
+            <sys_updated_on>2021-06-09 19:16:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-09 07:23:16</sys_created_on>
-            <sys_id>d0f1b84b2fe4f010bd8e93acf699b651</sys_id>
+            <sys_created_on>2021-06-09 19:16:15</sys_created_on>
+            <sys_id>1c259f032fecf010bd8e93acf699b626</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" sys_domain="global" view="Default view">06af52f22f60f010bd8e93acf699b6de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-09 07:23:16</sys_updated_on>
+            <sys_updated_on>2021-06-09 19:16:15</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>u_o</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-09 07:23:16</sys_created_on>
-            <sys_id>58f1b84b2fe4f010bd8e93acf699b651</sys_id>
+            <sys_created_on>2021-06-09 19:16:15</sys_created_on>
+            <sys_id>90259f032fecf010bd8e93acf699b627</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" sys_domain="global" view="Default view">06af52f22f60f010bd8e93acf699b6de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-09 07:23:16</sys_updated_on>
+            <sys_updated_on>2021-06-09 19:16:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,27 @@
             <element>stage</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-09 07:23:16</sys_created_on>
-            <sys_id>dcf1b84b2fe4f010bd8e93acf699b651</sys_id>
+            <sys_created_on>2021-06-09 19:16:15</sys_created_on>
+            <sys_id>18259f032fecf010bd8e93acf699b627</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" sys_domain="global" view="Default view">06af52f22f60f010bd8e93acf699b6de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-09 07:23:16</sys_updated_on>
+            <sys_updated_on>2021-06-09 19:16:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>del</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-09 19:16:15</sys_created_on>
+            <sys_id>9c259f032fecf010bd8e93acf699b627</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" sys_domain="global" view="Default view">06af52f22f60f010bd8e93acf699b6de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-09 19:16:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
