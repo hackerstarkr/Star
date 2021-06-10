@@ -12,8 +12,8 @@ section.page, main.body {&#13;
   padding-left:0px;&#13;
   width:100%;&#13;
 }&#13;
-.container.image{&#13;
-  background-image:url('https://image.cnbcfm.com/api/v1/image/106572237-1591791946481gettyimages-1214409998.jpeg');&#13;
+.image{&#13;
+  background-image:url('image1.png');&#13;
 }</css>
         <draft>false</draft>
         <dynamic_title_structure/>
@@ -28,14 +28,14 @@ section.page, main.body {&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-06 08:26:34</sys_created_on>
         <sys_id>8ea3e58a2f2c3010bd8e93acf699b607</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>starhome</sys_name>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sp_page_8ea3e58a2f2c3010bd8e93acf699b607</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-09 17:29:04</sys_updated_on>
+        <sys_updated_on>2021-06-10 16:04:37</sys_updated_on>
         <title>Starbucks Portal</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>

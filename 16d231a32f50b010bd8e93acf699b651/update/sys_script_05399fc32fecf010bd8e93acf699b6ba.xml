@@ -38,7 +38,7 @@
 	gr.query();
 	if(gr.next())
 		{
-			gr.occupied='y';
+			gr.occupied='n';
 		}
 	gr.update();
 
@@ -50,7 +50,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>05399fc32fecf010bd8e93acf699b6ba</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Upading Delivery-Boy Unoccupied Status</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sys_script_05399fc32fecf010bd8e93acf699b6ba</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-09 19:44:24</sys_updated_on>
+        <sys_updated_on>2021-06-10 14:57:45</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Starbucks Order Info" max_length="40" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" sizeclass="3" type="collection">
+    <element label="Starbucks Order Info" max_length="40" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" sizeclass="10" type="collection">
         <element attributes="encode_utf8=false" label="Delivery Boy" max_length="32" name="del" read_only="true" reference="x_648911_starbucks_users" type="reference"/>
         <element attributes="encode_utf8=false" label="Catalog Item" max_length="32" name="item" read_only="true" reference="sc_cat_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery Boy MobNo." max_length="40" name="mob" read_only="true" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="REQ" max_length="32" name="ref" read_only="true" reference="sc_request" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Request ID" max_length="40" name="req" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Stage" max_length="40" name="stage" type="string">
             <choice>
                 <element inactive_on_update="false" label="Order Placed" sequence="0" value="order_placed"/>
@@ -17,15 +21,18 @@
             <element name="item"/>
         </index>
         <index name="index2">
-            <element name="u_reference_2"/>
+            <element name="ref"/>
         </index>
         <index name="index3">
-            <element name="u_o"/>
+            <element name="u_reference_2"/>
         </index>
         <index name="index4">
-            <element name="u_reference_1"/>
+            <element name="u_o"/>
         </index>
         <index name="index5">
+            <element name="u_reference_1"/>
+        </index>
+        <index name="index6">
             <element name="del"/>
         </index>
     </element>

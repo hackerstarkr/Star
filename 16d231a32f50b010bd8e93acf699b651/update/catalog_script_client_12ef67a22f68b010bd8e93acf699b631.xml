@@ -19,7 +19,7 @@
         <order/>
         <script><![CDATA[function onLoad() {
 //Type appropriate comment here and begin script below
-var ga = new GlideAjax('Ajaxx'); // Hoping your script include name is 'Ajaxx'
+var ga = new GlideAjax('Ajaxx'); 
 ga.addParam('sysparm_name', 'hello');
 ga.addParam('sysparm_item',g_form.getParameter("sysparm_id")); // you need to pass catalog item sys_id here
 ga.getXML(HelloWorldParse);
@@ -27,7 +27,7 @@ ga.getXML(HelloWorldParse);
 function HelloWorldParse(response) {
 var answer = response.responseXML.documentElement.getAttribute("answer");
 //	g_form.setValue('price',answer+10);
-alert(answer);
+alert(answer/2);
 
 }}]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -36,7 +36,7 @@ alert(answer);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>12ef67a22f68b010bd8e93acf699b631</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Retriving Price from ServerSide</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
@@ -44,7 +44,7 @@ alert(answer);
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>catalog_script_client_12ef67a22f68b010bd8e93acf699b631</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-09 08:05:38</sys_updated_on>
+        <sys_updated_on>2021-06-10 13:47:32</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

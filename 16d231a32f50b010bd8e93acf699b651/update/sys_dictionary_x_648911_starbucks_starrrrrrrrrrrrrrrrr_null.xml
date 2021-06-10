@@ -47,21 +47,21 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>3</sizeclass>
+        <sizeclass>10</sizeclass>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-08 20:40:18</sys_created_on>
         <sys_id>e5ce5eb22f60f010bd8e93acf699b66f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>x_648911_starbucks_starrrrrrrrrrrrrrrrr</sys_name>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sys_dictionary_x_648911_starbucks_starrrrrrrrrrrrrrrrr_null</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-06-09 10:29:01</sys_updated_on>
+        <sys_updated_on>2021-06-10 10:29:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
