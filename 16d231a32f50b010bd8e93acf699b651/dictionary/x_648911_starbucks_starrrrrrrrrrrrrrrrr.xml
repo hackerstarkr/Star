@@ -14,6 +14,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Trial" max_length="40" name="trial" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User Mobile Number" max_length="40" name="u_mob" read_only="true" type="string"/>
         <element attributes="encode_utf8=false" label="Order by User" max_length="32" name="u_o" read_only="true" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="Catalog" max_length="32" name="u_reference_1" read_only="true" reference="sc_catalog" type="reference"/>
         <element attributes="encode_utf8=false" label="Category" max_length="32" name="u_reference_2" read_only="true" reference="sc_category" type="reference"/>
