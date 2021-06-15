@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="SYS Help" max_length="40" name="x_648911_starbucks_sys_help" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Order Date/time" mandatory="true" max_length="40" name="dt" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Order ID" mandatory="true" max_length="40" name="id" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Problem Type" max_length="40" name="p_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Order Not Recived" sequence="0" value="order not recived"/>
+                <element inactive_on_update="false" label="Delay in Delivery" sequence="1" value="delay in delivery"/>
+                <element inactive_on_update="false" label="Order is Damaged" sequence="2" value="order is damaged"/>
+                <element inactive_on_update="false" label="Wrong Item Received" sequence="3" value="wrong item received"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Urgency" mandatory="true" max_length="40" name="urgency" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="0" value="low"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="high"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="User Name" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

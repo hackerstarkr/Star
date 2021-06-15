@@ -12,10 +12,12 @@
 }&#13;
 .wrapper-xl{&#13;
   margin-left:0px;&#13;
-  padding-left:0px;&#13;
+  padding-left:5px !important;&#13;
+  padding-right:55px !important;&#13;
 }&#13;
 &#13;
 #homepage-search {&#13;
+  width:50%;&#13;
   margin-left:0px;&#13;
   padding-left:0px;&#13;
   .aisearch {&#13;
@@ -47,14 +49,14 @@ else
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-09 07:11:59</sys_created_on>
         <sys_id>7a5fe4c72fe4f010bd8e93acf699b6e1</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>Copy of Homepage Search</sys_name>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sp_widget_7a5fe4c72fe4f010bd8e93acf699b6e1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 16:06:36</sys_updated_on>
+        <sys_updated_on>2021-06-15 11:36:37</sys_updated_on>
         <template><![CDATA[<div id="homepage-search" class="hidden-xs wrapper-xl" >
   <div class="wrapper-xl">
     <br>
