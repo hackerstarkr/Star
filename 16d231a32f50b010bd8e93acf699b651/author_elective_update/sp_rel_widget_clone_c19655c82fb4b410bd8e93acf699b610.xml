@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="DELETE">
+        <child display_value="Copy of Recent &amp; Popular Items">fc9655c82fb4b410bd8e93acf699b60b</child>
+        <cloned>2021-06-12 12:37:16</cloned>
+        <last_validated>2021-06-12 12:37:16</last_validated>
+        <parent display_value="Recent &amp; Popular Items">4fc1dd5387500300e0ef0cf888cb0baa</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category/&gt;&lt;client_script&gt;&lt;![CDATA[function() {
+  /* widget controller */
+  var c = this;
+	c.show_recent = false;
+	
+	c.KEYS = {
+						DOWN:40,
+						LEFT:37,
+						RIGHT:39,
+						TAB:9,
+						UP:38
+					 }
+	
+	if (c.data.recentItems.length &gt; 0)
+		c.show_recent = true;
+	c.changePanel = function(panel_name) {
+		if (c.show_recent) {
+			if (panel_name == 'popular')
+				c.show_recent = false;
+		} else {
+			if (panel_name == 'recent')
+				c.show_recent = true;
+		}
+	};
+	
+	c.switchTab = function($event, tab) {
+		var key = null;
+		if (event.keyCode === c.KEYS.LEFT || event.keyCode === c.KEYS.UP)
+			key = c.KEYS.LEFT;
+		else if (event.keyCode === c.KEYS.RIGHT || event.keyCode === c.KEYS.DOWN)
+			key = c.KEYS.RIGHT;
+		else if (event.keyCode === c.KEYS.TAB) {
+			return;
+		}
+		if (key === null)
+			return;
+		c.show_recent = !c.show_recent;
+		if (c.show_recent)
+			$('a.recent').focus();
+		else
+			$('a.popular').focus();
+	}
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.sc-tab-a {
+ 	 color: $primary;
+	 border: 0;
+   border-bottom: 3px solid $primary;
+   background-color: transparent;
+}
+
+.nav &amp;gt; li.item {
+  text-align: center;
+}
+
+.recent-widget {
+  .panel-heading {
+			padding-bottom : 0px;
+	}
+  
+  .row {
+    margin-left: 0;
+    margin-right:0;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .item-card {
+    margin-bottom: 15px;
+  }
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;sc-recent-popular&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;Recent &amp;amp; Popular Items&lt;/name&gt;&lt;option_schema&gt;[{"hint":"Number of item cards in the widget","name":"limit","section":"Presentation","default_value":"8","label":"Number of Items","type":"integer"},{"hint":"Show my recent items by view or request","name":"recent_by","section":"Behavior","default_value":"view","label":"My Recent Items By","type":"choice","choices":[{"label":"View","value":"view"},{"label":"Request","value":"request"}]},{"hint":"Popular Items that has been used","name":"popular_items_created","section":"Data","default_value":"6","label":"Popular Items used in","type":"choice","choices":[{"label":"Last 3 Months","value":"3"},{"label":"Last 6 Months","value":"6"},{"label":"Last 12 Months","value":"12"},{"label":"Life time (Has performance implications)","value":"0"}]}]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+	data.limit = options.limit || 8;
+	var recent_by = options.recent_by || 'view';
+	var recent = new GlideRecord('sp_log');
+	if (recent_by === 'view')
+		recent.addEncodedQuery('userDYNAMIC90d1921e5f510100a9ad2572f2b477fe^type=Cat Item View^sys_created_onONThis quarter@javascript:gs.beginningOfThisQuarter()@javascript:gs.endOfThisQuarter()');
+	else
+		recent.addEncodedQuery('userDYNAMIC90d1921e5f510100a9ad2572f2b477fe^type=Cat Item Request^sys_created_onONThis quarter@javascript:gs.beginningOfThisQuarter()@javascript:gs.endOfThisQuarter()');
+	recent.orderByDesc('sys_created_on');
+	recent.query();
+	var recentItems = [];
+	var catalogArr = ($sp.getCatalogs().value + "").split(",");
+	data.showPrices = $sp.showCatalogPrices();
+	
+	while (recent.next() &amp;&amp; recentItems.length &lt; data.limit) {
+		if (isAlreadyAdded(recent.getValue('id')))
+			continue;
+		var catalogItemJS = new sn_sc.CatItem(recent.getValue('id'));
+		if (!catalogItemJS.canView(gs.isMobile()) || !catalogItemJS.isVisibleServicePortal())
+			continue;
+		var item = {};
+		var catItemDetails = catalogItemJS.getItemSummary(true);
+		if(!catItemDetails.visible_standalone)
+			continue;
+		var inCatalog = false;
+		for (var i=0; i&lt;catItemDetails.catalogs.length; i++) {
+			if (catalogArr.indexOf(catItemDetails.catalogs[i].sys_id + "") &gt;= 0) {
+				inCatalog = true;
+				break;
+			}
+		}
+		if (inCatalog) {
+			item.name = catItemDetails.name;
+			item.short_description = catItemDetails.short_description;
+			item.picture = catItemDetails.picture;
+			item.price = catItemDetails.price;
+			item.sys_id = catItemDetails.sys_id;
+			item.hasPrice = item.price != 0;
+			item.page = catItemDetails.type == 'order_guide'? 'sc_cat_item_guide' : 'sc_cat_item';
+			recentItems.push(item);
+		}
+	}
+	
+	function isAlreadyAdded(catItemSysId) {
+		for (var i=0;i&lt;recentItems.length;i++) {
+			if (catItemSysId==recentItems[i].sys_id)
+				return true;
+		}
+		return false;
+	}
+	
+	data.recentItems = recentItems;
+	
+	data.popularItems = getPopularItems();
+	
+	function getPopularItems () {
+			var limit = options.limit || 8;
+			var items = [];
+			var createdQuery = '';
+		  if (options.popular_items_created == 3)
+				createdQuery = 'sys_created_onONLast 3 months@javascript:gs.beginningOfLast3Months()@javascript:gs.endOfLast3Months()^';
+			else if (options.popular_items_created == 6)
+				createdQuery = 'sys_created_onONLast 6 months@javascript:gs.beginningOfLast6Months()@javascript:gs.endOfLast6Months()^';
+			else if (options.popular_items_created == 12)
+				createdQuery = 'sys_created_onONLast 12 months@javascript:gs.beginningOfLast12Months()@javascript:gs.endOfLast12Months()^';
+			
+			var allowedItems = $sp.getAllowedItems();
+			var count = new GlideAggregate('sc_req_item');
+			count.addAggregate('COUNT','cat_item');
+			count.groupBy('cat_item.sys_id');
+			count.addQuery('cat_item.sys_class_name', 'NOT IN', 'sc_cat_item_guide,sc_cat_item_wizard,sc_cat_item_content,sc_cat_item_producer');
+			count.addQuery('cat_item', "IN", allowedItems);
+			count.addQuery('cat_item.visible_standalone','true');
+			count.addEncodedQuery(createdQuery + 'cat_item.hide_sp=false^ORcat_item.hide_spISEMPTY');
+			count.orderByAggregate('COUNT', 'cat_item');
+			count.query();
+			while (count.next() &amp;&amp; items.length &lt; limit) {
+				var catalogItemJS = new sn_sc.CatItem(count.getValue("cat_item.sys_id"));
+					if (!catalogItemJS.canView(gs.isMobile()) || !catalogItemJS.isVisibleServicePortal())
+						continue;
+				var item = {};
+				var catItemDetails = catalogItemJS.getItemSummary();
+				
+				item.order = 0 - count.getAggregate('COUNT', 'cat_item');
+				item.name = catItemDetails.name;
+				item.short_description = catItemDetails.short_description;
+				item.picture = catItemDetails.picture;
+				item.price = catItemDetails.price;
+				item.sys_id = catItemDetails.sys_id;
+				item.hasPrice = item.price != 0;
+				item.page = 'sc_cat_item';
+				items.push(item);
+			}
+			var producers = 0;
+			count = new GlideAggregate('sc_item_produced_record');
+			count.addQuery('producer', "IN", allowedItems);
+			count.addEncodedQuery(createdQuery + 'producer.hide_sp=false^ORproducer.hide_spISEMPTY');
+			count.addAggregate('COUNT', 'producer');
+			count.addQuery('producer.visible_standalone','true');
+			count.groupBy('producer.sys_id');
+			count.orderByAggregate('COUNT', 'producer');
+			count.query();
+			while (count.next() &amp;&amp; producers &lt; limit) {
+					var producerJS = new sn_sc.CatItem(count.getValue('producer.sys_id'));
+					if (!producerJS.canView(gs.isMobile()) || !producerJS.isVisibleServicePortal())
+						continue;
+					var producerDetails = producerJS.getItemSummary();
+					var producer = {};
+					producer.order = 0 - count.getAggregate('COUNT', 'producer');
+					producer.name = producerDetails.name;
+					producer.short_description = producerDetails.short_description;
+					producer.picture = producerDetails.picture;
+					producer.price = producerDetails.price;
+					producer.hasPrice = producer.price != 0;
+					producer.sys_id = producerDetails.sys_id;
+					producer.page = 'sc_cat_item';
+					items.push(producer);
+					producers++;
+			}
+			return items;
+	}
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-08-05 20:47:11&lt;/sys_created_on&gt;&lt;sys_id&gt;4fc1dd5387500300e0ef0cf888cb0baa&lt;/sys_id&gt;&lt;sys_mod_count&gt;133&lt;/sys_mod_count&gt;&lt;sys_name&gt;Recent &amp;amp; Popular Items&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Service Catalog v2" source="com.glideapp.servicecatalog.portal"&gt;0423c9cf6d6620100acb70b35343303c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_4fc1dd5387500300e0ef0cf888cb0baa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-21 07:23:37&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="recent-widget"&gt;
+  &lt;div class="panel panel-default"&gt;
+ 	&lt;div class="panel-heading pad-bottom"&gt;
+    	&lt;ul class="nav nav-tabs" style="border-bottom : 0px" role="tablist"&gt;
+      	&lt;li class="item" ng-if="data.recentItems.length &gt; 0" role="tab" tabindex="-1" ng-click="c.changePanel('recent')" ng-keydown="c.switchTab($event, 'recent')"&gt;
+        	&lt;a ng-class="{'sc-tab-a' : c.show_recent}" href="javascript:void(0)" class="recent"&gt;
+          	&lt;span&gt; ${My Recent Items} &lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;  
+        &lt;li class="item" role="tab" tabindex="-1" ng-keydown="c.switchTab($event, 'popular')" ng-click="c.changePanel('popular')" &gt;
+        	&lt;a ng-class="{'sc-tab-a' : !c.show_recent}" href="javascript:void(0)" class="popular"&gt;
+          	&lt;span &gt; ${Popular Items} &lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;  
+    	&lt;/ul&gt;
+  &lt;/div&gt;
+    
+ &lt;div class="panels-container" ng-if="c.show_recent"&gt;
+   &lt;div class="row"&gt;
+     &lt;div class="col-sm-6 col-md-3" ng-repeat="item in data.recentItems track by item.sys_id"&gt;
+       &lt;div class="panel panel-default item-card"&gt;
+         &lt;a href="?id={{::item.page}}&amp;sys_id={{::item.sys_id}}&amp;referrer=recent_items" class="panel-body block" onclick='window.GlideWebAnalytics.trackEvent("Service Catalog", "Recent Item", "Item Clicked");'&gt;
+           &lt;div class="overflow-100"&gt;
+             &lt;h2 class="h4 m-t-none m-b-xs text-overflow-ellipsis" title="{{::item.name}}"&gt;{{::item.name}}&lt;/h2&gt;
+             &lt;img ng-src="{{::item.picture}}" ng-if="::item.picture" class="m-r-sm m-b-sm item-image pull-left" alt="{{::item.name}}" role="presentation" /&gt;
+             &lt;div class="text-muted item-short-desc" aria-hidden="{{::item.name !== null}}" role="presentation"&gt;{{::item.short_description}}&lt;/div&gt;
+           &lt;/div&gt;
+         &lt;/a&gt;
+         &lt;div class="panel-footer"&gt;
+           &lt;a href="?id={{::item.page}}&amp;sys_id={{item.sys_id}}&amp;referrer=recent_items" class="pull-left text-muted" aria-label="${View Details} {{::item.name}}" tabindex="-1" onclick='window.GlideWebAnalytics.trackEvent("Service Catalog", "Recent Item", "Item Clicked");'&gt;${View Details}&lt;/a&gt;
+           &lt;span ng-if="data.showPrices &amp;&amp; item.hasPrice" class="pull-right item-price font-bold"&gt;{{::item.price}}&lt;/span&gt; &amp;nbsp;
+         &lt;/div&gt;
+       &lt;/div&gt;
+     &lt;/div&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+    
+ &lt;div class="panels-container" ng-if="!c.show_recent"&gt;
+   &lt;div class="row"&gt;
+     &lt;div class="col-sm-6 col-md-3" ng-repeat="item in data.popularItems | orderBy: 'order' | limitTo: data.limit track by item.sys_id"&gt;
+       &lt;div class="panel panel-default item-card"&gt;
+         &lt;a href="?id={{::item.page}}&amp;sys_id={{::item.sys_id}}&amp;referrer=popular_items" class="panel-body block" onclick='window.GlideWebAnalytics.trackEvent("Service Catalog", "Popular Item", "Item Clicked");'&gt;
+           &lt;div class="overflow-100"&gt;
+             &lt;h2 class="h4 m-t-none m-b-xs text-overflow-ellipsis" title="{{::item.name}}"&gt;{{::item.name}}&lt;/h2&gt;
+             &lt;img ng-src="{{::item.picture}}" ng-if="::item.picture" class="m-r-sm m-b-sm item-image pull-left" alt="{{::item.name}}" role="presentation" /&gt;
+             &lt;div class="text-muted item-short-desc" aria-hidden="{{::item.name !== null}}" role="presentation"&gt;{{::item.short_description}}&lt;/div&gt;
+           &lt;/div&gt;
+         &lt;/a&gt;
+         &lt;div class="panel-footer"&gt;
+           &lt;a href="?id={{::item.page}}&amp;sys_id={{item.sys_id}}&amp;referrer=popular_items" class="pull-left text-muted" aria-label="${View Details} {{::item.name}}" tabindex="-1" onclick='window.GlideWebAnalytics.trackEvent("Service Catalog", "Popular Item", "Item Clicked");'&gt;${View Details}&lt;/a&gt;
+           &lt;span ng-if="data.showPrices &amp;&amp; item.hasPrice" class="pull-right item-price font-bold"&gt;{{::item.price}}&lt;/span&gt; &amp;nbsp;
+         &lt;/div&gt;
+       &lt;/div&gt;
+     &lt;/div&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+   
+    
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-12 12:37:16</sys_created_on>
+        <sys_id>c19655c82fb4b410bd8e93acf699b610</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fc9655c82fb4b410bd8e93acf699b60b</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_c19655c82fb4b410bd8e93acf699b610</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-12 12:37:16</sys_updated_on>
+    </sp_rel_widget_clone>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>sp_rel_widget_clone_c19655c82fb4b410bd8e93acf699b610</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone"><sp_rel_widget_clone action="INSERT_OR_UPDATE"><child display_value="Copy of Recent &amp; Popular Items">fc9655c82fb4b410bd8e93acf699b60b</child><cloned>2021-06-12 12:37:16</cloned><last_validated>2021-06-12 12:37:16</last_validated><parent display_value="Recent &amp; Popular Items">4fc1dd5387500300e0ef0cf888cb0baa</parent><payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category/&gt;&lt;client_script&gt;&lt;![CDATA[function() {
+  /* widget controller */
+  var c = this;
+	c.show_recent = false;
+	
+	c.KEYS = {
+						DOWN:40,
+						LEFT:37,
+						RIGHT:39,
+						TAB:9,
+						UP:38
+					 }
+	
+	if (c.data.recentItems.length &gt; 0)
+		c.show_recent = true;
+	c.changePanel = function(panel_name) {
+		if (c.show_recent) {
+			if (panel_name == 'popular')
+				c.show_recent = false;
+		} else {
+			if (panel_name == 'recent')
+				c.show_recent = true;
+		}
+	};
+	
+	c.switchTab = function($event, tab) {
+		var key = null;
+		if (event.keyCode === c.KEYS.LEFT || event.keyCode === c.KEYS.UP)
+			key = c.KEYS.LEFT;
+		else if (event.keyCode === c.KEYS.RIGHT || event.keyCode === c.KEYS.DOWN)
+			key = c.KEYS.RIGHT;
+		else if (event.keyCode === c.KEYS.TAB) {
+			return;
+		}
+		if (key === null)
+			return;
+		c.show_recent = !c.show_recent;
+		if (c.show_recent)
+			$('a.recent').focus();
+		else
+			$('a.popular').focus();
+	}
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.sc-tab-a {
+ 	 color: $primary;
+	 border: 0;
+   border-bottom: 3px solid $primary;
+   background-color: transparent;
+}
+
+.nav &amp;gt; li.item {
+  text-align: center;
+}
+
+.recent-widget {
+  .panel-heading {
+			padding-bottom : 0px;
+	}
+  
+  .row {
+    margin-left: 0;
+    margin-right:0;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .item-card {
+    margin-bottom: 15px;
+  }
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;sc-recent-popular&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;Recent &amp;amp; Popular Items&lt;/name&gt;&lt;option_schema&gt;[{"hint":"Number of item cards in the widget","name":"limit","section":"Presentation","default_value":"8","label":"Number of Items","type":"integer"},{"hint":"Show my recent items by view or request","name":"recent_by","section":"Behavior","default_value":"view","label":"My Recent Items By","type":"choice","choices":[{"label":"View","value":"view"},{"label":"Request","value":"request"}]},{"hint":"Popular Items that has been used","name":"popular_items_created","section":"Data","default_value":"6","label":"Popular Items used in","type":"choice","choices":[{"label":"Last 3 Months","value":"3"},{"label":"Last 6 Months","value":"6"},{"label":"Last 12 Months","value":"12"},{"label":"Life time (Has performance implications)","value":"0"}]}]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+	data.limit = options.limit || 8;
+	var recent_by = options.recent_by || 'view';
+	var recent = new GlideRecord('sp_log');
+	if (recent_by === 'view')
+		recent.addEncodedQuery('userDYNAMIC90d1921e5f510100a9ad2572f2b477fe^type=Cat Item View^sys_created_onONThis quarter@javascript:gs.beginningOfThisQuarter()@javascript:gs.endOfThisQuarter()');
+	else
+		recent.addEncodedQuery('userDYNAMIC90d1921e5f510100a9ad2572f2b477fe^type=Cat Item Request^sys_created_onONThis quarter@javascript:gs.beginningOfThisQuarter()@javascript:gs.endOfThisQuarter()');
+	recent.orderByDesc('sys_created_on');
+	recent.query();
+	var recentItems = [];
+	var catalogArr = ($sp.getCatalogs().value + "").split(",");
+	data.showPrices = $sp.showCatalogPrices();
+	
+	while (recent.next() &amp;&amp; recentItems.length &lt; data.limit) {
+		if (isAlreadyAdded(recent.getValue('id')))
+			continue;
+		var catalogItemJS = new sn_sc.CatItem(recent.getValue('id'));
+		if (!catalogItemJS.canView(gs.isMobile()) || !catalogItemJS.isVisibleServicePortal())
+			continue;
+		var item = {};
+		var catItemDetails = catalogItemJS.getItemSummary(true);
+		if(!catItemDetails.visible_standalone)
+			continue;
+		var inCatalog = false;
+		for (var i=0; i&lt;catItemDetails.catalogs.length; i++) {
+			if (catalogArr.indexOf(catItemDetails.catalogs[i].sys_id + "") &gt;= 0) {
+				inCatalog = true;
+				break;
+			}
+		}
+		if (inCatalog) {
+			item.name = catItemDetails.name;
+			item.short_description = catItemDetails.short_description;
+			item.picture = catItemDetails.picture;
+			item.price = catItemDetails.price;
+			item.sys_id = catItemDetails.sys_id;
+			item.hasPrice = item.price != 0;
+			item.page = catItemDetails.type == 'order_guide'? 'sc_cat_item_guide' : 'sc_cat_item';
+			recentItems.push(item);
+		}
+	}
+	
+	function isAlreadyAdded(catItemSysId) {
+		for (var i=0;i&lt;recentItems.length;i++) {
+			if (catItemSysId==recentItems[i].sys_id)
+				return true;
+		}
+		return false;
+	}
+	
+	data.recentItems = recentItems;
+	
+	data.popularItems = getPopularItems();
+	
+	function getPopularItems () {
+			var limit = options.limit || 8;
+			var items = [];
+			var createdQuery = '';
+		  if (options.popular_items_created == 3)
+				createdQuery = 'sys_created_onONLast 3 months@javascript:gs.beginningOfLast3Months()@javascript:gs.endOfLast3Months()^';
+			else if (options.popular_items_created == 6)
+				createdQuery = 'sys_created_onONLast 6 months@javascript:gs.beginningOfLast6Months()@javascript:gs.endOfLast6Months()^';
+			else if (options.popular_items_created == 12)
+				createdQuery = 'sys_created_onONLast 12 months@javascript:gs.beginningOfLast12Months()@javascript:gs.endOfLast12Months()^';
+			
+			var allowedItems = $sp.getAllowedItems();
+			var count = new GlideAggregate('sc_req_item');
+			count.addAggregate('COUNT','cat_item');
+			count.groupBy('cat_item.sys_id');
+			count.addQuery('cat_item.sys_class_name', 'NOT IN', 'sc_cat_item_guide,sc_cat_item_wizard,sc_cat_item_content,sc_cat_item_producer');
+			count.addQuery('cat_item', "IN", allowedItems);
+			count.addQuery('cat_item.visible_standalone','true');
+			count.addEncodedQuery(createdQuery + 'cat_item.hide_sp=false^ORcat_item.hide_spISEMPTY');
+			count.orderByAggregate('COUNT', 'cat_item');
+			count.query();
+			while (count.next() &amp;&amp; items.length &lt; limit) {
+				var catalogItemJS = new sn_sc.CatItem(count.getValue("cat_item.sys_id"));
+					if (!catalogItemJS.canView(gs.isMobile()) || !catalogItemJS.isVisibleServicePortal())
+						continue;
+				var item = {};
+				var catItemDetails = catalogItemJS.getItemSummary();
+				
+				item.order = 0 - count.getAggregate('COUNT', 'cat_item');
+				item.name = catItemDetails.name;
+				item.short_description = catItemDetails.short_description;
+				item.picture = catItemDetails.picture;
+				item.price = catItemDetails.price;
+				item.sys_id = catItemDetails.sys_id;
+				item.hasPrice = item.price != 0;
+				item.page = 'sc_cat_item';
+				items.push(item);
+			}
+			var producers = 0;
+			count = new GlideAggregate('sc_item_produced_record');
+			count.addQuery('producer', "IN", allowedItems);
+			count.addEncodedQuery(createdQuery + 'producer.hide_sp=false^ORproducer.hide_spISEMPTY');
+			count.addAggregate('COUNT', 'producer');
+			count.addQuery('producer.visible_standalone','true');
+			count.groupBy('producer.sys_id');
+			count.orderByAggregate('COUNT', 'producer');
+			count.query();
+			while (count.next() &amp;&amp; producers &lt; limit) {
+					var producerJS = new sn_sc.CatItem(count.getValue('producer.sys_id'));
+					if (!producerJS.canView(gs.isMobile()) || !producerJS.isVisibleServicePortal())
+						continue;
+					var producerDetails = producerJS.getItemSummary();
+					var producer = {};
+					producer.order = 0 - count.getAggregate('COUNT', 'producer');
+					producer.name = producerDetails.name;
+					producer.short_description = producerDetails.short_description;
+					producer.picture = producerDetails.picture;
+					producer.price = producerDetails.price;
+					producer.hasPrice = producer.price != 0;
+					producer.sys_id = producerDetails.sys_id;
+					producer.page = 'sc_cat_item';
+					items.push(producer);
+					producers++;
+			}
+			return items;
+	}
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-08-05 20:47:11&lt;/sys_created_on&gt;&lt;sys_id&gt;4fc1dd5387500300e0ef0cf888cb0baa&lt;/sys_id&gt;&lt;sys_mod_count&gt;133&lt;/sys_mod_count&gt;&lt;sys_name&gt;Recent &amp;amp; Popular Items&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Service Catalog v2" source="com.glideapp.servicecatalog.portal"&gt;0423c9cf6d6620100acb70b35343303c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_4fc1dd5387500300e0ef0cf888cb0baa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-21 07:23:37&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="recent-widget"&gt;
+  &lt;div class="panel panel-default"&gt;
+ 	&lt;div class="panel-heading pad-bottom"&gt;
+    	&lt;ul class="nav nav-tabs" style="border-bottom : 0px" role="tablist"&gt;
+      	&lt;li class="item" ng-if="data.recentItems.length &gt; 0" role="tab" tabindex="-1" ng-click="c.changePanel('recent')" ng-keydown="c.switchTab($event, 'recent')"&gt;
+        	&lt;a ng-class="{'sc-tab-a' : c.show_recent}" href="javascript:void(0)" class="recent"&gt;
+          	&lt;span&gt; ${My Recent Items} &lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;  
+        &lt;li class="item" role="tab" tabindex="-1" ng-keydown="c.switchTab($event, 'popular')" ng-click="c.changePanel('popular')" &gt;
+        	&lt;a ng-class="{'sc-tab-a' : !c.show_recent}" href="javascript:void(0)" class="popular"&gt;
+          	&lt;span &gt; ${Popular Items} &lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;  
+    	&lt;/ul&gt;
+  &lt;/div&gt;
+    
+ &lt;div class="panels-container" ng-if="c.show_recent"&gt;
+   &lt;div class="row"&gt;
+     &lt;div class="col-sm-6 col-md-3" ng-repeat="item in data.recentItems track by item.sys_id"&gt;
+       &lt;div class="panel panel-default item-card"&gt;
+         &lt;a href="?id={{::item.page}}&amp;sys_id={{::item.sys_id}}&amp;referrer=recent_items" class="panel-body block" onclick='window.GlideWebAnalytics.trackEvent("Service Catalog", "Recent Item", "Item Clicked");'&gt;
+           &lt;div class="overflow-100"&gt;
+             &lt;h2 class="h4 m-t-none m-b-xs text-overflow-ellipsis" title="{{::item.name}}"&gt;{{::item.name}}&lt;/h2&gt;
+             &lt;img ng-src="{{::item.picture}}" ng-if="::item.picture" class="m-r-sm m-b-sm item-image pull-left" alt="{{::item.name}}" role="presentation" /&gt;
+             &lt;div class="text-muted item-short-desc" aria-hidden="{{::item.name !== null}}" role="presentation"&gt;{{::item.short_description}}&lt;/div&gt;
+           &lt;/div&gt;
+         &lt;/a&gt;
+         &lt;div class="panel-footer"&gt;
+           &lt;a href="?id={{::item.page}}&amp;sys_id={{item.sys_id}}&amp;referrer=recent_items" class="pull-left text-muted" aria-label="${View Details} {{::item.name}}" tabindex="-1" onclick='window.GlideWebAnalytics.trackEvent("Service Catalog", "Recent Item", "Item Clicked");'&gt;${View Details}&lt;/a&gt;
+           &lt;span ng-if="data.showPrices &amp;&amp; item.hasPrice" class="pull-right item-price font-bold"&gt;{{::item.price}}&lt;/span&gt; &amp;nbsp;
+         &lt;/div&gt;
+       &lt;/div&gt;
+     &lt;/div&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+    
+ &lt;div class="panels-container" ng-if="!c.show_recent"&gt;
+   &lt;div class="row"&gt;
+     &lt;div class="col-sm-6 col-md-3" ng-repeat="item in data.popularItems | orderBy: 'order' | limitTo: data.limit track by item.sys_id"&gt;
+       &lt;div class="panel panel-default item-card"&gt;
+         &lt;a href="?id={{::item.page}}&amp;sys_id={{::item.sys_id}}&amp;referrer=popular_items" class="panel-body block" onclick='window.GlideWebAnalytics.trackEvent("Service Catalog", "Popular Item", "Item Clicked");'&gt;
+           &lt;div class="overflow-100"&gt;
+             &lt;h2 class="h4 m-t-none m-b-xs text-overflow-ellipsis" title="{{::item.name}}"&gt;{{::item.name}}&lt;/h2&gt;
+             &lt;img ng-src="{{::item.picture}}" ng-if="::item.picture" class="m-r-sm m-b-sm item-image pull-left" alt="{{::item.name}}" role="presentation" /&gt;
+             &lt;div class="text-muted item-short-desc" aria-hidden="{{::item.name !== null}}" role="presentation"&gt;{{::item.short_description}}&lt;/div&gt;
+           &lt;/div&gt;
+         &lt;/a&gt;
+         &lt;div class="panel-footer"&gt;
+           &lt;a href="?id={{::item.page}}&amp;sys_id={{item.sys_id}}&amp;referrer=popular_items" class="pull-left text-muted" aria-label="${View Details} {{::item.name}}" tabindex="-1" onclick='window.GlideWebAnalytics.trackEvent("Service Catalog", "Popular Item", "Item Clicked");'&gt;${View Details}&lt;/a&gt;
+           &lt;span ng-if="data.showPrices &amp;&amp; item.hasPrice" class="pull-right item-price font-bold"&gt;{{::item.price}}&lt;/span&gt; &amp;nbsp;
+         &lt;/div&gt;
+       &lt;/div&gt;
+     &lt;/div&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+   
+    
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload><sys_class_name>sp_rel_widget_clone</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-12 12:37:16</sys_created_on><sys_id>c19655c82fb4b410bd8e93acf699b610</sys_id><sys_mod_count>0</sys_mod_count><sys_name>fc9655c82fb4b410bd8e93acf699b60b</sys_name><sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package><sys_policy/><sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope><sys_update_name>sp_rel_widget_clone_c19655c82fb4b410bd8e93acf699b610</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-12 12:37:16</sys_updated_on></sp_rel_widget_clone></record_update>]]></payload>
+        <payload_hash>631489131</payload_hash>
+        <record_name>fc9655c82fb4b410bd8e93acf699b60b</record_name>
+        <reverted_from/>
+        <source>2be04b632f54b010bd8e93acf699b6c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-12 12:37:16</sys_created_on>
+        <sys_id>0196150c2fb4b410bd8e93acf699b654</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a0039f4c70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-12 12:37:16</sys_updated_on>
+        <type>Widget Clone</type>
+        <update_guid>4996150c97b4b41010c424b8611d7b53</update_guid>
+        <update_guid_history>4996150c97b4b41010c424b8611d7b53:631489131</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e85ed1802ff4b410bd8e93acf699b668</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-12 13:11:06</sys_created_on>
+        <sys_db_object display_value="" name="sp_rel_widget_clone">sp_rel_widget_clone</sys_db_object>
+        <sys_id>3faa8a2181344af4b8d4f9ad66743c10</sys_id>
+        <sys_metadata>c19655c82fb4b410bd8e93acf699b610</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fc9655c82fb4b410bd8e93acf699b60b</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>sp_rel_widget_clone_c19655c82fb4b410bd8e93acf699b610</sys_update_name>
+        <sys_update_version display_value="sp_rel_widget_clone_c19655c82fb4b410bd8e93acf699b610">0196150c2fb4b410bd8e93acf699b654</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-12 13:11:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

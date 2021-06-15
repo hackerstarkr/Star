@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Starbucks Order Info" max_length="40" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" sizeclass="6" type="collection">
+    <element label="Starbucks Order Info" max_length="40" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" sizeclass="4" type="collection">
+        <element attributes="encode_utf8=false" label="Allotted Barista" mandatory="true" max_length="32" name="bar" reference="x_648911_starbucks_employee" type="reference"/>
         <element attributes="encode_utf8=false" label="Delivery Boy" max_length="32" name="del" read_only="true" reference="x_648911_starbucks_users" type="reference"/>
         <element attributes="encode_utf8=false" label="Catalog Item" max_length="32" name="item" read_only="true" reference="sc_cat_item" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Delivery Boy MobNo." max_length="40" name="mob" read_only="true" type="string"/>
@@ -19,21 +20,24 @@
         <element attributes="encode_utf8=false" label="Catalog" max_length="32" name="u_reference_1" read_only="true" reference="sc_catalog" type="reference"/>
         <element attributes="encode_utf8=false" label="Category" max_length="32" name="u_reference_2" read_only="true" reference="sc_category" type="reference"/>
         <index name="index">
-            <element name="item"/>
+            <element name="bar"/>
         </index>
         <index name="index2">
-            <element name="ref"/>
+            <element name="item"/>
         </index>
         <index name="index3">
-            <element name="u_reference_2"/>
+            <element name="ref"/>
         </index>
         <index name="index4">
-            <element name="u_o"/>
+            <element name="u_reference_2"/>
         </index>
         <index name="index5">
-            <element name="u_reference_1"/>
+            <element name="u_o"/>
         </index>
         <index name="index6">
+            <element name="u_reference_1"/>
+        </index>
+        <index name="index7">
             <element name="del"/>
         </index>
     </element>

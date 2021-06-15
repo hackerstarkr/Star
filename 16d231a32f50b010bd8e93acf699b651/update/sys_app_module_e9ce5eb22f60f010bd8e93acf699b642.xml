@@ -4,7 +4,9 @@
         <application display_value="Starbucks at Your Service(SYS)">f65471a32f50b010bd8e93acf699b602</application>
         <assessment/>
         <device_type/>
-        <filter/>
+        <filter table="x_648911_starbucks_starrrrrrrrrrrrrrrrr">u_reference_1=b97fb13b2f5cb010bd8e93acf699b625^EQ<item display_table="sc_catalog" display_value="Order Your Starbucks" endquery="false" field="u_reference_1" goto="false" newquery="false" operator="=" or="false" value="b97fb13b2f5cb010bd8e93acf699b625"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
@@ -24,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e9ce5eb22f60f010bd8e93acf699b642</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Starbucks Order Infos</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
@@ -32,7 +34,7 @@
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sys_app_module_e9ce5eb22f60f010bd8e93acf699b642</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-09 08:12:02</sys_updated_on>
+        <sys_updated_on>2021-06-12 10:37:09</sys_updated_on>
         <timeline_page/>
         <title>Starbucks Order Infos</title>
         <uncancelable>false</uncancelable>

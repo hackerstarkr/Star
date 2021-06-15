@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="DELETE">
+        <active>true</active>
+        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["d693f8902f30f410bd8e93acf699b6ce"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition table="x_648911_starbucks_users">occupied=y^EQ<item display_value="YES" endquery="false" field="occupied" goto="false" newquery="false" operator="=" or="false" value="y"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>5a93f8902f30f410bd8e93acf699b6cc,6dc370d02f30f410bd8e93acf699b60c,d693f8902f30f410bd8e93acf699b6ce</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>5a93f8902f30f410bd8e93acf699b6cc,6dc370d02f30f410bd8e93acf699b60c,d693f8902f30f410bd8e93acf699b6ce</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>delivery alert sms</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">5a93f8902f30f410bd8e93acf699b6cc</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:42:55</sys_created_on>
+        <sys_id>54633c902f30f410bd8e93acf699b635</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:47:55</sys_updated_on>
+        <table>x_648911_starbucks_users</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="delivery alert sms">5693f8902f30f410bd8e93acf699b6cb</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="DELETE">
+        <access>public</access>
+        <description/>
+        <name>delivery alert sms</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:42:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5693f8902f30f410bd8e93acf699b6cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>delivery alert sms</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>wf_workflow_5693f8902f30f410bd8e93acf699b6cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:42:55</sys_updated_on>
+        <table>x_648911_starbucks_users</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:42:55</sys_created_on>
+        <sys_id>5a93f8902f30f410bd8e93acf699b6cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:42:55</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="delivery alert sms">54633c902f30f410bd8e93acf699b635</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=5a93f8902f30f410bd8e93acf699b6cc"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Begin">5a93f8902f30f410bd8e93acf699b6cc</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:42:55</sys_created_on>
+        <sys_id>9a93f8902f30f410bd8e93acf699b6cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:42:55</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Send SMS">8a243940eb333100fd7b4eff2206fecc</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>delivery alert sms</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:46:49</sys_created_on>
+        <sys_id>6dc370d02f30f410bd8e93acf699b60c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:46:53</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="delivery alert sms">54633c902f30f410bd8e93acf699b635</workflow_version>
+        <x>918</x>
+        <y>360</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=6dc370d02f30f410bd8e93acf699b60c"/>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>6dc370d02f30f410bd8e93acf699b60c</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:46:50</sys_created_on>
+        <sys_id>2374fc902f30f410bd8e93acf699b6ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:46:50</sys_updated_on>
+        <value/>
+        <variable display_value="To (groups)">37a37e14eb333100fd7b4eff2206fea2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>6dc370d02f30f410bd8e93acf699b60c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:46:50</sys_created_on>
+        <sys_id>6f74fc902f30f410bd8e93acf699b6a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:46:50</sys_updated_on>
+        <value>cc7230902f30f410bd8e93acf699b615</value>
+        <variable display_value="From">93e8ba68eb333100fd7b4eff2206fec8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>6dc370d02f30f410bd8e93acf699b60c</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:46:50</sys_created_on>
+        <sys_id>6f74fc902f30f410bd8e93acf699b6aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:46:50</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">718972a7eb100200fd7b4eff2206fe8d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>6dc370d02f30f410bd8e93acf699b60c</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:46:50</sys_created_on>
+        <sys_id>ab74fc902f30f410bd8e93acf699b6aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:46:50</sys_updated_on>
+        <value>result = getRecipientsAndNumberToSendFrom();&#13;
+&#13;
+/**&#13;
+ * Generate the object that will configure what number to send&#13;
+ * the SMS from and to what additional phone numbers or users&#13;
+ * the SMS should be sent.&#13;
+ *&#13;
+ * @returns {{notify_number: *, users: Array, groups: Array, numbers: Array}}&#13;
+ */&#13;
+function getRecipientsAndNumberToSendFrom() {&#13;
+    return {&#13;
+        notify_number   : getNotifyNumber(),    // the sys_id of the notify number&#13;
+        users           : [],                   // array of user ids&#13;
+        groups          : [],                   // array of group ids&#13;
+        numbers         : []                    // array of E.164 compliant phone numbers&#13;
+    };&#13;
+}&#13;
+&#13;
+/**&#13;
+ * Function to determine the Notify Number to call from&#13;
+ *&#13;
+ * Note, THIS LOGIC SHOULD PROBABLY CHANGE as it will&#13;
+ * return the first notify number which may not even&#13;
+ * be a SMS capable number.&#13;
+ *&#13;
+ * @returns {*}&#13;
+ */&#13;
+function getNotifyNumber() {&#13;
+    // if this workflow is running in the context&#13;
+    // of the call or message table, use the notify number&#13;
+    // associated&#13;
+    if ((current.getTableName() == 'notify_call') || (current.getTableName() == 'notify_message' &amp;&amp; current.notify_number.has_sms_out == 'yes'))&#13;
+        return current.notify_number;&#13;
+&#13;
+    // get the first notify number - THIS SHOULD PROBABLY CHANGE!&#13;
+    var number = new GlideRecord('notify_number');&#13;
+    number.addActiveQuery();&#13;
+    var qc = number.addQuery('has_sms_out', 'yes');&#13;
+    qc.addOrCondition('has_sms_out', 'unknown');&#13;
+    qc.addOrCondition('short_code', '!=', '');&#13;
+    number.query();&#13;
+    if (number.next())&#13;
+        return number.getUniqueValue();&#13;
+&#13;
+    return null;&#13;
+}</value>
+        <variable display_value="To (script)">d31fc993eb100200fd7b4eff2206fe8c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>6dc370d02f30f410bd8e93acf699b60c</document_key>
+        <order>800</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:46:50</sys_created_on>
+        <sys_id>e374fc902f30f410bd8e93acf699b6ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:46:50</sys_updated_on>
+        <value>HI you have been assigned to deliver an order!&#13;
+Order Id: ${number}&#13;
+delivery to:  ${name}</value>
+        <variable display_value="Message">bad6b254eb333100fd7b4eff2206fe98</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>6dc370d02f30f410bd8e93acf699b60c</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:46:50</sys_created_on>
+        <sys_id>e774fc902f30f410bd8e93acf699b6aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:46:50</sys_updated_on>
+        <value>6816f79cc0a8016401c5a33be04be441</value>
+        <variable display_value="To">36e03614eb333100fd7b4eff2206fe94</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>6dc370d02f30f410bd8e93acf699b60c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:46:50</sys_created_on>
+        <sys_id>6f74fc902f30f410bd8e93acf699b6a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:46:50</sys_updated_on>
+        <value>cc7230902f30f410bd8e93acf699b615</value>
+        <variable display_value="From">93e8ba68eb333100fd7b4eff2206fec8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>6dc370d02f30f410bd8e93acf699b60c</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:46:50</sys_created_on>
+        <sys_id>6f74fc902f30f410bd8e93acf699b6aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:46:50</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">718972a7eb100200fd7b4eff2206fe8d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>6dc370d02f30f410bd8e93acf699b60c</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:46:50</sys_created_on>
+        <sys_id>e774fc902f30f410bd8e93acf699b6aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:46:50</sys_updated_on>
+        <value>6816f79cc0a8016401c5a33be04be441</value>
+        <variable display_value="To">36e03614eb333100fd7b4eff2206fe94</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>6dc370d02f30f410bd8e93acf699b60c</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:46:50</sys_created_on>
+        <sys_id>2374fc902f30f410bd8e93acf699b6ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:46:50</sys_updated_on>
+        <value/>
+        <variable display_value="To (groups)">37a37e14eb333100fd7b4eff2206fea2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>6dc370d02f30f410bd8e93acf699b60c</document_key>
+        <order>800</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:46:50</sys_created_on>
+        <sys_id>e374fc902f30f410bd8e93acf699b6ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:46:50</sys_updated_on>
+        <value>HI you have been assigned to deliver an order!&#13;
+Order Id: ${number}&#13;
+delivery to:  ${name}</value>
+        <variable display_value="Message">bad6b254eb333100fd7b4eff2206fe98</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>6dc370d02f30f410bd8e93acf699b60c</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:46:50</sys_created_on>
+        <sys_id>ab74fc902f30f410bd8e93acf699b6aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:46:50</sys_updated_on>
+        <value>result = getRecipientsAndNumberToSendFrom();&#13;
+&#13;
+/**&#13;
+ * Generate the object that will configure what number to send&#13;
+ * the SMS from and to what additional phone numbers or users&#13;
+ * the SMS should be sent.&#13;
+ *&#13;
+ * @returns {{notify_number: *, users: Array, groups: Array, numbers: Array}}&#13;
+ */&#13;
+function getRecipientsAndNumberToSendFrom() {&#13;
+    return {&#13;
+        notify_number   : getNotifyNumber(),    // the sys_id of the notify number&#13;
+        users           : [],                   // array of user ids&#13;
+        groups          : [],                   // array of group ids&#13;
+        numbers         : []                    // array of E.164 compliant phone numbers&#13;
+    };&#13;
+}&#13;
+&#13;
+/**&#13;
+ * Function to determine the Notify Number to call from&#13;
+ *&#13;
+ * Note, THIS LOGIC SHOULD PROBABLY CHANGE as it will&#13;
+ * return the first notify number which may not even&#13;
+ * be a SMS capable number.&#13;
+ *&#13;
+ * @returns {*}&#13;
+ */&#13;
+function getNotifyNumber() {&#13;
+    // if this workflow is running in the context&#13;
+    // of the call or message table, use the notify number&#13;
+    // associated&#13;
+    if ((current.getTableName() == 'notify_call') || (current.getTableName() == 'notify_message' &amp;&amp; current.notify_number.has_sms_out == 'yes'))&#13;
+        return current.notify_number;&#13;
+&#13;
+    // get the first notify number - THIS SHOULD PROBABLY CHANGE!&#13;
+    var number = new GlideRecord('notify_number');&#13;
+    number.addActiveQuery();&#13;
+    var qc = number.addQuery('has_sms_out', 'yes');&#13;
+    qc.addOrCondition('has_sms_out', 'unknown');&#13;
+    qc.addOrCondition('short_code', '!=', '');&#13;
+    number.query();&#13;
+    if (number.next())&#13;
+        return number.getUniqueValue();&#13;
+&#13;
+    return null;&#13;
+}</value>
+        <variable display_value="To (script)">d31fc993eb100200fd7b4eff2206fe8c</variable>
+    </sys_variable_value>
+    <wf_condition action="DELETE">
+        <activity display_value="delivery alert sms">6dc370d02f30f410bd8e93acf699b60c</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:46:50</sys_created_on>
+        <sys_id>6f74fc902f30f410bd8e93acf699b6ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:46:50</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:42:55</sys_created_on>
+        <sys_id>d693f8902f30f410bd8e93acf699b6ce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:43:11</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="delivery alert sms">54633c902f30f410bd8e93acf699b635</workflow_version>
+        <x>880</x>
+        <y>485</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=d693f8902f30f410bd8e93acf699b6ce"/>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">9a93f8902f30f410bd8e93acf699b6cd</condition>
+        <from display_value="Begin">5a93f8902f30f410bd8e93acf699b6cc</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:42:55</sys_created_on>
+        <sys_id>9e93bc902f30f410bd8e93acf699b6ac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:46:53</sys_updated_on>
+        <to display_value="delivery alert sms">6dc370d02f30f410bd8e93acf699b60c</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">6f74fc902f30f410bd8e93acf699b6ab</condition>
+        <from display_value="delivery alert sms">6dc370d02f30f410bd8e93acf699b60c</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:46:53</sys_created_on>
+        <sys_id>d884b0d02f30f410bd8e93acf699b6ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:46:53</sys_updated_on>
+        <to display_value="End">d693f8902f30f410bd8e93acf699b6ce</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="DELETE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:42:55</sys_created_on>
+        <sys_id>5a93f8902f30f410bd8e93acf699b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:42:55</sys_updated_on>
+        <workflow_version display_value="delivery alert sms">54633c902f30f410bd8e93acf699b635</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="DELETE" query="workflow=5693f8902f30f410bd8e93acf699b6cb^sys_id!=54633c902f30f410bd8e93acf699b635">
+        <published>false</published>
+    </wf_workflow_version>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>wf_workflow_5693f8902f30f410bd8e93acf699b6cb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="wf_workflow_version"&gt;&lt;wf_workflow_version action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;activity_stages&gt;{"subflows":[],"stages":{},"activities":{},"ends":["d693f8902f30f410bd8e93acf699b6ce"]}&lt;/activity_stages&gt;&lt;after_business_rules&gt;false&lt;/after_business_rules&gt;&lt;checked_out/&gt;&lt;checked_out_by/&gt;&lt;column_renderer display_value="Workflow-driven"&gt;a56213111b030100adca1e094f0713ac&lt;/column_renderer&gt;&lt;condition table="x_648911_starbucks_users"&gt;occupied=y^EQ&lt;item display_value="YES" endquery="false" field="occupied" goto="false" newquery="false" operator="=" or="false" value="y"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;condition_type&gt;run_match&lt;/condition_type&gt;&lt;description/&gt;&lt;expected_sequences&gt;5a93f8902f30f410bd8e93acf699b6cc,6dc370d02f30f410bd8e93acf699b60c,d693f8902f30f410bd8e93acf699b6ce&lt;/expected_sequences&gt;&lt;expected_time&gt;1970-01-01 14:00:00&lt;/expected_time&gt;&lt;expected_time_type/&gt;&lt;full_sequences&gt;5a93f8902f30f410bd8e93acf699b6cc,6dc370d02f30f410bd8e93acf699b60c,d693f8902f30f410bd8e93acf699b6ce&lt;/full_sequences&gt;&lt;journal/&gt;&lt;max_activity_count&gt;100&lt;/max_activity_count&gt;&lt;name&gt;delivery alert sms&lt;/name&gt;&lt;not_cacheable&gt;false&lt;/not_cacheable&gt;&lt;on_cancel&gt;&lt;![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]&gt;&lt;/on_cancel&gt;&lt;order&gt;100&lt;/order&gt;&lt;pin_type&gt;set_by_activity&lt;/pin_type&gt;&lt;published&gt;true&lt;/published&gt;&lt;relative_duration/&gt;&lt;requires_ert&gt;true&lt;/requires_ert&gt;&lt;run_multiple&gt;false&lt;/run_multiple&gt;&lt;schedule/&gt;&lt;stage_field/&gt;&lt;stage_order&gt;computed&lt;/stage_order&gt;&lt;start display_value="Begin"&gt;5a93f8902f30f410bd8e93acf699b6cc&lt;/start&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:42:55&lt;/sys_created_on&gt;&lt;sys_id&gt;54633c902f30f410bd8e93acf699b635&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:47:55&lt;/sys_updated_on&gt;&lt;table&gt;x_648911_starbucks_users&lt;/table&gt;&lt;timezone/&gt;&lt;validated&gt;false&lt;/validated&gt;&lt;workflow display_value="delivery alert sms"&gt;5693f8902f30f410bd8e93acf699b6cb&lt;/workflow&gt;&lt;/wf_workflow_version&gt;&lt;wf_workflow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;description/&gt;&lt;name&gt;delivery alert sms&lt;/name&gt;&lt;preview/&gt;&lt;sys_class_name&gt;wf_workflow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:42:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5693f8902f30f410bd8e93acf699b6cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;delivery alert sms&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks"&gt;16d231a32f50b010bd8e93acf699b651&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Starbucks at Your Service(SYS)"&gt;16d231a32f50b010bd8e93acf699b651&lt;/sys_scope&gt;&lt;sys_update_name&gt;wf_workflow_5693f8902f30f410bd8e93acf699b6cb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:42:55&lt;/sys_updated_on&gt;&lt;table&gt;x_648911_starbucks_users&lt;/table&gt;&lt;template&gt;false&lt;/template&gt;&lt;vars/&gt;&lt;/wf_workflow&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Begin"&gt;c7a5e32c0a0a0b3a002377c24ed8ea76&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;1&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input/&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;Begin&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:42:55&lt;/sys_created_on&gt;&lt;sys_id&gt;5a93f8902f30f410bd8e93acf699b6cc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:42:55&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width&gt;80&lt;/width&gt;&lt;workflow_version display_value="delivery alert sms"&gt;54633c902f30f410bd8e93acf699b635&lt;/workflow_version&gt;&lt;x&gt;20&lt;/x&gt;&lt;y&gt;20&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=5a93f8902f30f410bd8e93acf699b6cc"/&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Begin"&gt;5a93f8902f30f410bd8e93acf699b6cc&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:42:55&lt;/sys_created_on&gt;&lt;sys_id&gt;9a93f8902f30f410bd8e93acf699b6cd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:42:55&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Send SMS"&gt;8a243940eb333100fd7b4eff2206fecc&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;3&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input&gt;{}&lt;/input&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;delivery alert sms&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:46:49&lt;/sys_created_on&gt;&lt;sys_id&gt;6dc370d02f30f410bd8e93acf699b60c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:46:53&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width/&gt;&lt;workflow_version display_value="delivery alert sms"&gt;54633c902f30f410bd8e93acf699b635&lt;/workflow_version&gt;&lt;x&gt;918&lt;/x&gt;&lt;y&gt;360&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=6dc370d02f30f410bd8e93acf699b60c"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;6dc370d02f30f410bd8e93acf699b60c&lt;/document_key&gt;&lt;order&gt;600&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:46:50&lt;/sys_created_on&gt;&lt;sys_id&gt;2374fc902f30f410bd8e93acf699b6ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:46:50&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="To (groups)"&gt;37a37e14eb333100fd7b4eff2206fea2&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;6dc370d02f30f410bd8e93acf699b60c&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:46:50&lt;/sys_created_on&gt;&lt;sys_id&gt;6f74fc902f30f410bd8e93acf699b6a9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:46:50&lt;/sys_updated_on&gt;&lt;value&gt;cc7230902f30f410bd8e93acf699b615&lt;/value&gt;&lt;variable display_value="From"&gt;93e8ba68eb333100fd7b4eff2206fec8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;6dc370d02f30f410bd8e93acf699b60c&lt;/document_key&gt;&lt;order&gt;300&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:46:50&lt;/sys_created_on&gt;&lt;sys_id&gt;6f74fc902f30f410bd8e93acf699b6aa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:46:50&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value="Advanced"&gt;718972a7eb100200fd7b4eff2206fe8d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;6dc370d02f30f410bd8e93acf699b60c&lt;/document_key&gt;&lt;order&gt;900&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:46:50&lt;/sys_created_on&gt;&lt;sys_id&gt;ab74fc902f30f410bd8e93acf699b6aa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:46:50&lt;/sys_updated_on&gt;&lt;value&gt;result = getRecipientsAndNumberToSendFrom();&amp;#13;
+&amp;#13;
+/**&amp;#13;
+ * Generate the object that will configure what number to send&amp;#13;
+ * the SMS from and to what additional phone numbers or users&amp;#13;
+ * the SMS should be sent.&amp;#13;
+ *&amp;#13;
+ * @returns {{notify_number: *, users: Array, groups: Array, numbers: Array}}&amp;#13;
+ */&amp;#13;
+function getRecipientsAndNumberToSendFrom() {&amp;#13;
+    return {&amp;#13;
+        notify_number   : getNotifyNumber(),    // the sys_id of the notify number&amp;#13;
+        users           : [],                   // array of user ids&amp;#13;
+        groups          : [],                   // array of group ids&amp;#13;
+        numbers         : []                    // array of E.164 compliant phone numbers&amp;#13;
+    };&amp;#13;
+}&amp;#13;
+&amp;#13;
+/**&amp;#13;
+ * Function to determine the Notify Number to call from&amp;#13;
+ *&amp;#13;
+ * Note, THIS LOGIC SHOULD PROBABLY CHANGE as it will&amp;#13;
+ * return the first notify number which may not even&amp;#13;
+ * be a SMS capable number.&amp;#13;
+ *&amp;#13;
+ * @returns {*}&amp;#13;
+ */&amp;#13;
+function getNotifyNumber() {&amp;#13;
+    // if this workflow is running in the context&amp;#13;
+    // of the call or message table, use the notify number&amp;#13;
+    // associated&amp;#13;
+    if ((current.getTableName() == 'notify_call') || (current.getTableName() == 'notify_message' &amp;amp;&amp;amp; current.notify_number.has_sms_out == 'yes'))&amp;#13;
+        return current.notify_number;&amp;#13;
+&amp;#13;
+    // get the first notify number - THIS SHOULD PROBABLY CHANGE!&amp;#13;
+    var number = new GlideRecord('notify_number');&amp;#13;
+    number.addActiveQuery();&amp;#13;
+    var qc = number.addQuery('has_sms_out', 'yes');&amp;#13;
+    qc.addOrCondition('has_sms_out', 'unknown');&amp;#13;
+    qc.addOrCondition('short_code', '!=', '');&amp;#13;
+    number.query();&amp;#13;
+    if (number.next())&amp;#13;
+        return number.getUniqueValue();&amp;#13;
+&amp;#13;
+    return null;&amp;#13;
+}&lt;/value&gt;&lt;variable display_value="To (script)"&gt;d31fc993eb100200fd7b4eff2206fe8c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;6dc370d02f30f410bd8e93acf699b60c&lt;/document_key&gt;&lt;order&gt;800&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:46:50&lt;/sys_created_on&gt;&lt;sys_id&gt;e374fc902f30f410bd8e93acf699b6ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:46:50&lt;/sys_updated_on&gt;&lt;value&gt;HI you have been assigned to deliver an order!&amp;#13;
+Order Id: ${number}&amp;#13;
+delivery to:  ${name}&lt;/value&gt;&lt;variable display_value="Message"&gt;bad6b254eb333100fd7b4eff2206fe98&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;6dc370d02f30f410bd8e93acf699b60c&lt;/document_key&gt;&lt;order&gt;500&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:46:50&lt;/sys_created_on&gt;&lt;sys_id&gt;e774fc902f30f410bd8e93acf699b6aa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:46:50&lt;/sys_updated_on&gt;&lt;value&gt;6816f79cc0a8016401c5a33be04be441&lt;/value&gt;&lt;variable display_value="To"&gt;36e03614eb333100fd7b4eff2206fe94&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;6dc370d02f30f410bd8e93acf699b60c&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:46:50&lt;/sys_created_on&gt;&lt;sys_id&gt;6f74fc902f30f410bd8e93acf699b6a9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:46:50&lt;/sys_updated_on&gt;&lt;value&gt;cc7230902f30f410bd8e93acf699b615&lt;/value&gt;&lt;variable display_value="From"&gt;93e8ba68eb333100fd7b4eff2206fec8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;6dc370d02f30f410bd8e93acf699b60c&lt;/document_key&gt;&lt;order&gt;300&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:46:50&lt;/sys_created_on&gt;&lt;sys_id&gt;6f74fc902f30f410bd8e93acf699b6aa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:46:50&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value="Advanced"&gt;718972a7eb100200fd7b4eff2206fe8d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;6dc370d02f30f410bd8e93acf699b60c&lt;/document_key&gt;&lt;order&gt;500&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:46:50&lt;/sys_created_on&gt;&lt;sys_id&gt;e774fc902f30f410bd8e93acf699b6aa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:46:50&lt;/sys_updated_on&gt;&lt;value&gt;6816f79cc0a8016401c5a33be04be441&lt;/value&gt;&lt;variable display_value="To"&gt;36e03614eb333100fd7b4eff2206fe94&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;6dc370d02f30f410bd8e93acf699b60c&lt;/document_key&gt;&lt;order&gt;600&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:46:50&lt;/sys_created_on&gt;&lt;sys_id&gt;2374fc902f30f410bd8e93acf699b6ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:46:50&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="To (groups)"&gt;37a37e14eb333100fd7b4eff2206fea2&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;6dc370d02f30f410bd8e93acf699b60c&lt;/document_key&gt;&lt;order&gt;800&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:46:50&lt;/sys_created_on&gt;&lt;sys_id&gt;e374fc902f30f410bd8e93acf699b6ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:46:50&lt;/sys_updated_on&gt;&lt;value&gt;HI you have been assigned to deliver an order!&amp;#13;
+Order Id: ${number}&amp;#13;
+delivery to:  ${name}&lt;/value&gt;&lt;variable display_value="Message"&gt;bad6b254eb333100fd7b4eff2206fe98&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;6dc370d02f30f410bd8e93acf699b60c&lt;/document_key&gt;&lt;order&gt;900&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:46:50&lt;/sys_created_on&gt;&lt;sys_id&gt;ab74fc902f30f410bd8e93acf699b6aa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:46:50&lt;/sys_updated_on&gt;&lt;value&gt;result = getRecipientsAndNumberToSendFrom();&amp;#13;
+&amp;#13;
+/**&amp;#13;
+ * Generate the object that will configure what number to send&amp;#13;
+ * the SMS from and to what additional phone numbers or users&amp;#13;
+ * the SMS should be sent.&amp;#13;
+ *&amp;#13;
+ * @returns {{notify_number: *, users: Array, groups: Array, numbers: Array}}&amp;#13;
+ */&amp;#13;
+function getRecipientsAndNumberToSendFrom() {&amp;#13;
+    return {&amp;#13;
+        notify_number   : getNotifyNumber(),    // the sys_id of the notify number&amp;#13;
+        users           : [],                   // array of user ids&amp;#13;
+        groups          : [],                   // array of group ids&amp;#13;
+        numbers         : []                    // array of E.164 compliant phone numbers&amp;#13;
+    };&amp;#13;
+}&amp;#13;
+&amp;#13;
+/**&amp;#13;
+ * Function to determine the Notify Number to call from&amp;#13;
+ *&amp;#13;
+ * Note, THIS LOGIC SHOULD PROBABLY CHANGE as it will&amp;#13;
+ * return the first notify number which may not even&amp;#13;
+ * be a SMS capable number.&amp;#13;
+ *&amp;#13;
+ * @returns {*}&amp;#13;
+ */&amp;#13;
+function getNotifyNumber() {&amp;#13;
+    // if this workflow is running in the context&amp;#13;
+    // of the call or message table, use the notify number&amp;#13;
+    // associated&amp;#13;
+    if ((current.getTableName() == 'notify_call') || (current.getTableName() == 'notify_message' &amp;amp;&amp;amp; current.notify_number.has_sms_out == 'yes'))&amp;#13;
+        return current.notify_number;&amp;#13;
+&amp;#13;
+    // get the first notify number - THIS SHOULD PROBABLY CHANGE!&amp;#13;
+    var number = new GlideRecord('notify_number');&amp;#13;
+    number.addActiveQuery();&amp;#13;
+    var qc = number.addQuery('has_sms_out', 'yes');&amp;#13;
+    qc.addOrCondition('has_sms_out', 'unknown');&amp;#13;
+    qc.addOrCondition('short_code', '!=', '');&amp;#13;
+    number.query();&amp;#13;
+    if (number.next())&amp;#13;
+        return number.getUniqueValue();&amp;#13;
+&amp;#13;
+    return null;&amp;#13;
+}&lt;/value&gt;&lt;variable display_value="To (script)"&gt;d31fc993eb100200fd7b4eff2206fe8c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="delivery alert sms"&gt;6dc370d02f30f410bd8e93acf699b60c&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:46:50&lt;/sys_created_on&gt;&lt;sys_id&gt;6f74fc902f30f410bd8e93acf699b6ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:46:50&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="End"&gt;c7a66f7d0a0a0b3a004544a6d2f14076&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;2&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input/&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;End&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:42:55&lt;/sys_created_on&gt;&lt;sys_id&gt;d693f8902f30f410bd8e93acf699b6ce&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:43:11&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width&gt;80&lt;/width&gt;&lt;workflow_version display_value="delivery alert sms"&gt;54633c902f30f410bd8e93acf699b635&lt;/workflow_version&gt;&lt;x&gt;880&lt;/x&gt;&lt;y&gt;485&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=d693f8902f30f410bd8e93acf699b6ce"/&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;9a93f8902f30f410bd8e93acf699b6cd&lt;/condition&gt;&lt;from display_value="Begin"&gt;5a93f8902f30f410bd8e93acf699b6cc&lt;/from&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:42:55&lt;/sys_created_on&gt;&lt;sys_id&gt;9e93bc902f30f410bd8e93acf699b6ac&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:46:53&lt;/sys_updated_on&gt;&lt;to display_value="delivery alert sms"&gt;6dc370d02f30f410bd8e93acf699b60c&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;6f74fc902f30f410bd8e93acf699b6ab&lt;/condition&gt;&lt;from display_value="delivery alert sms"&gt;6dc370d02f30f410bd8e93acf699b60c&lt;/from&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:46:53&lt;/sys_created_on&gt;&lt;sys_id&gt;d884b0d02f30f410bd8e93acf699b6ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:46:53&lt;/sys_updated_on&gt;&lt;to display_value="End"&gt;d693f8902f30f410bd8e93acf699b6ce&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_estimated_runtime_config action="INSERT_OR_UPDATE"&gt;&lt;estimated_run_time/&gt;&lt;no_of_data_points&gt;1&lt;/no_of_data_points&gt;&lt;percentage_threshold_ert&gt;20&lt;/percentage_threshold_ert&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-13 04:42:55&lt;/sys_created_on&gt;&lt;sys_id&gt;5a93f8902f30f410bd8e93acf699b6ca&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-13 04:42:55&lt;/sys_updated_on&gt;&lt;workflow_version display_value="delivery alert sms"&gt;54633c902f30f410bd8e93acf699b635&lt;/workflow_version&gt;&lt;/wf_estimated_runtime_config&gt;&lt;wf_workflow_version action="update_multiple" query="workflow=5693f8902f30f410bd8e93acf699b6cb^sys_id!=54633c902f30f410bd8e93acf699b635"&gt;&lt;published&gt;false&lt;/published&gt;&lt;/wf_workflow_version&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1696606862</payload_hash>
+        <record_name>delivery alert sms</record_name>
+        <reverted_from/>
+        <source>2be04b632f54b010bd8e93acf699b6c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:47:55</sys_created_on>
+        <sys_id>a7b4f8d02f30f410bd8e93acf699b6c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a03b29e0a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:47:55</sys_updated_on>
+        <type>Workflow</type>
+        <update_guid>23b4f8d0a130f41068a7b4eb5cacbcc3</update_guid>
+        <update_guid_history>23b4f8d0a130f41068a7b4eb5cacbcc3:-1696606862</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="delivery alert sms">e7573c542f30f410bd8e93acf699b6bb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-13 04:59:23</sys_created_on>
+        <sys_db_object display_value="" name="wf_workflow">wf_workflow</sys_db_object>
+        <sys_id>21b42b34bad84175899ca9e0e35bf6f9</sys_id>
+        <sys_metadata>5693f8902f30f410bd8e93acf699b6cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>delivery alert sms</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>wf_workflow_5693f8902f30f410bd8e93acf699b6cb</sys_update_name>
+        <sys_update_version display_value="wf_workflow_5693f8902f30f410bd8e93acf699b6cb">a7b4f8d02f30f410bd8e93acf699b6c3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-13 04:59:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

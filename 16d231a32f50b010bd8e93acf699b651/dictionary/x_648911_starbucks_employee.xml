@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Employee" max_length="40" name="x_648911_starbucks_employee" sizeclass="5" type="collection">
+        <element label="Avatar" max_length="40" name="avatar" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Emp Type" mandatory="true" max_length="40" name="emp_t" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Manager" sequence="0" value="manager"/>
+                <element inactive_on_update="false" label="Barista" sequence="1" value="barista"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email Id" max_length="40" name="e_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Mobile Phone" max_length="20" name="mobile_phone" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" calculation="if (current.first_name.nil() &amp;&amp; current.last_name.nil() &amp;&amp; !current.name.nil()) {&#13;&#10;  var names = current.name.toString().split(&quot; &quot;);&#13;&#10;  if (names.length &gt; 1) {&#13;&#10;    current.first_name = names[0];&#13;&#10;    names.shift();&#13;&#10;    current.last_name = names.join(&quot; &quot;);&#13;&#10;  } else &#13;&#10;    current.last_name = names[0];&#13;&#10;}  &#13;&#10;&#13;&#10;if(current.first_name.nil()) { &#13;&#10;    current.last_name; &#13;&#10;  } else { &#13;&#10;    current.first_name + ' ' + current.last_name;&#13;&#10;  }" label="Name" max_length="151" name="name" type="string" virtual="true"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

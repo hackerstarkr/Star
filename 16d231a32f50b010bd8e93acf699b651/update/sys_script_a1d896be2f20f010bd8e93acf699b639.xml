@@ -33,12 +33,21 @@
 	var i=current.cat_item;
 	var req =current.opened_by;
 	var rid=current.request;
+	var g=new GlideRecord('sc_cat_item');
+	g.addQuery('sys_id',i);
+	g.query();
+	if(g.next())
+		{
+			var cat=g.sc_catalogs;
+		}
+	if('b97fb13b2f5cb010bd8e93acf699b625'==cat)
+		{
 	var gr=new GlideRecord('x_648911_starbucks_starrrrrrrrrrrrrrrrr');
 	gr.initialize();
 	gr.setValue('item',i);
 	gr.setValue('u_o',req);
 	gr.setValue('ref',rid);
-	gr.insert();
+	gr.insert();}
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -47,7 +56,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a1d896be2f20f010bd8e93acf699b639</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Uploading Records Via RITM</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
@@ -55,7 +64,7 @@
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sys_script_a1d896be2f20f010bd8e93acf699b639</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 20:36:32</sys_updated_on>
+        <sys_updated_on>2021-06-12 15:51:33</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
