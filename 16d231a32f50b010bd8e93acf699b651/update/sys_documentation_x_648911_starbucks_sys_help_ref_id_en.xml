@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ref_id" label="Order ID" language="en" table="x_648911_starbucks_sys_help">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ref_id</element>
+            <help/>
+            <hint/>
+            <label>Order ID</label>
+            <language>en</language>
+            <name>x_648911_starbucks_sys_help</name>
+            <plural>Order IDs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-16 07:03:19</sys_created_on>
+            <sys_id>9480b4d12f307010bd8e93acf699b63a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Order ID</sys_name>
+            <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+            <sys_update_name>sys_documentation_x_648911_starbucks_sys_help_ref_id_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-16 07:03:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

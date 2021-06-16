@@ -3,92 +3,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_648911_starbucks_starrrrrrrrrrrrrrrrr" element="NULL" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4b2de8b42f7c3010bd8e93acf699b66a</list_id>
+            <list_id display_value="x_648911_starbucks_starrrrrrrrrrrrrrrrr" element="NULL" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a0af28912f307010bd8e93acf699b6e1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-14 17:31:48</sys_created_on>
-            <sys_id>032de8b42f7c3010bd8e93acf699b66b</sys_id>
+            <sys_created_on>2021-06-16 06:59:31</sys_created_on>
+            <sys_id>68af28912f307010bd8e93acf699b6e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-14 17:31:48</sys_updated_on>
+            <sys_updated_on>2021-06-16 06:59:31</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>item</element>
-            <list_id display_value="x_648911_starbucks_starrrrrrrrrrrrrrrrr" element="NULL" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4b2de8b42f7c3010bd8e93acf699b66a</list_id>
+            <element>item.name</element>
+            <list_id display_value="x_648911_starbucks_starrrrrrrrrrrrrrrrr" element="NULL" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a0af28912f307010bd8e93acf699b6e1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-14 17:31:48</sys_created_on>
-            <sys_id>832de8b42f7c3010bd8e93acf699b66b</sys_id>
+            <sys_created_on>2021-06-16 06:59:31</sys_created_on>
+            <sys_id>e8af28912f307010bd8e93acf699b6e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-14 17:31:48</sys_updated_on>
+            <sys_updated_on>2021-06-16 06:59:31</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_reference_2</element>
-            <list_id display_value="x_648911_starbucks_starrrrrrrrrrrrrrrrr" element="NULL" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4b2de8b42f7c3010bd8e93acf699b66a</list_id>
+            <element>u_reference_2.title</element>
+            <list_id display_value="x_648911_starbucks_starrrrrrrrrrrrrrrrr" element="NULL" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a0af28912f307010bd8e93acf699b6e1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-14 17:31:48</sys_created_on>
-            <sys_id>072de8b42f7c3010bd8e93acf699b66b</sys_id>
+            <sys_created_on>2021-06-16 06:59:31</sys_created_on>
+            <sys_id>6caf28912f307010bd8e93acf699b6e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-14 17:31:48</sys_updated_on>
+            <sys_updated_on>2021-06-16 06:59:31</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_o</element>
-            <list_id display_value="x_648911_starbucks_starrrrrrrrrrrrrrrrr" element="NULL" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4b2de8b42f7c3010bd8e93acf699b66a</list_id>
+            <list_id display_value="x_648911_starbucks_starrrrrrrrrrrrrrrrr" element="NULL" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a0af28912f307010bd8e93acf699b6e1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-14 17:31:48</sys_created_on>
-            <sys_id>872de8b42f7c3010bd8e93acf699b66b</sys_id>
+            <sys_created_on>2021-06-16 06:59:31</sys_created_on>
+            <sys_id>ecaf28912f307010bd8e93acf699b6e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-14 17:31:48</sys_updated_on>
+            <sys_updated_on>2021-06-16 06:59:31</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>del</element>
-            <list_id display_value="x_648911_starbucks_starrrrrrrrrrrrrrrrr" element="NULL" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4b2de8b42f7c3010bd8e93acf699b66a</list_id>
+            <element>del.name</element>
+            <list_id display_value="x_648911_starbucks_starrrrrrrrrrrrrrrrr" element="NULL" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a0af28912f307010bd8e93acf699b6e1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-14 17:31:48</sys_created_on>
-            <sys_id>0b2de8b42f7c3010bd8e93acf699b66b</sys_id>
+            <sys_created_on>2021-06-16 06:59:31</sys_created_on>
+            <sys_id>60af28912f307010bd8e93acf699b6e2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-14 17:31:48</sys_updated_on>
+            <sys_updated_on>2021-06-16 06:59:31</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>mob</element>
-            <list_id display_value="x_648911_starbucks_starrrrrrrrrrrrrrrrr" element="NULL" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4b2de8b42f7c3010bd8e93acf699b66a</list_id>
+            <list_id display_value="x_648911_starbucks_starrrrrrrrrrrrrrrrr" element="NULL" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a0af28912f307010bd8e93acf699b6e1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-14 17:31:48</sys_created_on>
-            <sys_id>8b2de8b42f7c3010bd8e93acf699b66b</sys_id>
+            <sys_created_on>2021-06-16 06:59:31</sys_created_on>
+            <sys_id>e0af28912f307010bd8e93acf699b6e2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-14 17:31:48</sys_updated_on>
+            <sys_updated_on>2021-06-16 06:59:31</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -102,10 +102,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-14 17:29:00</sys_created_on>
+            <sys_created_on>2021-06-16 05:17:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7d8ca4b42f7c3010bd8e93acf699b6f5</sys_id>
+            <sys_id>e848d4dd2fbc3010bd8e93acf699b6b8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_648911_starbucks_starrrrrrrrrrrrrrrrr</sys_name>
             <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
@@ -113,7 +113,7 @@
             <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
             <sys_update_name>sys_ui_list_x_648911_starbucks_starrrrrrrrrrrrrrrrr_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-14 17:29:00</sys_updated_on>
+            <sys_updated_on>2021-06-16 05:17:24</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

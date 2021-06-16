@@ -9,7 +9,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Order ID</column_label>
+        <column_label>ID order</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,14 +28,14 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_648911_starbucks_sys_help</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr">x_648911_starbucks_starrrrrrrrrrrrrrrrr</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -49,14 +49,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-15 18:38:05</sys_created_on>
         <sys_id>6be5ca4d2f383010bd8e93acf699b6a3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Order ID</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>ID order</sys_name>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sys_dictionary_x_648911_starbucks_sys_help_id</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-15 18:38:07</sys_updated_on>
+        <sys_updated_on>2021-06-16 07:02:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

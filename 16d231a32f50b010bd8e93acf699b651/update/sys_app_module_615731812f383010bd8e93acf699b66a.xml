@@ -13,7 +13,7 @@
         <mobile_title>SYS Helps</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_648911_starbucks_sys_help</name>
-        <order/>
+        <order>320</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -24,17 +24,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>615731812f383010bd8e93acf699b66a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>SYS Helps</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SYS Help</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sys_app_module_615731812f383010bd8e93acf699b66a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-15 17:34:19</sys_updated_on>
+        <sys_updated_on>2021-06-16 10:20:16</sys_updated_on>
         <timeline_page/>
-        <title>SYS Helps</title>
+        <title>SYS Help</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
