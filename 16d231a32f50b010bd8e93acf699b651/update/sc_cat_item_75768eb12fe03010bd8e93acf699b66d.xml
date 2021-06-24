@@ -11,7 +11,7 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p><strong><span style="font-size: 14pt; font-family: &#39;comic sans ms&#39;, sans-serif; color: #000000; background-color: #ffffff;">Pour-over is a beautifully simple and accessible way to brew a single cup of pour-over coffee with clean, fully developed flavor and body.</span></strong></p>]]></description>
+        <description><![CDATA[<div style="font-family:helvetica;font-size:11pt">Pour-over is a beautifully simple and accessible way to brew a single cup of pour-over coffee with clean, fully developed flavor and body.  <br /><br /> <div><ul><li> You can Customize this Beverage to suit your Taste <br /> </li><li> It&#39;s a Decaffeinated Beverage <br /> </li><li> It&#39;s not a Flavored Beverage</li></ul></div></div>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -45,7 +45,7 @@
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture>f9768eb12fe03010bd8e93acf699b66a</picture>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=75768eb12fe03010bd8e93acf699b66d&amp;sysparm_preview=true", "summary");</preview>
-        <price>2.9996</price>
+        <price>2.9659</price>
         <published_ref/>
         <recurring_frequency/>
         <request_method/>
@@ -62,14 +62,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-05 16:20:09</sys_created_on>
         <sys_id>75768eb12fe03010bd8e93acf699b66d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>Pour over</sys_name>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sc_cat_item_75768eb12fe03010bd8e93acf699b66d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 10:15:17</sys_updated_on>
+        <sys_updated_on>2021-06-21 10:10:44</sys_updated_on>
         <template/>
         <template_manager_roles/>
         <type>item</type>
@@ -88,14 +88,14 @@
         <field>price</field>
         <id>75768eb12fe03010bd8e93acf699b66d</id>
         <parent/>
-        <reference_amount>3.0135</reference_amount>
+        <reference_amount>2.9735</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-05 16:20:09</sys_created_on>
         <sys_id>39768eb12fe03010bd8e93acf699b66e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-05 16:20:09</sys_updated_on>
+        <sys_updated_on>2021-06-19 09:22:45</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>

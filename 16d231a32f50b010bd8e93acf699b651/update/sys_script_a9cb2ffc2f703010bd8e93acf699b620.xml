@@ -34,7 +34,7 @@
     var obj_1 = new GlideRecord('sys_user_has_role');
     var obj_2 = new GlideRecord('sys_user_role');
     obj_2.addEncodedQuery('nameSTARTSWITHx_648911_starbucks^name!=x_648911_starbucks.starrrrrrrrrrrrrrrrr_user^name!=x_648911_starbucks.starbucks_orders_user^name!=x_648911_starbucks.traial_order_user^name!=x_648911_starbucks.manager_sys');
-	obj_2.query();
+    obj_2.query();
     while (obj_2.next()) {
         obj_1.initialize();
         obj_1.user = current.sys_id;
@@ -48,7 +48,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a9cb2ffc2f703010bd8e93acf699b620</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Starbucks manager role assign</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sys_script_a9cb2ffc2f703010bd8e93acf699b620</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-16 07:45:41</sys_updated_on>
+        <sys_updated_on>2021-06-18 08:02:42</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

@@ -17,17 +17,16 @@
         <element attributes="edge_encryption_enabled=true" label="Short description" mandatory="true" max_length="40" name="short_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="small/tall" label="Size" mandatory="true" max_length="40" name="size" type="choice">
             <choice>
-                <element inactive_on_update="false" label="small/tall" sequence="0" value="small/tall"/>
-                <element inactive_on_update="false" label="medium/grandie" sequence="1" value="medium/grandie"/>
-                <element inactive_on_update="false" label="Large/ventie" sequence="2" value="large/ventie"/>
+                <element inactive_on_update="false" label="Small/Tall" sequence="0" value="small/tall"/>
+                <element inactive_on_update="false" label="Medium/Grande" sequence="1" value="medium/grande"/>
+                <element inactive_on_update="false" label="Large/Venti" sequence="2" value="large/venti"/>
             </choice>
         </element>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of drink" mandatory="true" max_length="40" name="type_of_drink" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="caffeinated" label="Type of drink" mandatory="true" max_length="40" name="type_of_drink" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Caffinated" sequence="0" value="caffinated"/>
-                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="0" value="Choice 3"/>
-                <element inactive_on_update="false" label="Decaffinated" sequence="1" value="decaffinated"/>
+                <element inactive_on_update="false" label="Caffeinated" sequence="0" value="caffeinated"/>
+                <element inactive_on_update="false" label="Decaffeinated" sequence="1" value="decaffeinated"/>
             </choice>
         </element>
         <element label="Price" mandatory="true" max_length="15" name="u_decimal_4" type="decimal"/>

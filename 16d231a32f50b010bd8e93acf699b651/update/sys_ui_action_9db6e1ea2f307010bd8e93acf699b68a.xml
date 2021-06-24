@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>sys_reorder</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint>Order Again</hint>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Order Again</name>
+        <onclick>goTo()</onclick>
+        <order>100</order>
+        <script><![CDATA[function goTo(){
+	gsftSubmit(null,g_form.getFormElement(),'sys_reorder');
+}
+if(typeof window=='undefined')
+	openCatItem();
+
+function openCatItem(){
+	var sysid=current.getValue('item');
+	var cat=current.getValue('u_reference_2'); 
+ gs.setRedirect('com.glideapp.servicecatalog_cat_item_view.do?sysparm_id='+sysid+'&sysparm_link_parent='+cat+'&sysparm_catalog=b97fb13b2f5cb010bd8e93acf699b625&sysparm_catalog_view=catalog_order_your_starbucks&sysparm_view=catalog_order_your_starbucks');
+}
+]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 08:14:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9db6e1ea2f307010bd8e93acf699b68a</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>Order Again</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sys_ui_action_9db6e1ea2f307010bd8e93acf699b68a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 10:09:27</sys_updated_on>
+        <table>x_648911_starbucks_starrrrrrrrrrrrrrrrr</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

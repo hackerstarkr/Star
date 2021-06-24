@@ -11,7 +11,7 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p style="text-align: center;"><span style="font-family: &#39;comic sans ms&#39;, sans-serif; font-size: 14pt; color: #000000;"><em><strong>Black tea is shaken with ice. It&#39;s the ideal iced tea—a rich and flavorful black tea journey awaits you.</strong></em></span></p>]]></description>
+        <description><![CDATA[<div style="font-family:helvetica;font-size:11pt">black tea is shaken with ice. It&#39;s the ideal iced tea—a rich and flavorful black tea journey awaits you. <br /><br /> <ul><li> You cannot Customize this Beverage <br /> </li><li> It&#39;s not a Flavored Beverage</li></ul></div>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -43,9 +43,9 @@
         <order>0</order>
         <ordered_item_link/>
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
-        <picture>78a88a352fe03010bd8e93acf699b695</picture>
+        <picture>c004ce622fb07010bd8e93acf699b6d9</picture>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=78a882752fe03010bd8e93acf699b613&amp;sysparm_preview=true", "summary");</preview>
-        <price>2.9315</price>
+        <price>2.8985</price>
         <published_ref/>
         <recurring_frequency/>
         <request_method/>
@@ -62,14 +62,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-05 16:29:39</sys_created_on>
         <sys_id>78a882752fe03010bd8e93acf699b613</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Iced Black Tea</sys_name>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sc_cat_item_78a882752fe03010bd8e93acf699b613</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 02:07:44</sys_updated_on>
+        <sys_updated_on>2021-06-21 10:13:37</sys_updated_on>
         <template/>
         <template_manager_roles/>
         <type>item</type>
@@ -88,14 +88,14 @@
         <field>price</field>
         <id>78a882752fe03010bd8e93acf699b613</id>
         <parent/>
-        <reference_amount>2.945</reference_amount>
+        <reference_amount>2.9059</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-05 16:29:39</sys_created_on>
         <sys_id>70a882752fe03010bd8e93acf699b615</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-05 16:29:39</sys_updated_on>
+        <sys_updated_on>2021-06-19 15:56:29</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>

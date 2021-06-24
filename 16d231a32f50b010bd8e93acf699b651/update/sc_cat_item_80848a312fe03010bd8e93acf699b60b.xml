@@ -11,7 +11,7 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p style="text-align: center;"><span style="font-family: &#39;comic sans ms&#39;, sans-serif; color: #000000;"><em><strong><span style="font-size: 14pt;">Caramel syrup meets coffee, milk and ice for a rendezvous in the blender, while whipped cream and buttery caramel sauce layer the love on top</span></strong></em></span></p>]]></description>
+        <description><![CDATA[<div style="font-family:helvetica;font-size:11pt">Caramel syrup meets coffee, milk and ice for a rendezvous in the blender, while whipped cream and buttery caramel sauce layer the love on top. <br /><br /> <ul><li> You cannot Customize this Beverage <br /> </li><li> It&#39;s a Decaffeinated Beverage <br /> </li><li> It&#39;s Blended with Caramel Flavour</li></ul></div>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -43,9 +43,9 @@
         <order>0</order>
         <ordered_item_link/>
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
-        <picture>08848a312fe03010bd8e93acf699b608</picture>
+        <picture>416446a22fb07010bd8e93acf699b62f</picture>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=80848a312fe03010bd8e93acf699b60b&amp;sysparm_preview=true", "summary");</preview>
-        <price>3</price>
+        <price>3.9096</price>
         <published_ref/>
         <recurring_frequency/>
         <request_method/>
@@ -54,7 +54,7 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <short_description>caramel frappuccino drink</short_description>
+        <short_description>Caramel frappuccino drink</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state/>
@@ -62,14 +62,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-05 16:11:34</sys_created_on>
         <sys_id>80848a312fe03010bd8e93acf699b60b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Caramel Frappuccino</sys_name>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sc_cat_item_80848a312fe03010bd8e93acf699b60b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 02:04:22</sys_updated_on>
+        <sys_updated_on>2021-06-21 10:12:12</sys_updated_on>
         <template/>
         <template_manager_roles/>
         <type>item</type>
@@ -83,19 +83,19 @@
     <sys_translated_text action="delete_multiple" query="documentkey=80848a312fe03010bd8e93acf699b60b"/>
     <fx_price action="delete_multiple" query="id=80848a312fe03010bd8e93acf699b60b"/>
     <fx_price action="INSERT_OR_UPDATE">
-        <amount>3</amount>
-        <currency display_value="USD">USD</currency>
+        <amount>290</amount>
+        <currency display_value="INR">INR</currency>
         <field>price</field>
         <id>80848a312fe03010bd8e93acf699b60b</id>
         <parent/>
-        <reference_amount>3</reference_amount>
+        <reference_amount>3.9196</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-05 16:11:34</sys_created_on>
         <sys_id>c0848a312fe03010bd8e93acf699b60c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-05 16:21:07</sys_updated_on>
+        <sys_updated_on>2021-06-20 05:54:08</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Starbucks Order Info" max_length="40" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" sizeclass="3" type="collection">
+    <element label="Starbucks Order Info" max_length="40" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" sizeclass="5" type="collection">
         <element attributes="encode_utf8=false" label="Allotted Barista" mandatory="true" max_length="32" name="bar" reference="x_648911_starbucks_employee" type="reference"/>
         <element attributes="encode_utf8=false" label="Delivery Boy" max_length="32" name="del" read_only="true" reference="x_648911_starbucks_users" type="reference"/>
         <element attributes="encode_utf8=false" label="Catalog Item" max_length="32" name="item" read_only="true" reference="sc_cat_item" type="reference"/>

@@ -32,25 +32,37 @@
         var cat = new GlideRecord('sc_category');
         cat.get('title', 'Frappuccino');
         var sc = new GlideRecord('sc_cat_item');
-		sc.initialize();
+        sc.initialize();
         sc.name = current.drink_s_name;
         sc.sc_catalogs = 'Order Your Starbucks';
         sc.setValue('category', cat.sys_id);
         sc.setValue('item_option_new_set', cat.sys_id);
         sc.short_description = current.short_description;
-        sc.description = current.description;
+        var tod = current.getDisplayValue('type_of_drink');
+        var desc = current.description;
+        if (current.customizable) {
+            desc = desc + " <br><br> <ul><li> You can Customize this Drink to suit your Taste";
+        } else {
+            desc = desc + " <br><br> <ul><li> You cannot Customize this Drink";
+        }
+        desc = desc + " <br> <li> It's a " + tod + " Drink";
+        if (current.flavoured) {
+            desc = desc + " <br> <li> It's Blended with " + current.please_specify_the_flavour + " Flavour</ul>";
+        } else {
+            desc = desc + " <br> <li> It's not a Flavored Drink</ul>";
+        }
+		sc.description=desc;
         sc.price = current.u_integer_3;
         sc.insert();
     } else {
-		var cat_2 = new GlideRecord('sc_category');
+        var cat_2 = new GlideRecord('sc_category');
         cat_2.get('title', 'Frappuccino');
         var cat_1 = new GlideRecord('sc_cat_item');
         cat_1.get('name', current.drink_s_name);
-		cat_1.name=current.drink_s_name;
-		cat_1.sc_catalogs = 'Order Your Starbucks';
+        cat_1.name = current.drink_s_name;
+        cat_1.sc_catalogs = 'Order Your Starbucks';
         cat_1.setValue('category', cat_2.sys_id);
         cat_1.short_description = current.short_description;
-        cat_1.description = current.description;
         cat_1.picture = current.image;
         cat_1.price = current.u_integer_3;
         cat_1.update();
@@ -76,7 +88,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b7401db32fd8b010bd8e93acf699b644</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Automatically Create Catalog Item for F</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
@@ -84,7 +96,7 @@
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sys_script_b7401db32fd8b010bd8e93acf699b644</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-05 14:10:06</sys_updated_on>
+        <sys_updated_on>2021-06-19 11:36:06</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

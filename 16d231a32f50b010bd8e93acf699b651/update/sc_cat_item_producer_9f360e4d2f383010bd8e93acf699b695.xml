@@ -13,14 +13,14 @@
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p><strong><em><span style="font-family: &#39;comic sans ms&#39;, sans-serif; font-size: 12pt;">Customer service is the provision of service to customers before, during, and after a purchase. The perception of success of such interactions is dependent on employees &#34;who can adjust themselves to the personality of the guest&#34; </span></em></strong></p>]]></description>
+        <description><![CDATA[<p><span style="font-family: &#39;andale mono&#39;, times; font-size: 14pt;">Customer service is the provision of service to customers before, during, and after a purchase. The perception of success of such interactions is dependent on employees &#34;who can adjust themselves to the personality of the guest&#34; </span></p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
-        <ignore_price>true</ignore_price>
+        <ignore_price>false</ignore_price>
         <image/>
         <location/>
         <mandatory_attachment>false</mandatory_attachment>
@@ -48,6 +48,7 @@
         <picture>03c6ca4d2f383010bd8e93acf699b697</picture>
         <post_insert_script/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=9f360e4d2f383010bd8e93acf699b695&amp;sysparm_preview=true", "summary");</preview>
+        <price>10</price>
         <published_ref/>
         <recurring_frequency/>
         <redirect_url>catalog_home</redirect_url>
@@ -68,14 +69,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-15 18:39:25</sys_created_on>
         <sys_id>9f360e4d2f383010bd8e93acf699b695</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>StarBucks Customer Care</sys_name>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sc_cat_item_producer_9f360e4d2f383010bd8e93acf699b695</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-16 11:55:15</sys_updated_on>
+        <sys_updated_on>2021-06-20 10:46:53</sys_updated_on>
         <table_name>x_648911_starbucks_sys_help</table_name>
         <template/>
         <template_manager_roles/>
@@ -90,6 +91,23 @@
     </sc_cat_item_producer>
     <sys_translated_text action="delete_multiple" query="documentkey=9f360e4d2f383010bd8e93acf699b695"/>
     <fx_price action="delete_multiple" query="id=9f360e4d2f383010bd8e93acf699b695"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>10</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>9f360e4d2f383010bd8e93acf699b695</id>
+        <parent/>
+        <reference_amount>10</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 10:46:52</sys_created_on>
+        <sys_id>750a46e62fb07010bd8e93acf699b6dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-20 10:46:52</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#6699cc</average_image_color>
         <chunk_size_bytes>700000</chunk_size_bytes>
