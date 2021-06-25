@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
     <question_choice action="INSERT_OR_UPDATE">
         <inactive>false</inactive>
-        <misc>0</misc>
+        <misc>0.75</misc>
         <order>300</order>
         <published_ref/>
         <question display_value="Size of your Drink">06233e092f607010bd8e93acf699b61e</question>
@@ -10,32 +10,32 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-03 12:01:30</sys_created_on>
         <sys_id>17f7720d2f607010bd8e93acf699b692</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Large/Ventie</sys_name>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>question_choice_17f7720d2f607010bd8e93acf699b692</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 12:01:30</sys_updated_on>
+        <sys_updated_on>2021-06-25 15:43:48</sys_updated_on>
         <text>Large/Ventie</text>
         <value>large</value>
     </question_choice>
     <fx_price action="delete_multiple" query="id=17f7720d2f607010bd8e93acf699b692"/>
     <fx_price action="INSERT_OR_UPDATE">
-        <amount>0</amount>
+        <amount>0.75</amount>
         <currency display_value="USD">USD</currency>
         <field>misc</field>
         <id>17f7720d2f607010bd8e93acf699b692</id>
         <parent/>
-        <reference_amount>0</reference_amount>
+        <reference_amount>0.75</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-03 12:01:30</sys_created_on>
         <sys_id>4118720d2f607010bd8e93acf699b697</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 12:01:30</sys_updated_on>
+        <sys_updated_on>2021-06-25 15:43:48</sys_updated_on>
         <table>question_choice</table>
         <type>calculated</type>
     </fx_price>
