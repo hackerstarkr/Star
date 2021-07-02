@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_648911_starbucks.for_discount</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>for_discount</name>
+        <script><![CDATA[var for_discount = Class.create();
+for_discount.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    demo: function() {
+		var answer=false;
+		var dis_price=parseFloat(this.getParameter('sysparm_price'));
+        var vr = new GlideRecord('item_option_new');
+        vr.get('name', 'discount_price');
+		vr.setValue('price_if_checked',"INR"+";"+"-"+dis_price);
+		vr.update();
+		gs.log(vr.price_if_checked+'hello');
+		if(vr.price_if_checked!=0)
+			answer=true;
+		
+		
+		return answer;
+    },
+    type: 'for_discount'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 15:11:55</sys_created_on>
+        <sys_id>1bbc11a52f853010bd8e93acf699b65e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>for_discount</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>sys_script_include_1bbc11a52f853010bd8e93acf699b65e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 15:27:27</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</application>
+        <file_path/>
+        <instance_id>7a4c8babdbd31f041ddcf22ebf961944</instance_id>
+        <instance_name>dev66176</instance_name>
+        <name>sys_script_include_1bbc11a52f853010bd8e93acf699b65e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_648911_starbucks.for_discount&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;for_discount&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var for_discount = Class.create();
+for_discount.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    demo: function() {
+		var answer=false;
+		var dis_price=parseFloat(this.getParameter('sysparm_price'));
+        var vr = new GlideRecord('item_option_new');
+        vr.get('name', 'discount_price');
+		vr.setValue('price_if_checked',"INR"+";"+"-"+dis_price);
+		vr.update();
+		gs.log(vr.price_if_checked+'hello');
+		if(vr.price_if_checked!=0)
+			answer=true;
+		
+		
+		return answer;
+    },
+    type: 'for_discount'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-29 15:11:55&lt;/sys_created_on&gt;&lt;sys_id&gt;1bbc11a52f853010bd8e93acf699b65e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;for_discount&lt;/sys_name&gt;&lt;sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks"&gt;16d231a32f50b010bd8e93acf699b651&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Starbucks at Your Service(SYS)"&gt;16d231a32f50b010bd8e93acf699b651&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_1bbc11a52f853010bd8e93acf699b65e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-29 15:27:27&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-528613020</payload_hash>
+        <record_name>for_discount</record_name>
+        <reverted_from/>
+        <source>2be04b632f54b010bd8e93acf699b6c1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 15:27:27</sys_created_on>
+        <sys_id>f780e9292f853010bd8e93acf699b6ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a5861e22c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 15:27:27</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>ff80e929e4853010215cecf843501ffe</update_guid>
+        <update_guid_history>ff80e929e4853010215cecf843501ffe:-528613020,dc0d15254d853010fd5890c93a751ce6:1214311108</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 15:42:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>ace77dd26fac481090ae79d9cdd1b900</sys_id>
+        <sys_metadata>1bbc11a52f853010bd8e93acf699b65e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>for_discount</sys_name>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_scope_delete display_value="">31f76924417846bc93e1937af709e759</sys_scope_delete>
+        <sys_update_name>sys_script_include_1bbc11a52f853010bd8e93acf699b65e</sys_update_name>
+        <sys_update_version display_value="sys_script_include_1bbc11a52f853010bd8e93acf699b65e">f780e9292f853010bd8e93acf699b6ff</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 15:42:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

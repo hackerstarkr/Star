@@ -11,8 +11,15 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<div style="font-family:helvetica;font-size:11pt">Espresso shots topped with cold water produce a light layer of crema, then served over ice.
- <br /><br /> <div><ul><li> You can Customize this Beverage to suit your Taste <br /> </li><li> It&#39;s a Caffeinated Beverage <br /> </li><li> It&#39;s Blended with Mint Flavour</li></ul></div></div>]]></description>
+        <description><![CDATA[<div style="font-family:helvetica;font-size:11pt"><div style="font-family: helvetica; font-size: 11pt;">
+<div style="font-family: helvetica; font-size: 11pt;">
+<div style="font-family: helvetica; font-size: 11pt;">Espresso shots topped with cold water produce a light layer of crema, then served over ice. <br /><br />
+<div>
+<ul><li>You can Customize this Beverage to suit your Taste <br /></li><li>It&#39;s a Caffeinated Beverage <br /></li><li>It&#39;s Blended with Mint Flavour</li></ul>
+</div>
+</div>
+</div>
+</div></div>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -44,9 +51,9 @@
         <order>0</order>
         <ordered_item_link/>
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
-        <picture>51b446a22fb07010bd8e93acf699b641</picture>
+        <picture>fac09dbc2f013010bd8e93acf699b6d5</picture>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=3544c2312fe03010bd8e93acf699b62c&amp;sysparm_preview=true", "summary");</preview>
-        <price>2.8298</price>
+        <price>2.8181</price>
         <published_ref/>
         <recurring_frequency/>
         <request_method/>
@@ -63,14 +70,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-05 16:10:36</sys_created_on>
         <sys_id>3544c2312fe03010bd8e93acf699b62c</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Iced Americano</sys_name>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sc_cat_item_3544c2312fe03010bd8e93acf699b62c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-21 10:11:24</sys_updated_on>
+        <sys_updated_on>2021-06-28 04:35:18</sys_updated_on>
         <template/>
         <template_manager_roles/>
         <type>item</type>
@@ -79,7 +86,7 @@
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
-        <workflow/>
+        <workflow display_value="Variable showing in variable">95ad3d812fcd3010bd8e93acf699b66e</workflow>
     </sc_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=3544c2312fe03010bd8e93acf699b62c"/>
     <fx_price action="delete_multiple" query="id=3544c2312fe03010bd8e93acf699b62c"/>
@@ -89,14 +96,14 @@
         <field>price</field>
         <id>3544c2312fe03010bd8e93acf699b62c</id>
         <parent/>
-        <reference_amount>2.8383</reference_amount>
+        <reference_amount>2.8298</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-05 16:10:36</sys_created_on>
         <sys_id>b1440a312fe03010bd8e93acf699b679</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-20 10:23:38</sys_updated_on>
+        <sys_updated_on>2021-06-27 06:23:08</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>

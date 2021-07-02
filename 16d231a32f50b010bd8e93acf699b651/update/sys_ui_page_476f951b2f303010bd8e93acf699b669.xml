@@ -7,12 +7,15 @@
         <endpoint>x_648911_starbucks_starbucks_milestones.do</endpoint>
         <html><![CDATA[<!--DOCTYPE html-->
 <html>
-	  <div class="sub-divs" style="background-image:url('image10.gif'); text-align:center; height:100%; margin:0px; padding:0px;">
-		  <h1 style="margin-top:20px; padding:50px 50px 20px 50px; font-family:tahoma; font-weight:900; font-size:50px;">CONGRATULATIONS</h1>
-		  <br>
-		  </br>
-		  <h2 style="padding:10px 50px 80px 50px; margin-bottom:50px; font-weight:800; font-size:40px;">YOU ARE ELIGIBLE FOR A BRONZE BADGE</h2>
- 	  </div>
+	<h4>BronzeStar</h4>
+	<div style="display:flex;">
+	  <div class="sub-divs" style="float:left; background-color:white; margin-left:20px; border:1px solid black; padding-left:10px; padding-right:10px; width:460px; height:130px;">
+		  <h3 style="padding-top:0px; margin-top:5px;">CONGRATULATIONS</h3>
+		  <h4 style="margin-top:15px;">You are Eligible for a Discount of 25%(upto ₹100) on your Final Order Price</h4>
+		   <p style="padding-bottom:0px; margin-bottom:0px;">Terms and Conds.:Min Order price should be ₹200</p>	  
+		</div>
+	<span style="margin-left:20px;"><h4>The Coupon will be automatically applied on your Order and the Discounted Price will be automatically deducted from your Final Amount.</h4></span>
+	</div>
 </html>]]></html>
         <name>starbucks_milestones</name>
         <processing_script/>
@@ -20,13 +23,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-22 15:37:12</sys_created_on>
         <sys_id>476f951b2f303010bd8e93acf699b669</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>starbucks_milestones</sys_name>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
         <sys_policy/>
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>sys_ui_page_476f951b2f303010bd8e93acf699b669</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-23 15:33:53</sys_updated_on>
+        <sys_updated_on>2021-06-29 18:59:08</sys_updated_on>
     </sys_ui_page>
 </record_update>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Starbucks Order Info" max_length="40" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" sizeclass="9" type="collection">
-        <element attributes="encode_utf8=false" label="Allotted Barista" mandatory="true" max_length="32" name="bar" reference="x_648911_starbucks_employee" type="reference"/>
+    <element label="Starbucks Order Info" max_length="40" name="x_648911_starbucks_starrrrrrrrrrrrrrrrr" sizeclass="29" type="collection">
+        <element attributes="encode_utf8=false" label="Allotted Barista" mandatory="true" max_length="32" name="bar" reference="x_648911_starbucks_employee" reference_qual="emp_t=barista^EQ" reference_qual_condition="emp_t=barista^EQ" type="reference"/>
         <element attributes="encode_utf8=false" label="Delivery Boy" max_length="32" name="del" read_only="true" reference="x_648911_starbucks_users" type="reference"/>
         <element attributes="encode_utf8=false" label="Catalog Item" max_length="32" name="item" read_only="true" reference="sc_cat_item" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Delivery Boy MobNo." max_length="40" name="mob" read_only="true" type="string"/>

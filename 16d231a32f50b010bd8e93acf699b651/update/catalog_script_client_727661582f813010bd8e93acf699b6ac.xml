@@ -30,9 +30,9 @@
     function HelloWorldParse(response) {
         var answer = response.responseXML.documentElement.getAttribute("answer");
 
-        alert(g_form.getValue('min3'));
+     //   alert(g_form.getValue('min3'));
 
-        if (answer == '10') {
+        if (answer == '23') {
             g_form.setValue('min3', true);
 
             var gr = new GlideDialogWindow('x_648911_starbucks_starbucks_milestones');
@@ -49,7 +49,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>727661582f813010bd8e93acf699b6ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>FRAPOOC</sys_name>
         <sys_overrides/>
         <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
@@ -57,7 +57,7 @@
         <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
         <sys_update_name>catalog_script_client_727661582f813010bd8e93acf699b6ac</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-25 18:42:37</sys_updated_on>
+        <sys_updated_on>2021-07-02 06:54:22</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

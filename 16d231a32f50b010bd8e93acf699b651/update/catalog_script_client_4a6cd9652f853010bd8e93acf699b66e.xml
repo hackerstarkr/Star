@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Caffe Latte">5f9642f12fe03010bd8e93acf699b66d</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>for_applying_discount</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    //Type appropriate comment here, and begin script below
+    var price = g_form.getElement('price_subtotal_span').innerHTML;
+    var price2 = price.trim().replace('₹', '');
+    //var price3 = price2.trim().replace(',', '');
+    var str = String(price2);
+    var modAmount = (parseFloat(str) * 25) / 100;
+    alert(modAmount);
+    //g_form.getElement('price_subtotal_span').innerHTML='₹'+modAmount;
+    //g_form.getElement('price_span').innerHTML='₹'+modAmount;
+    //g_form.getElement('sc_os_total').innerHTML='₹'+modAmount;
+    //g_form.getElement('checkoutTotalSum').innerHTML='₹'+modAmount;
+    //var vr=new GlideRecord()
+    //g_form.setValue('demo',true);
+    var gr = new GlideAjax('for_discount');
+    gr.addParam('sysparm_name', 'demo');
+    gr.addParam('sysparm_price', modAmount);
+    gr.getXMLAnswer(parseanswer);
+    
+	function parseanswer(response){
+  //  alert(answer);	
+  //	g_form.addInfoMessage(answer);
+	}
+	
+	
+    g_form.setValue('discount_price', true);
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 15:10:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4a6cd9652f853010bd8e93acf699b66e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>for_applying_discount</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Starbucks at Your Service(SYS)" source="x_648911_starbucks">16d231a32f50b010bd8e93acf699b651</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks at Your Service(SYS)">16d231a32f50b010bd8e93acf699b651</sys_scope>
+        <sys_update_name>catalog_script_client_4a6cd9652f853010bd8e93acf699b66e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-01 06:39:43</sys_updated_on>
+        <table/>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
     <question_choice action="INSERT_OR_UPDATE">
         <inactive>false</inactive>
-        <misc>0.6952</misc>
+        <misc>0.6907</misc>
         <order>200</order>
         <published_ref/>
         <question display_value="Size ">f2cf1c712f2cb010bd8e93acf699b625</question>
